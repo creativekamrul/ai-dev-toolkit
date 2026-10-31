@@ -2349,8 +2349,8 @@
     {
       "entrypointSha256": "2f96a1fd54723d9d9d672bfd6516107bfe17169e1f731bdae02d485638cc3026",
       "name": "agent-browser",
-      "status": "bundled",
-      "reason": "",
+      "status": "excluded",
+      "reason": "Generic browser operation wrapper; use the existing harness tools. Project verification criteria are retained separately.",
       "id": "local-agent-browser-2f96a1fd",
       "license": "MIT",
       "files": 4
@@ -7407,8 +7407,8 @@
     {
       "entrypointSha256": "51e0c58eb6fded833faccc44ce1f5161db78dbaefaa8af16187f3dfbc6aec26b",
       "name": "agent-browser-verify",
-      "status": "bundled",
-      "reason": "",
+      "status": "excluded",
+      "reason": "Generic browser operation wrapper; use the existing harness tools. Project verification criteria are retained separately.",
       "id": "local-agent-browser-verify-51e0c58e",
       "license": "Apache-2.0",
       "files": 4
@@ -7416,8 +7416,8 @@
     {
       "entrypointSha256": "fb2f5649ea808479a50f3f25de36de1ed55cdfae3971a45c79c29ada042d8a4c",
       "name": "agent-browser",
-      "status": "bundled",
-      "reason": "",
+      "status": "excluded",
+      "reason": "Generic browser operation wrapper; use the existing harness tools. Project verification criteria are retained separately.",
       "id": "local-agent-browser-fb2f5649",
       "license": "Apache-2.0",
       "files": 4

@@ -320,7 +320,6 @@ Each bundled package retains its license and provenance. Toolkit MIT licensing d
 | [local-8-bit-orbit-video-template-8a3ea124](library/local/local-8-bit-orbit-video-template-8a3ea124/TOOLKIT-PROVENANCE.json) | MIT | Original authors; see preserved license and notices | Local snapshot; see preserved evidence |
 | [local-ad-creative-e7eff7ca](library/local/local-ad-creative-e7eff7ca/TOOLKIT-PROVENANCE.json) | MIT | Original authors; see preserved license and notices | Local snapshot; see preserved evidence |
 | [local-after-hours-editorial-template-d32adf37](library/local/local-after-hours-editorial-template-d32adf37/TOOLKIT-PROVENANCE.json) | MIT | Original authors; see preserved license and notices | Local snapshot; see preserved evidence |
-| [local-agent-browser-2f96a1fd](library/local/local-agent-browser-2f96a1fd/TOOLKIT-PROVENANCE.json) | MIT | Original authors; see preserved license and notices | Local snapshot; see preserved evidence |
 | [local-ai-music-album-60376395](library/local/local-ai-music-album-60376395/TOOLKIT-PROVENANCE.json) | MIT | Original authors; see preserved license and notices | Local snapshot; see preserved evidence |
 | [local-algorithmic-art-4ab9320b](library/local/local-algorithmic-art-4ab9320b/TOOLKIT-PROVENANCE.json) | MIT | Original authors; see preserved license and notices | Local snapshot; see preserved evidence |
 | [local-apple-hig-b285e1f5](library/local/local-apple-hig-b285e1f5/TOOLKIT-PROVENANCE.json) | MIT | Original authors; see preserved license and notices | Local snapshot; see preserved evidence |
@@ -666,8 +665,6 @@ Each bundled package retains its license and provenance. Toolkit MIT licensing d
 | [local-twilio-webhook-architecture-ed6d7c88](library/local/local-twilio-webhook-architecture-ed6d7c88/TOOLKIT-PROVENANCE.json) | MIT | Twilio | [source](https://github.com/twilio/ai) |
 | [local-twilio-whatsapp-manage-senders-26b4e908](library/local/local-twilio-whatsapp-manage-senders-26b4e908/TOOLKIT-PROVENANCE.json) | MIT | Twilio | [source](https://github.com/twilio/ai) |
 | [local-twilio-whatsapp-send-message-2216e612](library/local/local-twilio-whatsapp-send-message-2216e612/TOOLKIT-PROVENANCE.json) | MIT | Twilio | [source](https://github.com/twilio/ai) |
-| [local-agent-browser-verify-51e0c58e](library/local/local-agent-browser-verify-51e0c58e/TOOLKIT-PROVENANCE.json) | Apache-2.0 | Vercel Labs | [source](https://github.com/vercel/vercel-plugin) |
-| [local-agent-browser-fb2f5649](library/local/local-agent-browser-fb2f5649/TOOLKIT-PROVENANCE.json) | Apache-2.0 | Vercel Labs | [source](https://github.com/vercel/vercel-plugin) |
 | [local-ai-elements-f31a5ceb](library/local/local-ai-elements-f31a5ceb/TOOLKIT-PROVENANCE.json) | Apache-2.0 | Vercel Labs | [source](https://github.com/vercel/vercel-plugin) |
 | [local-ai-gateway-d5ac2858](library/local/local-ai-gateway-d5ac2858/TOOLKIT-PROVENANCE.json) | Apache-2.0 | Vercel Labs | [source](https://github.com/vercel/vercel-plugin) |
 | [local-ai-generation-persistence-82fb7247](library/local/local-ai-generation-persistence-82fb7247/TOOLKIT-PROVENANCE.json) | Apache-2.0 | Vercel Labs | [source](https://github.com/vercel/vercel-plugin) |

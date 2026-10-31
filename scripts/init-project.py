@@ -98,6 +98,9 @@ def build_plan(root,destination,preset_id,style_id,team,brief,audience,database,
     add('AGENTS.md',f'''# Project working agreements
 
 Read `docs/PROJECT-BRIEF.md`, `docs/DESIGN-CONTRACT.md` and `.ai-team/TEAM.md` before work.
+The agent harness provides execution. Use its native file editing, search, commands, connected
+tools and delegation where available. These project resources add domain guidance and quality
+criteria; they do not replace the harness or require alternative tools for basic operations.
 Stack: **{preset['name']}**. Visual direction: **{style['name']}**.
 User choices override generic aesthetics in optional skills. Do not default every project to
 React or a restrained business look. Preserve the selected stack and existing project constraints.

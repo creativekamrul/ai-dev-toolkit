@@ -6,6 +6,7 @@ Run after auditing: python scripts/import-local.py --inventory .local/inventory.
 import argparse,collections,hashlib,importlib.util,json,re
 from pathlib import Path
 from toolkit_lib import metadata
+from scope_policy import exclusion_reason
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('collection_import',Path(__file__).with_name('import-collection.py'))
 mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
@@ -80,11 +81,14 @@ def run(inventory_file,apply):
         try:meta=metadata(file.read_text(encoding='utf-8-sig'))
         except Exception:
             row['reason']='invalid-metadata';decisions.append(row);continue
+        key='local-'+re.sub(r'[^a-z0-9-]+','-',meta['name'].lower()).strip('-')
+        key=key[:54].strip('-')+'-'+source['sha256'][:8]
+        excluded=exclusion_reason(ROOT,key,meta['name'])
+        if excluded:
+            row['reason']=excluded;decisions.append(row);seen.add(source['sha256']);continue
         kind,license_data,author,url,evidence,bound=license_evidence(file)
         if not kind:
             row['reason']='license-unresolved-or-restricted';decisions.append(row);continue
-        key='local-'+re.sub(r'[^a-z0-9-]+','-',meta['name'].lower()).strip('-')
-        key=key[:54].strip('-')+'-'+source['sha256'][:8]
         files={};reason=None
         for p in sorted(file.parent.rglob('*')):
             if p.is_symlink():reason='linked-resources';break

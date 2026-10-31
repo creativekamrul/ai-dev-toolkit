@@ -1,5 +1,10 @@
 # Architecture
 
+The host harness owns execution: file operations, code search, shell commands, tool access,
+permissions and native delegation. This toolkit owns project guidance, specialist knowledge,
+design decisions, handoffs and toolkit resource/state management. Imported instructions must
+not force a substitute tool for a basic operation already available in the harness.
+
 The toolkit has a passive central library and a focused active project installation.
 `library/skills` holds original core workflows, `library/community` holds pinned upstream packages,
 and `library/local` holds reusable local snapshots. Cloning brings bundled package files to the

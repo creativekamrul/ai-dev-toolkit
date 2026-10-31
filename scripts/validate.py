@@ -3,6 +3,7 @@ import hashlib,json,os,re,sys
 from pathlib import Path
 from toolkit_lib import metadata
 from routing import recommendations
+from scope_policy import exclusion_reason
 import jsonschema
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -23,6 +24,12 @@ def validate(root=ROOT):
         try:
             if item['id'] in ids or item['name'] in names:raise ValueError('duplicate id/name')
             ids.add(item['id']);names.add(item['name'])
+            provenance=root/item['path']/'TOOLKIT-PROVENANCE.json'
+            original_name=item['name']
+            if provenance.is_file():
+                record=json.loads(provenance.read_text(encoding='utf-8'))
+                original_name=record.get('originalName') or Path(record.get('upstreamPath','')).parent.name or original_name
+            if exclusion_reason(root,item['id'],original_name):raise ValueError('excluded by toolkit scope policy')
             path=contained(root,item['path']+'/SKILL.md');known.add(path)
             meta=metadata(path.read_text(encoding='utf-8-sig'))
             if meta['name']!=item['name'] or meta['description']!=item['description']:raise ValueError('metadata differs from catalog')

@@ -256,11 +256,10 @@
       "category": "testing",
       "entrypointSha256": "fb2f5649ea808479a50f3f25de36de1ed55cdfae3971a45c79c29ada042d8a4c",
       "copies": 1,
-      "status": "bundled-local",
+      "status": "source-reference",
       "sourceCandidates": [],
       "relatedBundledSkills": [],
-      "note": "Actual reusable local skill package is included, with supporting files and attribution.",
-      "bundledSkill": "local-agent-browser-fb2f5649"
+      "note": "Generic browser operation wrapper; use the existing harness tools. Project verification criteria are retained separately."
     },
     {
       "id": "discovered-2f96a1fd54723d9d",
@@ -268,11 +267,10 @@
       "category": "design",
       "entrypointSha256": "2f96a1fd54723d9d9d672bfd6516107bfe17169e1f731bdae02d485638cc3026",
       "copies": 2,
-      "status": "bundled-local",
+      "status": "source-reference",
       "sourceCandidates": [],
       "relatedBundledSkills": [],
-      "note": "Actual reusable local skill package is included, with supporting files and attribution.",
-      "bundledSkill": "local-agent-browser-2f96a1fd"
+      "note": "Generic browser operation wrapper; use the existing harness tools. Project verification criteria are retained separately."
     },
     {
       "id": "discovered-d1eb5b937de4557c",
@@ -291,11 +289,10 @@
       "category": "ai",
       "entrypointSha256": "51e0c58eb6fded833faccc44ce1f5161db78dbaefaa8af16187f3dfbc6aec26b",
       "copies": 1,
-      "status": "bundled-local",
+      "status": "source-reference",
       "sourceCandidates": [],
       "relatedBundledSkills": [],
-      "note": "Actual reusable local skill package is included, with supporting files and attribution.",
-      "bundledSkill": "local-agent-browser-verify-51e0c58e"
+      "note": "Generic browser operation wrapper; use the existing harness tools. Project verification criteria are retained separately."
     },
     {
       "id": "discovered-c065f5b456a992fc",

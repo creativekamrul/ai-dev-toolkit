@@ -1,6 +1,6 @@
 # Bundled skill catalog
 
-779 actual skill packages: 14 reviewed defaults/choices and 765 screened optional packages.
+776 actual skill packages: 14 reviewed defaults/choices and 762 screened optional packages.
 
 Screened packages need task-specific tool, path and executable review before use. The library is passive; selecting a project does not activate every skill.
 
@@ -18,7 +18,6 @@ Search: `python scripts/search-catalog.py <query> [--category design] [--status 
 | [local-add-marketplace-aaafc1f7](../library/local/local-add-marketplace-aaafc1f7/SKILL.md) | screened | local-import |
 | [local-adobe-batch-edit-photos-4d04047a](../library/local/local-adobe-batch-edit-photos-4d04047a/SKILL.md) | screened | local-import |
 | [local-adobe-edit-quick-cut-5660013e](../library/local/local-adobe-edit-quick-cut-5660013e/SKILL.md) | screened | local-import |
-| [local-agent-browser-verify-51e0c58e](../library/local/local-agent-browser-verify-51e0c58e/SKILL.md) | screened | local-import |
 | [local-ai-readiness-b9e8eb29](../library/local/local-ai-readiness-b9e8eb29/SKILL.md) | screened | local-import |
 | [local-ai-sdk-becca173](../library/local/local-ai-sdk-becca173/SKILL.md) | screened | local-import |
 | [local-airtable-filters-e06ee6a5](../library/local/local-airtable-filters-e06ee6a5/SKILL.md) | screened | local-import |
@@ -222,7 +221,6 @@ Search: `python scripts/search-catalog.py <query> [--category design] [--status 
 | [local-adobe-create-social-variations-5669b42b](../library/local/local-adobe-create-social-variations-5669b42b/SKILL.md) | screened | local-import |
 | [local-adobe-design-from-template-116b875e](../library/local/local-adobe-design-from-template-116b875e/SKILL.md) | screened | local-import |
 | [local-adobe-retouch-portraits-f96ee0d2](../library/local/local-adobe-retouch-portraits-f96ee0d2/SKILL.md) | screened | local-import |
-| [local-agent-browser-2f96a1fd](../library/local/local-agent-browser-2f96a1fd/SKILL.md) | screened | local-import |
 | [local-ai-assistant-mobile-dashboard-5cf0cd95](../library/local/local-ai-assistant-mobile-dashboard-5cf0cd95/SKILL.md) | screened | local-import |
 | [local-ai-music-album-60376395](../library/local/local-ai-music-album-60376395/SKILL.md) | screened | local-import |
 | [local-api-engineer-7f80754a](../library/local/local-api-engineer-7f80754a/SKILL.md) | screened | local-import |
@@ -570,7 +568,6 @@ Search: `python scripts/search-catalog.py <query> [--category design] [--status 
 | [block-code-review](../library/community/block/block-code-review/SKILL.md) | reviewed | imported |
 | [block-testing-strategy](../library/community/block/block-testing-strategy/SKILL.md) | reviewed | imported |
 | [local-accessibility-and-inclusive-visualization-fc052419](../library/local/local-accessibility-and-inclusive-visualization-fc052419/SKILL.md) | screened | local-import |
-| [local-agent-browser-fb2f5649](../library/local/local-agent-browser-fb2f5649/SKILL.md) | screened | local-import |
 | [local-android-emulator-qa-df71c109](../library/local/local-android-emulator-qa-df71c109/SKILL.md) | screened | local-import |
 | [local-api-documentation-130d3c7a](../library/local/local-api-documentation-130d3c7a/SKILL.md) | screened | local-import |
 | [local-api-mocking-f480ee9b](../library/local/local-api-mocking-f480ee9b/SKILL.md) | screened | local-import |

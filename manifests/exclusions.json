@@ -1,5 +1,26 @@
 {
   "skills": {
-    "block-goose-blog-post": "Instructions for publishing to one specific upstream project's blog, outside the reusable toolkit scope."
+    "block-goose-blog-post": "Instructions for publishing to one specific upstream project's blog, outside the reusable toolkit scope.",
+    "local-agent-browser-verify-51e0c58e": "Generic browser operation wrapper; use the existing harness tools. Project verification criteria are retained separately.",
+    "local-agent-browser-fb2f5649": "Generic browser operation wrapper; use the existing harness tools. Project verification criteria are retained separately.",
+    "local-agent-browser-2f96a1fd": "Generic browser operation wrapper; use the existing harness tools. Project verification criteria are retained separately."
+  },
+  "originalNames": {
+    "read-file": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "read-files": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "write-file": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "write-files": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "edit-file": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "edit-files": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "file-editing": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "file-system": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "filesystem": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "apply-patch": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "list-files": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "run-command": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "run-commands": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "shell-exec": "Basic operation supplied by the agent harness; does not add specialist project guidance.",
+    "agent-browser": "Generic browser operation wrapper; use the existing harness tools. Project verification criteria are retained separately.",
+    "agent-browser-verify": "Generic browser operation wrapper; use the existing harness tools. Project verification criteria are retained separately."
   }
 }

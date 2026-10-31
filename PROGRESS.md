@@ -2,14 +2,22 @@
 
 Updated 2026-11-01 (Asia/Dhaka), toolkit v0.3.0.
 
+## Harness boundary correction
+
+Removed three optional generic agent-browser wrapper packages. They required an additional CLI
+for basic browser operations; verification criteria remain in the specialist workflows. Both
+importers and validation now enforce the recorded scope exclusions. Original source installations
+and existing generated projects were not changed. No generic file-editing package was found in
+the bundled catalog; discovery references are historical records, not installed capabilities.
+
 ## Delivered
 
 - Conversational startup through START-HERE, a Python-only launcher, private projects-root
   preference, and rejection of all destinations inside the toolkit checkout.
 - 18 stack presets, 9 independent styles, explained recommendations, known compatibility checks,
   and reviewed database/testing capabilities.
-- 779 actual packages: 638 reusable local snapshots, 132 community packages and 9 original skills.
-  14 are reviewed; 765 remain screened optional packages. Originals and global settings unchanged.
+- 776 actual packages: 635 reusable local snapshots, 132 community packages and 9 original skills.
+  14 are reviewed; 762 remain screened optional packages. Originals and global settings unchanged.
 - Compact selected-skill catalog plus bounded offline search of the full passive library.
 - Concrete design preview/contract handoff, environment checks, checkpoints and resume.
 - Skill add/check/update, preservation of custom instructions and working documents, conflict
@@ -19,7 +27,7 @@ Updated 2026-11-01 (Asia/Dhaka), toolkit v0.3.0.
 
 ## Verified locally
 
-- 42 behavior tests cover all stack/style defaults, interactive setup, capabilities, preferences,
+- 45 behavior tests cover all stack/style defaults, interactive setup, capabilities, preferences,
   containment, PowerShell arguments, no-overwrite rules, update conflicts, later edits, interrupted
   transactions, rollback, legacy migration, search, checkpoint/resume and WordPress detectors.
 - Catalog validation passes real YAML/JSON Schema parsing, hashes, allowlists, license evidence,
@@ -64,7 +72,7 @@ The GitHub Actions result is the authoritative status for the published revision
 
 Screened packages need task-specific path/tool/executable review and explicit selection. Some
 require a connected service or original host tooling. Of 1,147 distinct original local definitions,
-638 have bundled local packages; the remaining 509 stay references because of licensing, scope,
+635 have bundled local packages; the remaining 512 stay references because of licensing, scope,
 fixtures or content review. Private inventory paths and credentials remain excluded.
 
 ## Local audit results

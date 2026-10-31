@@ -4,6 +4,17 @@ Keep one central skill library. Describe a project to your coding AI. It helps y
 and design, creates a separate project folder, and works through Planner, Designer, Builder and
 Reviewer roles. Small changes can use fewer stages; hosts without delegation use sequential roles.
 
+## What belongs here
+
+Use this repository with an existing coding-agent harness. The harness reads and edits files,
+searches code, runs commands, calls available tools and enforces permissions. The toolkit supplies
+project instructions, design expertise, framework/database guidance, verification criteria and
+small-team handoffs. Its helpers manage project resources and state; they are not a replacement harness.
+
+Basic-operation wrappers are excluded. Specialist skills such as WordPress development, design
+systems and database optimization remain useful because they guide decisions beyond tool execution.
+The original discovery index is historical audit data, not the installable or recommended skill list.
+
 ## Clone, open, talk
 
 ```bash
@@ -42,8 +53,8 @@ mismatches. Arbitrary imported skills still need task-specific compatibility rev
 
 ## Included and portable
 
-**779 actual packages:** 638 reusable local snapshots, 132 community imports and 9 toolkit skills,
-with supporting files, licenses and provenance. Of these, 14 are reviewed; 765 are screened optional
+**776 actual packages:** 635 reusable local snapshots, 132 community imports and 9 toolkit skills,
+with supporting files, licenses and provenance. Of these, 14 are reviewed; 762 are screened optional
 packages. Project-specific/restricted material and private inventories remain excluded.
 
 Only selected packages are copied into each project's `.agents/skills/`. A compact catalog lists

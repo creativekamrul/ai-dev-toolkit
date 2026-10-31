@@ -6,6 +6,7 @@ Usage: python scripts/import-collection.py --checkout PATH --source-id NAME --re
 import argparse,hashlib,json,re,subprocess
 from pathlib import Path
 from toolkit_lib import metadata
+from scope_policy import exclusion_reason
 
 ROOT=Path(__file__).resolve().parents[1]
 EXEC={'.py','.js','.mjs','.cjs','.ts','.ps1','.sh','.bash','.cmd','.bat','.php','.exe','.dll'}
@@ -39,7 +40,6 @@ def import_source(checkout,source_id,repo,apply=False):
     dirty=subprocess.check_output(['git','-C',str(checkout),'status','--porcelain'],text=True)
     if dirty.strip():raise ValueError('Use an unmodified upstream checkout')
     catalog=json.loads((ROOT/'manifests/catalog.json').read_text(encoding='utf-8'))
-    exclusions=json.loads((ROOT/'manifests/exclusions.json').read_text(encoding='utf-8'))['skills']
     existing={x['id']:x for x in catalog['skills']}; results=[];seen=set()
     paths=sorted(checkout.rglob('SKILL.md'),key=lambda p:(len(p.parts),str(p)))
     for skill_file in paths:
@@ -51,8 +51,9 @@ def import_source(checkout,source_id,repo,apply=False):
         sid=source_id+'-'+re.sub(r'[^a-z0-9-]+','-',original.lower()).strip('-')
         if len(sid)>64:sid=sid[:55]+'-'+hash_bytes(text.encode())[:8]
         row={'id':sid,'name':original,'source':f'https://github.com/{repo}','revision':revision,'upstreamPath':relative,'status':'reference-only'}
-        if sid in exclusions:
-            row['reason']=exclusions[sid];results.append(row);continue
+        reason=exclusion_reason(ROOT,sid,original)
+        if reason:
+            row['reason']=reason;results.append(row);continue
         kind,license_data,evidence=find_license(skill_file.parent,checkout)
         if not kind:
             row['reason']=evidence;results.append(row);continue

@@ -42,6 +42,15 @@ but are not a defense against a malicious process replacing directories during t
 
 ## Updating the central library
 
+## Scope before import
+
+Import knowledge that adds project value: design methods, technology conventions, domain rules,
+and verification criteria. Exclude generic read/write/edit/search/shell/browser wrappers whose
+purpose is already covered by the host harness. Both importers honor `manifests/exclusions.json`;
+the validator rejects excluded packages. Exact original names and IDs are used so useful specialized
+skills such as image editing or database search are not removed through broad keyword matching.
+Audit-only discovery entries can remain as references; they are never installed automatically.
+
 ## Import a public collection
 
 Use a separate clean checkout at a specific Git revision. Inspect its license and relevant content.

@@ -5,6 +5,10 @@ description: "Start a project from this toolkit by interviewing the user about g
 
 # Project kickoff
 
+Use the existing harness for file operations, code search, commands, tool calls and delegation.
+This toolkit adds project choices, design expertise and specialist workflows; do not replace
+basic harness capabilities with generic skills or mandatory tool-wrapper installations.
+
 Read `START-HERE.md` from the toolkit repository root and follow its interview and setup flow.
 Reuse answers already supplied in the conversation. Offer the actual available presets and
 styles; do not assume Next.js or business styling. Keep the destination separate from the toolkit.

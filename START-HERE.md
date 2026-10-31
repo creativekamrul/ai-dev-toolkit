@@ -9,6 +9,12 @@ Only Python 3.10+ is required for the toolkit. Your coding agent provides AI exe
 You do not need to install the library globally, create API keys or learn terminal commands.
 The agent uses the helpers below on your behalf.
 
+The existing agent harness handles reading/editing files, searching code, executing commands,
+connected tools and permissions. This toolkit adds project decisions, specialist knowledge,
+design methods and handoffs. Use the harness's available tools; do not install a generic wrapper
+just to follow an imported skill's preferred tool names. If a required capability is unavailable,
+report that limitation or choose an available task-appropriate tool within the user's scope.
+
 ## Instructions for the agent
 
 1. Read the user's request and reuse existing answers. Ask a few useful questions about the
