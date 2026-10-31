@@ -6,23 +6,33 @@
     },
     "mysql": {
       "name": "MySQL / MariaDB",
-      "skills": []
+      "skills": [
+        "database-workflow"
+      ]
     },
     "postgresql": {
       "name": "PostgreSQL",
-      "skills": []
+      "skills": [
+        "database-workflow"
+      ]
     },
     "mongodb": {
       "name": "MongoDB",
-      "skills": []
+      "skills": [
+        "database-workflow"
+      ]
     },
     "sqlite": {
       "name": "SQLite",
-      "skills": []
+      "skills": [
+        "database-workflow"
+      ]
     },
     "supabase": {
       "name": "Supabase",
-      "skills": []
+      "skills": [
+        "database-workflow"
+      ]
     }
   },
   "integrations": {

@@ -2,6 +2,7 @@
 import hashlib,json,os,re,sys
 from pathlib import Path
 from toolkit_lib import metadata
+from routing import recommendations
 import jsonschema
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -45,6 +46,16 @@ def validate(root=ROOT):
     actual={p.resolve() for base in ('library/skills','library/community','library/local') for p in (root/base).rglob('SKILL.md')}
     if actual!=known:errors.append('unlisted/missing SKILL.md')
     entries={s['id']:s for s in catalog['skills']}
+    policy=json.loads((root/'manifests/curation.json').read_text(encoding='utf-8'))
+    options=json.loads((root/'manifests/project-options.json').read_text(encoding='utf-8'))
+    for groups in (policy['capabilities'],options['databases'],options['integrations']):
+        for key,value in groups.items():
+            for sid in value['skills']:
+                if sid not in entries or entries[sid]['validation']['status']!='reviewed':errors.append(key+': selection must use reviewed known skill '+sid)
+    for sid,rule in policy['skills'].items():
+        if sid not in entries:errors.append('Unknown curated skill: '+sid)
+        for other in rule.get('conflicts',[]):
+            if other not in entries:errors.append('Unknown conflict: '+other)
     for e in catalog['skills']:
         if any(s not in ids for s in e.get('requires',[])):errors.append(e['id']+': unknown dependency')
     for base in ('presets','styles'):
@@ -56,9 +67,13 @@ def validate(root=ROOT):
                     if sid not in ids or entries[sid]['validation']['status']!='reviewed':raise ValueError('defaults must use reviewed known skills: '+sid)
                 contained(root,data['instructions'])
             except (ValueError,OSError,KeyError) as exc:errors.append(f'{p.name}: {exc}')
+    for preset in (root/'presets').glob('*.json'):
+        for style in (root/'styles').glob('*.json'):
+            try:recommendations(root,preset.stem,style.stem)
+            except ValueError as exc:errors.append(f'{preset.stem}/{style.stem}: {exc}')
     secret=re.compile(rb'\b(?:sk-[A-Za-z0-9_-]{24,}|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[A-Z0-9]{16})\b|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----')
     for directory,dirs,files in os.walk(root):
-        dirs[:]=[d for d in dirs if d not in ('.git','.local','__pycache__','staging','generated')]
+        dirs[:]=[d for d in dirs if d not in ('.git','.local','__pycache__','staging','generated','node_modules','.next')]
         for name in files:
             p=Path(directory)/name;rel=p.relative_to(root)
             if name=='LOCAL-INVENTORY.md':continue

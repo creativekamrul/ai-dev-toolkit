@@ -1,52 +1,71 @@
-# Start a project with the small team
+# Start by talking to your AI
 
-Tell your coding agent:
+Open this toolkit checkout in your coding agent and say what you want to build. For example:
 
-> Read START-HERE.md. Help me set up a project with the Planner, Designer, Builder and Reviewer.
-> Ask me to choose the stack, visual style and useful capabilities, then prepare the project
-> instructions and start the first useful milestone.
+> Create a restaurant website called Olive. Help me choose the stack and design, put it in
+> a separate project folder, and start the first useful milestone.
+
+Only Python 3.10+ is required for the toolkit. Your coding agent provides AI execution.
+You do not need to install the library globally, create API keys or learn terminal commands.
+The agent uses the helpers below on your behalf.
 
 ## Instructions for the agent
 
-This is a toolkit checkout, not the application to build. Inspect the available choices in
-`presets/`, `styles/` and `manifests/catalog.json`. Ask a few useful questions at a time:
+1. Read the user's request and reuse existing answers. Ask a few useful questions about the
+   goal/audience, project name or existing code, stack, style and destination. Offer choices from
+   `presets/` and `styles/`. Do not assume Next.js or business styling. Ask about a database,
+   capabilities and integrations only when the project needs them. Default to the small four-role
+   workflow, using sequential roles unless native delegation is supported and requested.
+2. Inspect `python toolkit.py preferences` for an optional private projects directory. Without one,
+   suggest a `projects` directory beside the toolkit checkout. The user may choose any separate
+   destination. Never create a project inside the toolkit. Save a projects directory only when
+   requested: `python toolkit.py preferences --projects-root <directory>`; this stays in `.local/`.
+3. Use `python toolkit.py recommend --preset <id> --style <id> --database <id>` to get a small
+   selection with reasons. Optional `--capabilities testing,database` adds reviewed workflows.
+   Search additional candidates with `python toolkit.py search <topic> --limit 8`. Inspect a
+   screened package's tools, paths and scripts before opting into it. Do not activate the library
+   wholesale. User choices override generic skill preferences.
+4. Save the agreed answers as an ignored `.local/answers-<name>.json` using the fields shown below.
+   Preview with `python toolkit.py new --config <file> --name <name> --projects-root <directory>
+   --noninteractive --dry-run`. An explicit `--destination <path>` also works. Inspect conflicts,
+   then install the already agreed setup with `--yes`. Do not ask again for an action already
+   authorized. Pass arguments as data; do not interpolate the user's brief into shell code.
+5. Run `python toolkit.py doctor --project <destination>`. It reports missing executables without
+   installing anything or changing credentials. Resolve project runtime requirements within the
+   user's scope. Read the destination's AGENTS.md, brief, team instructions and design contract.
+   Use the destination as the working directory for application work. If this host cannot switch
+   its workspace, tell the user exactly which folder to open and give the continuation prompt.
+6. Planner: define the first observable milestone and task ownership. Designer: record concrete
+   tokens, layout and states, then show a representative preview in the chosen stack before
+   expanding the UI. Reuse a clear existing direction; do not require extra choices for a small
+   fix or an already specified design. Builder and Reviewer implement and check the milestone
+   using docs/QUALITY-CHECKS.md. Keep the team small and label sequential review as self-review.
+7. At a handoff or milestone, run `python .ai-toolkit/tools.py checkpoint --summary <what changed>
+   --next <next task> --decision <decision> --evidence <actual result>` in the project. A new chat
+   starts with `python .ai-toolkit/tools.py resume`, checks the current files and continues.
 
-1. What are we building, who will use it, and is there an existing codebase?
-2. Where should the project live? Prefer a separate project directory; do not replace this
-   toolkit's AGENTS.md or generate an application inside its library.
-3. Which stack? Include WordPress site/plugin/theme, HTML/CSS, PHP/Laravel, React/Next.js,
-   backend and automation choices. Recommend based on the actual project; do not default to Next.js.
-4. Which visual direction? Offer business, funky, glassmorphism, minimal, editorial, brutalist,
-   existing design, custom references, or no UI. The user's choice controls the design.
-5. Which database or integrations, if needed? Ask about Penpot only when useful. Skills do not
-   provision those services or grant credentials.
-6. Use the four-role team, or perform the same roles sequentially in solo mode?
+## Answer-file example
 
-Summarize the chosen stack, style and first milestone. Use the existing conversation's answers;
-do not ask them again. Propose only relevant skills. Most of the central library remains inactive.
-
-Save the answers as a local JSON configuration, then call `scripts/init-project.py --config
-<answers.json> --destination <project-directory> --noninteractive --dry-run`. Inspect conflicts.
-Install the agreed setup with `--yes`. The PowerShell wrapper supports the same options.
-Use arguments or a JSON file, not interpolated shell code containing the user's project brief.
-
-Default selections are reviewed. For an optional `screened` community/local package, inspect its
-provenance, required tools, cross-skill links and executable files first. Explain unresolved
-requirements. `--allow-screened` is an explicit opt-in, not a claim that the package is reviewed.
-Never execute unreviewed scripts. Do not copy project-specific configs or credentials.
-
-Open the destination and read its AGENTS.md. Run the Planner -> Designer -> Builder -> Reviewer
-workflow. Use real native subagents only when supported; otherwise perform the roles sequentially
-and label review as self-review. The central skills catalog is shared by all roles. Keep file
-ownership clear and use `.ai-team/tasks.json` for task state. Deliver working behavior and evidence.
-
-## Terminal alternative
-
-```powershell
-python scripts/init-project.py
-# or
-.\scripts\init-project.ps1
+```json
+{
+  "preset": "php",
+  "style": "glassmorphism",
+  "team": "small",
+  "brief": "A member directory for a local club",
+  "audience": "Club members",
+  "database": "sqlite",
+  "capabilities": ["testing"],
+  "integrations": [],
+  "add_skills": [],
+  "remove_skills": []
+}
 ```
 
-Python 3.10+ is the only initializer dependency. No API key or third-party Python package is
-required to select and install project resources. Your coding agent provides the AI execution.
+## Continuing in the new project
+
+> Read AGENTS.md, run the project resume helper, and continue the next milestone. Preserve the
+> selected stack and design direction. Use the small-team workflow and report actual checks.
+
+For more skills or updates, use the central checkout's `toolkit.py skills` commands. Preview first;
+customized skills are preserved or reported as conflicts. See docs/MAINTENANCE.md for rollback.
+The terminal wizard remains available with `python toolkit.py new` or `scripts/init-project.ps1`.

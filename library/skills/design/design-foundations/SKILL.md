@@ -21,3 +21,11 @@ another brand's identity or include images that do not support the content.
 Inspect narrow and desktop renders with realistic content. Check zoom, long labels, tables,
 menus and touch interactions. Give the Builder concrete component/state decisions and visual
 references. Report the screenshots or previews actually inspected, not imagined visual quality.
+
+Before expanding a visible application, produce a representative screen or component in its
+actual stack, with realistic content and the important states. Offer two brief directions only
+when the user has not supplied a clear direction; do not force another design interview when
+the answer is already known. Record the selected direction and any assumptions in the contract.
+Fill concrete token values, type choices, layout rules, mobile changes and preview/evidence paths.
+Show the preview when the host can display it. Ask for a preference if it materially changes
+the direction, while continuing independent work. For a small fix, use the existing design.

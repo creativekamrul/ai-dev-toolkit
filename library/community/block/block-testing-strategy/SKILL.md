@@ -1,6 +1,6 @@
 ---
 name: block-testing-strategy
-description: Guidelines for writing effective tests in this project
+description: Choose behavior-focused unit, integration and browser checks using the project's actual stack and test commands.
 author: goose
 version: "1.0"
 tags:
@@ -27,19 +27,10 @@ tags:
 
 ## Running Tests
 
-```bash
-# Run all tests
-npm test
-
-# Run unit tests only
-npm test:unit
-
-# Run integration tests (requires database)
-npm test:integration
-
-# Run tests with coverage
-npm test:coverage
-```
+Inspect the repository's actual test commands and package manager before running anything.
+Use its existing runner and fixtures; plain HTML, PHP and WordPress projects do not imply npm.
+Distinguish unit checks, real runtime integration and browser behavior. Select checks that
+exercise the changed behavior; report unsupported environments rather than claiming coverage.
 
 ## Test Structure
 

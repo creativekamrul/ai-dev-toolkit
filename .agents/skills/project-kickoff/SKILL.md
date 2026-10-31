@@ -13,3 +13,7 @@ Use the shared catalog to select a small relevant skill set. Preserve existing f
 installation and use the user's existing authorization. After setup, read the destination's
 AGENTS.md and coordinate its Planner, Designer, Builder and Reviewer roles using supported host
 capabilities. Do not pretend role files launch subagents on their own.
+
+Use the standard-library `toolkit.py` helpers for preferences, recommendations, preview, installation
+and environment checks. Start a new chat in a generated project with its resume helper. The project
+search helper returns a bounded shortlist; do not read the entire passive library or search index.

@@ -6,6 +6,7 @@ import os
 from pathlib import Path
 import re
 import sys
+from routing import recommendations,validate_selection
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -44,10 +45,10 @@ def choose(label,options,default=None):
 def split_ids(value):
     return value if isinstance(value,list) else [v.strip() for v in (value or '').split(',') if v.strip()]
 
-def build_plan(root,destination,preset_id,style_id,team,brief,audience,database,integrations,extras,removed,allow_screened=False):
+def build_plan(root,destination,preset_id,style_id,team,brief,audience,database,integrations,extras,removed,allow_screened=False,capabilities=None):
     root=root.resolve(); destination=no_links(destination)
     if destination.exists() and not destination.is_dir(): raise ValueError('Destination must be a directory')
-    if destination==root: raise ValueError('Choose a project directory outside the toolkit root; the toolkit keeps its own AGENTS.md.')
+    if destination.is_relative_to(root): raise ValueError('Choose a project directory outside the entire toolkit checkout.')
     catalog=read_json(root/'manifests/catalog.json'); entries={s['id']:s for s in catalog['skills']}
     if len(entries)!=len(catalog['skills']): raise ValueError('Duplicate catalog IDs')
     preset_file=safe_path(root,'presets/'+preset_id+'.json'); style_file=safe_path(root,'styles/'+style_id+'.json')
@@ -58,7 +59,9 @@ def build_plan(root,destination,preset_id,style_id,team,brief,audience,database,
     if database not in options['databases']: raise ValueError('Unknown database: '+database)
     if any(i not in options['integrations'] for i in integrations): raise ValueError('Unknown integration')
     if any(i not in entries for i in extras+removed): raise ValueError('Unknown additional/removed skill')
-    selected=set(preset['skills'])|set(style['skills'])|set(extras)
+    capabilities=capabilities or []
+    reasons=recommendations(root,preset_id,style_id,database,capabilities)
+    selected={r['id'] for r in reasons}|set(extras)
     selected.update(options['databases'][database]['skills'])
     for integration in integrations: selected.update(options['integrations'][integration]['skills'])
     selected-=set(removed)
@@ -71,9 +74,12 @@ def build_plan(root,destination,preset_id,style_id,team,brief,audience,database,
             if dep in removed: raise ValueError(f'{sid} requires removed skill {dep}')
             if dep not in selected: selected.add(dep); pending.append(dep)
     selected=sorted(selected); plan={}
+    policy=validate_selection(root,selected,preset_id,style_id,database,capabilities)
+    targets=set()
     def add(relative,data):
         target=safe_path(destination,relative)
-        if relative.casefold() in [x.casefold() for x in plan]: raise ValueError('Duplicate installation target: '+relative)
+        if relative.casefold() in targets: raise ValueError('Duplicate installation target: '+relative)
+        targets.add(relative.casefold())
         if isinstance(data,str): data=data.encode('utf-8')
         state='create'
         if target.exists(): state='unchanged' if target.is_file() and target.read_bytes()==data else 'conflict'
@@ -102,13 +108,19 @@ If native subagents are available and the user requests team execution, use thos
 otherwise perform the named roles sequentially. Do not invent an agent process or successful
 handoff. These portable role definitions do not themselves launch agent infrastructure.
 
+<!-- toolkit:skills:start -->
 Only these project skills were installed:
 
 {skill_lines}
+<!-- toolkit:skills:end -->
 
-Search `.ai-toolkit/catalog.json` before requesting new skills. It is shared by all four roles.
-Use the central toolkit to install additional reviewed skills into a separate setup for comparison;
-existing conflicts require a reviewed merge. Reference-only entries are not runtime capabilities.
+Search with `python .ai-toolkit/tools.py search <topic> --limit 8`; do not read the full search index.
+Use `python toolkit.py skills add --project <project> --skill <id> --dry-run` from the central
+checkout to preview additions. Updates preserve working documents and stop on conflicting skill edits.
+Start a fresh chat with `python .ai-toolkit/tools.py resume`, verify the current files, then continue.
+Checkpoint decisions, blockers, verification evidence and the next task at a milestone or handoff.
+For visible UI, agree a representative design preview and record tokens/states in the design contract
+before expanding the application. Run the checks in docs/QUALITY-CHECKS.md; report unavailable checks.
 
 Check commands, inputs, tool availability and task authorization before executing skill scripts.
 Preserve user work. Never copy credentials or private MCP configuration into source control.
@@ -139,11 +151,35 @@ This setup installed instructions and skills only. The Planner identifies accept
 existing constraints, privacy requirements and the first useful delivery before building.
 No framework, database, MCP connection or application dependency was provisioned.
 ''')
-    add('docs/DESIGN-CONTRACT.md',design_instructions)
+    contract=design_instructions
+    if style_id!='none':
+        contract+='''
+## Project decisions (Designer fills before expanding the UI)
+
+- Audience and primary task:
+- Direction / references and why they fit:
+- Concrete colors, typography, spacing, radii and motion:
+- Representative screen / preview path:
+- Responsive layout changes:
+- Loading, empty, error and success states that exist:
+- User preference or explicit assumptions:
+- Narrow and desktop render evidence; keyboard/contrast checks:
+
+Status: not yet designed. Do not treat this template as evidence of a completed design.
+'''
+    add('docs/DESIGN-CONTRACT.md',contract)
+    add('.gitignore','.ai-toolkit/history/\n.ai-toolkit/operation.lock\n.ai-team/*.lock\n.ai-team/*.next.json\n')
     for role in ('planner','designer','builder','reviewer'): add(f'.ai-team/roles/{role}.md',(root/f'library/agents/{role}.md').read_bytes())
     add('.ai-team/TEAM.md',(root/'library/agents/TEAM.md').read_text(encoding='utf-8')+f'\nSelected execution mode: **{team}**.\n')
     add('.ai-team/tasks.json',json.dumps({'schemaVersion':1,'tasks':[]},indent=2)+'\n')
+    add('.ai-team/state.json',json.dumps({'schemaVersion':1,'summary':'Project resources installed; application work has not started.',
+        'nextTask':'Planner: clarify acceptance criteria, then prepare a representative design preview if there is a UI.',
+        'decisions':[f'Stack: {preset_id}; style: {style_id}; database: {database}; team: {team}'],
+        'blockers':[],'evidence':[]},indent=2)+'\n')
     add('.ai-team/team.py',(root/'scripts/team.py').read_bytes())
+    add('.ai-toolkit/tools.py',(root/'scripts/project_tools.py').read_bytes())
+    add('docs/QUALITY-CHECKS.md',(root/'library/instructions/quality-checks.md').read_bytes())
+    add('.ai-toolkit/base/AGENTS.md',plan['AGENTS.md']['data'])
     add('docs/AI-TOOLKIT.md',f'''# Project toolkit
 
 Toolkit {catalog['version']}; preset `{preset_id}`; style `{style_id}`; team `{team}`.
@@ -158,17 +194,20 @@ Reproduce this setup with `python scripts/init-project.py --config <project.json
 --destination <new-folder> --noninteractive --yes` using `.ai-toolkit/project.json`.
 ''')
     shared={'toolkitVersion':catalog['version'],'source':'https://github.com/creativekamrul/ai-dev-toolkit',
-            'skills':[{k:e[k] for k in ('id','name','description','category','technologies','compatibility','validation')} for e in catalog['skills']]}
-    shared['sourceReferences']=read_json(root/'manifests/discovered-skills.json')['resources']
+            'skills':[{k:entries[sid][k] for k in ('id','name','description','category','compatibility','validation')} for sid in selected],
+            'selectionReasons':reasons,'searchCommand':'python .ai-toolkit/tools.py search <topic> --limit 8'}
     add('.ai-toolkit/catalog.json',json.dumps(shared,indent=2)+'\n')
+    index={'skills':[{'id':e['id'],'description':e['description'][:200],
+        'status':e['validation']['status'],'tags':e['technologies']+[e['category']]+policy['skills'].get(e['id'],{}).get('capabilities',[])} for e in catalog['skills']]}
+    add('.ai-toolkit/search-index.json',json.dumps(index,separators=(',',':'))+'\n')
     needs_review=[sid for sid in selected if entries[sid]['validation']['status']!='reviewed']
     if needs_review:
         add('.ai-toolkit/REVIEW-REQUIRED.md','# Selected community skills requiring review\n\n'+
             '\n'.join('- '+sid for sid in needs_review)+'\n\nThese packages passed license/metadata/static checks, not behavioral review. Before using their instructions or scripts, inspect the installed TOOLKIT-PROVENANCE.json and relevant files. Do not execute unreviewed scripts. User stack, style and authorization remain authoritative.\n')
     config={'preset':preset_id,'style':style_id,'team':team,'brief':brief,'audience':audience,'database':database,'allow_screened':allow_screened,
-            'integrations':integrations,'add_skills':extras,'remove_skills':removed}
+            'integrations':integrations,'add_skills':extras,'remove_skills':removed,'capabilities':capabilities}
     add('.ai-toolkit/project.json',json.dumps(config,indent=2)+'\n')
-    receipt={'schemaVersion':2,'toolkitVersion':catalog['version'],'preset':preset_id,'style':style_id,'skills':selected,
+    receipt={'schemaVersion':3,'toolkitVersion':catalog['version'],'preset':preset_id,'style':style_id,'skills':selected,
              'files':[{'path':p,'sha256':v['sha256']} for p,v in sorted(plan.items())]}
     add('.ai-toolkit/installed.json',json.dumps(receipt,indent=2)+'\n')
     return plan,selected
@@ -189,15 +228,20 @@ def apply_plan(plan,dry_run=False,yes=False,noninteractive=False):
 
 def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
-    for name in ('destination','preset','style','team','brief','audience','database','integrations','add-skills','remove-skills','config'): parser.add_argument('--'+name)
+    for name in ('destination','preset','style','team','brief','audience','database','integrations','add-skills','remove-skills','config','capabilities','name','projects-root'): parser.add_argument('--'+name)
     for name in ('noninteractive','dry-run','yes','list','allow-screened'): parser.add_argument('--'+name,action='store_true')
     args=parser.parse_args(argv)
     presets=[read_json(p) for p in sorted((ROOT/'presets').glob('*.json'))]; styles=[read_json(p) for p in sorted((ROOT/'styles').glob('*.json'))]
     if args.list:
         print(json.dumps({'presets':[{k:p[k] for k in ('id','name')} for p in presets],'styles':[{k:p[k] for k in ('id','name')} for p in styles]},indent=2)); return 0
+    preferences=read_json(ROOT/'.local/preferences.json') if (ROOT/'.local/preferences.json').is_file() else {}
     saved=read_json(Path(args.config)) if args.config else {}
     values={name:getattr(args,name) if getattr(args,name) is not None else saved.get(name) for name in
-            ('destination','preset','style','team','brief','audience','database','integrations','add_skills','remove_skills')}
+            ('destination','preset','style','team','brief','audience','database','integrations','add_skills','remove_skills','capabilities')}
+    if args.name and not values['destination']:
+        if not re.fullmatch(r'[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}',args.name) or re.fullmatch(r'(?i)(con|prn|aux|nul|com[0-9]|lpt[0-9])',args.name):raise ValueError('Use a portable project name with letters, digits, hyphens or underscores')
+        projects_root=Path(args.projects_root or preferences.get('projectsRoot') or ROOT.parent/'projects')
+        values['destination']=str(projects_root/args.name)
     if not args.noninteractive:
         values['brief']=values['brief'] if values['brief'] is not None else input('What are we building? ')
         values['audience']=values['audience'] if values['audience'] is not None else input('Who is it for? ')
@@ -214,8 +258,9 @@ def main(argv=None):
         if values['remove_skills'] is None: values['remove_skills']=input('Remove optional skill IDs (comma separated; Enter for none): ')
     if not values['destination'] or not values['preset']: raise ValueError('--destination and --preset are required')
     plan,selected=build_plan(ROOT,Path(values['destination']),values['preset'],values['style'] or 'business',values['team'] or 'small',
-        values['brief'] or '',values['audience'] or '',values['database'] or 'none',split_ids(values['integrations']),split_ids(values['add_skills']),split_ids(values['remove_skills']),args.allow_screened or saved.get('allow_screened',False))
-    if apply_plan(plan,args.dry_run,args.yes,args.noninteractive): print(f'Installed {len(selected)} skills and the project team. Read AGENTS.md in the project to begin.')
+        values['brief'] or '',values['audience'] or '',values['database'] or 'none',split_ids(values['integrations']),split_ids(values['add_skills']),split_ids(values['remove_skills']),args.allow_screened or saved.get('allow_screened',False),split_ids(values['capabilities']))
+    if apply_plan(plan,args.dry_run,args.yes,args.noninteractive):
+        print(f'Installed {len(selected)} skills and the project team. Open {Path(values["destination"]).absolute()} and say: Read AGENTS.md and start the first milestone.')
     return 0
 
 if __name__=='__main__':

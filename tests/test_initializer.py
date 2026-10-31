@@ -7,7 +7,7 @@ import team
 
 class SetupTests(unittest.TestCase):
     def setUp(self):
-        self.test_root=ROOT/'.local/test-runs';self.run_root=self.test_root/uuid.uuid4().hex;self.run_root.mkdir(parents=True)
+        self.test_root=ROOT.parent/('.'+ROOT.name+'-test-runs');self.run_root=self.test_root/uuid.uuid4().hex;self.run_root.mkdir(parents=True)
         self.dest=self.run_root/'project with spaces';self.addCleanup(self.clean)
     def clean(self):
         target=self.run_root.resolve();assert target.is_relative_to(self.test_root.resolve()) and target!=self.test_root.resolve();shutil.rmtree(target)

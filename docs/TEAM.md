@@ -14,7 +14,8 @@ Report self-review honestly. The toolkit does not invent a native subagent confi
 
 ## Shared knowledge and ownership
 
-All roles read the project brief, design contract and shared catalog snapshot. Only relevant
+All roles read the project brief, design contract and compact installed-skill catalog.
+Search the wider library through `python .ai-toolkit/tools.py search <topic> --limit 8`. Only relevant
 installed skill bodies are loaded. Other central packages can be inspected and selectively
 installed later. A catalog entry is not proof that an MCP service or runtime is connected.
 
@@ -41,3 +42,16 @@ performed the review. Native tools still provide actual execution.
 
 A crash can leave a `tasks.lock` or `tasks.next.json` file. Confirm no other writer is running,
 inspect the ledger and recover the leftover files manually. Do not delete an active writer's lock.
+
+## Resume and checkpoints
+
+```bash
+python .ai-toolkit/tools.py checkpoint --summary "Directory search implemented" --next "Review keyboard flow" --decision "Keep plain PHP" --evidence "PHP lint and browser search passed"
+python .ai-toolkit/tools.py resume
+```
+
+Optional `--blocker` records an unresolved issue; `--blocker ""` clears resolved blockers. Decision,
+evidence and blocker lists retain the latest 12 entries. Notes are reported evidence, not proof:
+read current code and test results before continuing. Task state and checkpoint state have separate
+single-writer locks. Review normally advances the Builder's same task from review to done; a
+review task depending on that task already being done would prevent the required handoff.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "skills": [
     {
       "id": "backend-implementation",
@@ -29,7 +29,7 @@
         "attribution": "AI Development Toolkit contributors"
       },
       "license": "MIT",
-      "revision": "0.2.0",
+      "revision": "0.3.0",
       "validation": {
         "status": "reviewed",
         "executableReview": "no-executables",
@@ -70,7 +70,7 @@
         "attribution": "AI Development Toolkit contributors"
       },
       "license": "MIT",
-      "revision": "0.2.0",
+      "revision": "0.3.0",
       "validation": {
         "status": "reviewed",
         "executableReview": "no-executables",
@@ -109,7 +109,7 @@
         "attribution": "AI Development Toolkit contributors"
       },
       "license": "MIT",
-      "revision": "0.2.0",
+      "revision": "0.3.0",
       "validation": {
         "status": "reviewed",
         "executableReview": "no-executables",
@@ -121,7 +121,7 @@
       ],
       "fileHashes": {
         "LICENSE.txt": "ecc0ddc6de64569c917fa3a650471a6ecbd89be81270818ac2a174317d52020b",
-        "SKILL.md": "b95d5bc082febf84bcc2230f817b5ee0446b3c7cdce9d673fe626a0651d271a6"
+        "SKILL.md": "d98875503510e6f07a9cfdc743c990a43acac0b3c1337fdde3832395700127f6"
       }
     },
     {
@@ -150,7 +150,7 @@
         "attribution": "AI Development Toolkit contributors"
       },
       "license": "MIT",
-      "revision": "0.2.0",
+      "revision": "0.3.0",
       "validation": {
         "status": "reviewed",
         "executableReview": "no-executables",
@@ -189,7 +189,7 @@
         "attribution": "AI Development Toolkit contributors"
       },
       "license": "MIT",
-      "revision": "0.2.0",
+      "revision": "0.3.0",
       "validation": {
         "status": "reviewed",
         "executableReview": "no-executables",
@@ -229,7 +229,7 @@
         "attribution": "AI Development Toolkit contributors"
       },
       "license": "MIT",
-      "revision": "0.2.0",
+      "revision": "0.3.0",
       "validation": {
         "status": "reviewed",
         "executableReview": "no-executables",
@@ -270,7 +270,7 @@
         "attribution": "AI Development Toolkit contributors"
       },
       "license": "MIT",
-      "revision": "0.2.0",
+      "revision": "0.3.0",
       "validation": {
         "status": "reviewed",
         "executableReview": "no-executables",
@@ -309,7 +309,7 @@
         "attribution": "AI Development Toolkit contributors"
       },
       "license": "MIT",
-      "revision": "0.2.0",
+      "revision": "0.3.0",
       "validation": {
         "status": "reviewed",
         "executableReview": "no-executables",
@@ -321,7 +321,7 @@
       ],
       "fileHashes": {
         "LICENSE.txt": "ecc0ddc6de64569c917fa3a650471a6ecbd89be81270818ac2a174317d52020b",
-        "SKILL.md": "02ec539677561754e9c7bc727f27376ae53d34360619109ffa05e3e3236efebb"
+        "SKILL.md": "bf754e2e01c3328f12ed89c7b7c7fd4cede66e3d719215758111bf7e3eb9f9b5"
       }
     },
     {
@@ -3558,7 +3558,7 @@
     {
       "id": "block-testing-strategy",
       "name": "block-testing-strategy",
-      "description": "Guidelines for writing effective tests in this project",
+      "description": "Choose behavior-focused unit, integration and browser checks using the project's actual stack and test commands.",
       "path": "library/community/block/block-testing-strategy",
       "category": "testing",
       "technologies": [
@@ -3580,12 +3580,12 @@
         "url": "https://github.com/block/agent-skills",
         "upstreamRevision": "329a55d1500748a0a48d64629757cbe2622e34bf",
         "licenseEvidence": "LICENSE",
-        "localChanges": "Namespaced discovery name"
+        "localChanges": "Namespaced discovery name; Replace assumed npm commands with project-specific test discovery"
       },
       "license": "Apache-2.0",
       "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
       "validation": {
-        "status": "screened",
+        "status": "reviewed",
         "executableReview": "no-executables",
         "compatibility": "YAML format checked; runtime and behavior not certified"
       },
@@ -3595,9 +3595,9 @@
         "TOOLKIT-UPSTREAM-LICENSE.txt"
       ],
       "fileHashes": {
-        "SKILL.md": "6ae3f617faa688a45d65a723e13fdf7ed2b34cd66ad4c021011e29d9175f6081",
-        "TOOLKIT-UPSTREAM-LICENSE.txt": "998dffd7be3657b8ba872cce9dc56b1b382d647e27c890498cc81f3408400194",
-        "TOOLKIT-PROVENANCE.json": "8c6bf0928d74b6c9c063421b3e9ca133de73a0ce8e8ddb0110f4c9a77a73af0d"
+        "SKILL.md": "0b1e0385ea75bfcbaf7c8da1ccb03bdce4dfd02880c43adef04bee97e582d8a0",
+        "TOOLKIT-PROVENANCE.json": "49e2b9fcbb37d7574b9b621289641a402c5a850572bedcc741e35f63f8345106",
+        "TOOLKIT-UPSTREAM-LICENSE.txt": "998dffd7be3657b8ba872cce9dc56b1b382d647e27c890498cc81f3408400194"
       }
     },
     {
@@ -45224,6 +45224,51 @@
         "assets/icon.png": "7ac4579b4a075173126862ebf70243ff0a447ffe843e7fbdf16ea2681f4fff13",
         "references/local-api-routes.md": "45a6a0d4420df74e8fc62e71ee2cba783b6085293b9df3a3022dfe08c35dfc39",
         "scripts/zotero.py": "b19966bd0ba658581ec335a0f6fb2e8d48ea0d339e8ca67728aa0ed8e4083581"
+      }
+    },
+    {
+      "id": "database-workflow",
+      "name": "database-workflow",
+      "description": "Plan and implement the selected project's database schema, migrations, access boundaries and database tests for SQLite, MySQL, PostgreSQL, Supabase or MongoDB.",
+      "path": "library/skills/backend/database-workflow",
+      "category": "database",
+      "technologies": [
+        "sqlite",
+        "mysql",
+        "postgresql",
+        "supabase",
+        "mongodb"
+      ],
+      "projectTypes": [
+        "software"
+      ],
+      "compatibility": [
+        "portable-markdown"
+      ],
+      "dependencies": [
+        "The selected database driver/runtime must be available for integration tests"
+      ],
+      "requires": [],
+      "source": {
+        "kind": "original",
+        "attribution": "AI Development Toolkit contributors"
+      },
+      "license": "MIT",
+      "revision": "0.3.0",
+      "validation": {
+        "status": "reviewed",
+        "executableReview": "no-executables",
+        "compatibility": "Stack-specific guidance; no provisioning or executable resources"
+      },
+      "files": [
+        "LICENSE",
+        "SKILL.md",
+        "references/databases.md"
+      ],
+      "fileHashes": {
+        "LICENSE": "ecc0ddc6de64569c917fa3a650471a6ecbd89be81270818ac2a174317d52020b",
+        "SKILL.md": "68046a35248c664b896f723e07957c5ee3dcf0bc360d4e9e73de6f3aedb7cc9a",
+        "references/databases.md": "c443eb8cefe1cf6e73922ed0a5946a94e668efc054afe13bcd3fc7830857033c"
       }
     }
   ]

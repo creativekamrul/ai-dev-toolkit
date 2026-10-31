@@ -1,0 +1,8 @@
+{
+  "wordpressVersion": "7.1.4",
+  "sqlitePluginVersion": "3.1.2",
+  "archives": [
+    {"url": "https://downloads.wordpress.org/release/wordpress-7.1.4.zip", "sha256": "a147146c159362778ecbbbfb07bb20ddf4e85b130f971c824e656a8f938c5f87"},
+    {"url": "https://downloads.wordpress.org/plugin/sqlite-database-integration.3.1.2.zip", "sha256": "04c43be5e200a1633499f7577f3fdc25345d389e1a8ffa64dbd6a4eacfbaaaf6"}
+  ]
+}

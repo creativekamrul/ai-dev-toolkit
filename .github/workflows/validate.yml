@@ -9,13 +9,44 @@ jobs:
         os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
         with:
           python-version: '3.13'
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7.1.0
         with:
           node-version: '22'
       - run: python -m pip install -r requirements-dev.txt
       - run: python scripts/validate.py
       - run: python -m unittest discover -s tests -v
+  outcomes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      NEXT_TELEMETRY_DISABLED: '1'
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '22'
+      - name: Install optional browser test dependencies
+        working-directory: evaluation
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          npx playwright install --with-deps chromium
+      - name: Build Next.js fixture
+        working-directory: evaluation/fixtures/nextjs
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          npm run build
+      - name: Exercise HTML and PHP forward-test fixtures
+        run: |
+          php -l evaluation/fixtures/member-directory/index.php
+          node evaluation/forward-checks.cjs
+      - name: Activate WordPress plugin in disposable SQLite site
+        run: python evaluation/setup-wordpress.py --directory .local/wordpress-ci
+      - name: Exercise Next.js and WordPress in Chromium
+        run: node evaluation/browser-checks.mjs --next evaluation/fixtures/nextjs --wordpress .local/wordpress-ci/wordpress --output .local/browser-outcomes

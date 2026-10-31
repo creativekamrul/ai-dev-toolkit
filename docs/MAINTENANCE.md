@@ -1,14 +1,46 @@
-# Importing, selecting and updating skills
+# Selecting, updating and recovering project skills
 
-## Search and select
+Use `python toolkit.py search <topic> --limit 8` in the toolkit, or the generated project's
+`python .ai-toolkit/tools.py search <topic> --limit 8`. The advanced `scripts/search-catalog.py`
+retains category/status/reference filters. Search loads metadata, never skill bodies or scripts.
 
-Search `manifests/catalog.json` through `python scripts/search-catalog.py <query>`. It covers
-actual bundled files. Filter by category or status. `--references` searches the original discovery
-index, which records which local entries were copied and which remain excluded/reference-only.
+## Existing project changes
 
-Reviewed packages can be added with `--add-skills id1,id2`. Screened packages require inspection
-and an explicit `--allow-screened` opt-in. The installer writes a review requirement into the
-project. Skill instructions cannot grant permission for destructive or external actions.
+```bash
+python toolkit.py skills add --project <folder> --skill block-testing-strategy --dry-run
+python toolkit.py skills update --project <folder> --dry-run
+python toolkit.py skills check --project <folder>
+python toolkit.py skills rollback --project <folder> --dry-run
+```
+
+Replace `--dry-run` with `--yes` to apply an agreed change. Repeated `--skill` options add several
+skills. Screened packages require inspection and `--allow-screened`. Updated source files must
+match the central catalog's hashes; use a trusted checkout/revision before updating.
+
+The updater compares current, installed-baseline and incoming hashes. Unchanged installed files
+can update; customized skills remain when upstream is unchanged. Conflicting upstream/custom
+changes stop the entire preview before writes. Skill-list markers let AGENTS.md keep custom text
+outside that block. Legacy AGENTS.md without a baseline must be unchanged to update automatically.
+Briefs, design contracts, checkpoints and tasks remain project-owned. Unchanged generated role
+instructions and helpers can update; customized versions require a manual merge. Older projects
+receive missing resume state and quality-check instructions without resetting existing work.
+
+Applied changes create `.ai-toolkit/history/<transaction>/` with prior bytes and before/after hashes.
+`skills rollback --transaction <id>` selects a particular backup; omitting it selects the latest
+restorable transaction. Rollback checks every current hash before restoring anything and refuses
+to overwrite edits made after the update. Rollback itself is recorded and reversible.
+
+History may contain private project instructions: keep `.ai-toolkit/history/` out of your project's
+Git repository. Every transaction also has its own ignore-all file, including in legacy projects.
+New projects receive the top-level ignore rule. For older repositories, add it to your
+existing .gitignore without replacing its contents. Backups never leave the project automatically.
+
+An unexpected IO error can leave a partial transaction marked `prepared`. After resolving the
+underlying problem, inspect its journal and preview rollback. A crash may leave operation.lock;
+confirm no writer is active before removing that lock. Checks protect ordinary concurrent changes,
+but are not a defense against a malicious process replacing directories during the write window.
+
+## Updating the central library
 
 ## Import a public collection
 
@@ -42,8 +74,8 @@ an isolated project before promoting it into a default preset. Update all file h
 intentional adaptation and keep upstream/local change history in provenance.
 
 Stage an upstream update separately. Compare against the pinned revision and current hashes.
-Preserve local changes. Existing projects receive conflicts instead of silent replacement; use a
-separate installation to compare and merge. Automatic three-way merges are not implemented.
+Preserve local changes. The project updater below compares hashes and manages its skill-list block.
+Conflicting skill contents need a manual merge; it does not guess how to merge arbitrary skill code.
 
 ## Presets, styles and roles
 

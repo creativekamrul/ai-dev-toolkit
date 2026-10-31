@@ -1,113 +1,105 @@
 # Universal AI Development Toolkit
 
-Clone once. Tell your coding agent what you want to build. Choose a stack and visual style.
-A small **Planner, Designer, Builder and Reviewer** team then works from one project brief,
-design contract and shared skill catalog.
+Keep one central skill library. Describe a project to your coding AI. It helps you choose a stack
+and design, creates a separate project folder, and works through Planner, Designer, Builder and
+Reviewer roles. Small changes can use fewer stages; hosts without delegation use sequential roles.
 
-## Start here
+## Clone, open, talk
 
 ```bash
 git clone https://github.com/creativekamrul/ai-dev-toolkit.git
 cd ai-dev-toolkit
 ```
 
-Open the folder in your coding agent and say:
+Open this folder in your coding agent and say:
 
-> Read START-HERE.md. Help me start a project. Ask me to choose the stack, visual style and
-> useful skills, then set up the Planner, Designer, Builder and Reviewer team.
+> Read START-HERE.md. Create a project called Olive. Help me choose the stack and design,
+> put it in a separate project folder, and start the first useful milestone.
 
-Or use the terminal wizard:
+The AI asks only for missing choices, previews the setup, and creates the project elsewhere.
+Python 3.10+ is the only toolkit requirement. No global skill installation, API key or separate
+AI service is needed. Your coding agent provides AI execution and builds the application.
 
-```powershell
-python scripts/init-project.py
-# Windows PowerShell entry point:
-.\scripts\init-project.ps1
-```
+When continuing in the new folder, say:
 
-Python 3.10+ is required. The initializer uses only its standard library. Your coding agent
-provides AI execution; this repo does not require its own API key or run a separate AI service.
+> Read AGENTS.md, run the project resume helper, and continue the next milestone.
 
-## Choose the project, then the design
+[START-HERE.md](START-HERE.md) contains the complete agent-facing flow. If your host cannot switch
+workspaces, open the new project folder when instructed. Skill files do not launch agents by themselves.
 
-**18 presets:** WordPress site, WordPress plugin, WordPress theme, headless WordPress,
-HTML/CSS/JavaScript, PHP, Laravel, Next.js, React/Vite, MERN, Express, NestJS, SaaS,
-landing page, API service, n8n, Python, or another existing stack.
+## Your choices stay independent
 
-**9 visual directions:** business, funky, glassmorphism, minimal, editorial, brutalist,
-match existing design, custom references, or no visual interface.
+**18 stack presets:** HTML/CSS/JavaScript, PHP, Laravel, WordPress site/plugin/theme/headless,
+Next.js, React/Vite, MERN, Express, NestJS, SaaS, landing page, API service, n8n, Python and custom.
 
-These choices are independent. A PHP app can use glassmorphism; a WordPress plugin can be funky;
-a plain HTML site can be professional. Selecting a preset installs development resources,
-not an entire application or its dependencies.
+**9 design directions:** business, funky, glassmorphism, minimal, editorial, brutalist,
+match existing, custom references and no UI. The Designer records concrete tokens and states,
+prepares a representative preview, and checks narrow/desktop rendering before expanding the UI.
 
-```powershell
-.\scripts\init-project.ps1 -Destination ..\my-site -Preset html-css -Style glassmorphism -NonInteractive -DryRun
-.\scripts\init-project.ps1 -Destination ..\my-plugin -Preset wordpress-plugin -Style funky -Brief "An event registration plugin" -NonInteractive -Yes
-```
+Database selections now add a reviewed database workflow. Optional testing capability adds a
+reviewed test strategy. Explicit routing rules explain selections and reject known stack/style
+mismatches. Arbitrary imported skills still need task-specific compatibility review.
 
-## A small team, with shared skills
+## Included and portable
 
-| Role | Owns | Handoff |
-|---|---|---|
-| Planner | Goal, acceptance criteria, tasks and ownership | Bounded implementation plan |
-| Designer | Chosen style, layout, tokens and component states | Design contract and visual expectations |
-| Builder | Working code and relevant tests | Changed files and verification evidence |
-| Reviewer | Requirement checks, regressions and actionable findings | Corrections or a scoped review result |
+**779 actual packages:** 638 reusable local snapshots, 132 community imports and 9 toolkit skills,
+with supporting files, licenses and provenance. Of these, 14 are reviewed; 765 are screened optional
+packages. Project-specific/restricted material and private inventories remain excluded.
 
-The generated `.ai-team/` contains roles and a task ledger. Real native subagents can perform
-these roles when the host supports them. Otherwise one agent performs them sequentially and
-reports a self-review. Role files do not themselves launch four AI processes.
+Only selected packages are copied into each project's `.agents/skills/`. A compact catalog lists
+installed skills and why they were selected. A separate offline search index returns a short list;
+the AI does not need to load the whole library. Some optional skills require their original tools.
 
-Every role can search the central catalog. Only a focused selection is installed into the
-project's `.agents/skills/`; the rest of the library stays out of active context.
+The generated project also receives its brief, design contract, quality checks, team roles,
+task ledger, checkpoint/resume helper and hashed installation receipt.
 
-## Real files, available after cloning
-
-**778 bundled packages:** 638 reusable local snapshots, 132 community imports and 8 original
-toolkit skills. Of the original 1,147 distinct local definitions, 509 remain references because
-they need licensing/content review or belong to project, dependency or test-fixture contexts.
-
-- `library/skills/`: original toolkit skills used by the setup flow.
-- `library/community/`: pinned public community packages, with supporting files and licenses.
-- `library/local/`: reusable licensed local skill snapshots, with supporting files and attribution.
-- `manifests/catalog.json`: searchable bundled packages, review status and file hashes.
-- `manifests/discovered-skills.json`: disposition of the original local discoveries.
-
-The repository includes skill bodies, scripts, references and assets for bundled packages.
-It does not merely link to the original computer. Project-specific configs, credentials and
-packages with unresolved/restricted redistribution terms are excluded. Some plugin skills still
-need their original service connection or runtime on another computer.
-
-Default selections are **reviewed**. Other bundled packages are **screened**: license, metadata,
-files and common secret patterns were checked, but their behavior and scripts are not certified.
-Inspect these before use. `--allow-screened` explicitly permits installing a selected screened
-package with a recorded review requirement. Nothing in the importer executes upstream scripts.
+## Optional commands (the AI can run these for you)
 
 ```bash
-python scripts/search-catalog.py wordpress
-python scripts/search-catalog.py design --status reviewed
-python scripts/search-catalog.py --references
+# Remember a projects directory privately in this checkout:
+python toolkit.py preferences --projects-root ../projects
+
+# Preview an agreed project:
+python toolkit.py new --name olive --preset php --style glassmorphism --database sqlite --capabilities testing --noninteractive --dry-run
+
+# Inspect choices and tools:
+python toolkit.py recommend --preset php --style glassmorphism --database sqlite
+python toolkit.py doctor --project ../projects/olive
+
+# Inside the generated project:
+python .ai-toolkit/tools.py search "php escaping" --limit 5
+python .ai-toolkit/tools.py resume
 ```
 
-## Preservation and reproducibility
+Use `--yes` instead of `--dry-run` to install the agreed setup. No project can be created inside
+the toolkit checkout. Conflicts stop creation before writes. Preferences and original-machine
+paths are not committed; choose a projects directory again on another computer if needed.
 
-The installer previews every file. Conflicts stop it before writes, identical files are kept,
-and there is no overwrite flag. It records selections in `.ai-toolkit/project.json` and hashes
-in `.ai-toolkit/installed.json`. Reproduce a setup with `--config <project.json>` and a new destination.
-No global Codex/Goose settings, credentials or MCP configuration are copied.
+## Safe changes as projects grow
 
-## Documentation
-
-[Startup interview](START-HERE.md) · [Catalog](docs/CATALOG.md) · [Architecture](docs/ARCHITECTURE.md) ·
-[Team workflow](docs/TEAM.md) · [Imports and updates](docs/MAINTENANCE.md) ·
-[Licensing and exclusions](docs/SECURITY-AND-LICENSING.md) · [Validation results](PROGRESS.md)
-
-For development checks, install `requirements-dev.txt`, then run:
+From the central checkout:
 
 ```bash
-python scripts/validate.py
-python -m unittest discover -s tests -v
+python toolkit.py skills add --project ../projects/olive --skill block-testing-strategy --dry-run
+python toolkit.py skills update --project ../projects/olive --dry-run
+python toolkit.py skills check --project ../projects/olive
+python toolkit.py skills rollback --project ../projects/olive --dry-run
 ```
 
-Toolkit code is MIT licensed. Third-party packages retain their own licenses, including GPL
-for the WordPress collection. See each package's license and provenance files.
+Apply with `--yes`. Updates preserve working briefs, designs and checkpoints. Conflicting edits
+stop the update; local skill edits survive when upstream is unchanged. Managed skill-list updates
+preserve surrounding AGENTS.md instructions. Every applied change has a restorable local backup.
+Rollback refuses to overwrite edits made afterward. See [maintenance](docs/MAINTENANCE.md).
+
+## Verification and documentation
+
+[Validation results](PROGRESS.md) · [Outcome evaluation](evaluation/README.md) ·
+[Catalog](docs/CATALOG.md) · [Team](docs/TEAM.md) · [Architecture](docs/ARCHITECTURE.md) ·
+[Compatibility](docs/COMPATIBILITY.md) · [Licensing](docs/SECURITY-AND-LICENSING.md)
+
+Development checks: install `requirements-dev.txt`, run `python scripts/validate.py`, then
+`python -m unittest discover -s tests -v`. Optional browser/application fixtures are separate
+from normal project setup. CI checks Windows/Ubuntu helpers and representative application outcomes.
+
+Original toolkit code is MIT licensed. Third-party packages retain their own licenses; the
+WordPress evaluation plugin is GPL-2.0-or-later. See package notices and THIRD-PARTY-NOTICES.md.

@@ -3,12 +3,14 @@ param(
     [string]$Destination, [string]$Preset, [string]$Style, [string]$Team,
     [string]$Brief, [string]$Audience, [string]$Database, [string[]]$Integrations,
     [string[]]$AddSkill, [string[]]$RemoveSkill, [string]$Config,
+    [string]$Name, [string]$ProjectsRoot, [string[]]$Capabilities,
     [switch]$NonInteractive, [switch]$DryRun, [switch]$Yes, [switch]$List, [switch]$AllowScreened
 )
 $ErrorActionPreference='Stop'
 $pythonCommand = Get-Command python -ErrorAction Stop
 $arguments = @((Join-Path $PSScriptRoot 'init-project.py'))
 $mapping = @{ Destination='destination'; Preset='preset'; Style='style'; Team='team'; Brief='brief'; Audience='audience'; Database='database'; Config='config'; Integrations='integrations'; AddSkill='add-skills'; RemoveSkill='remove-skills' }
+$mapping.Name='name'; $mapping.ProjectsRoot='projects-root'; $mapping.Capabilities='capabilities'
 foreach ($key in $mapping.Keys) {
     if ($PSBoundParameters.ContainsKey($key)) {
         $arguments += ('--'+$mapping[$key])

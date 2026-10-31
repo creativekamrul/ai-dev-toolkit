@@ -6,11 +6,12 @@
   "licenseEvidence": "LICENSE",
   "upstreamEntrypointSha256": "ad2e2e86a1d4abe34a4ffac0fc11153ceecb24fefd313a85577ea4a8ebdc7352",
   "localChanges": [
-    "Namespaced discovery name"
+    "Namespaced discovery name",
+    "Replace assumed npm commands with project-specific test discovery"
   ],
   "review": {
-    "status": "screened",
-    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "status": "reviewed",
+    "scope": "Complete instruction review; no executable files. Adapted runner selection across stacks; behavior scenarios recorded in toolkit validation.",
     "executableFiles": [],
     "flags": []
   }

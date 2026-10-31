@@ -26,7 +26,7 @@ def change(data,command,task_id,**args):
         return
     if task_id not in by_id:raise ValueError('Unknown task')
     task=by_id[task_id];status=args['status']
-    if status not in TRANSITIONS[task['status']]:raise ValueError('Invalid task state transition')
+    if status not in TRANSITIONS[task['status']]:raise ValueError('Cannot move '+task['status']+' -> '+status+'. Allowed next states: '+(', '.join(sorted(TRANSITIONS[task['status']])) or 'none')+'. Completion requires review with evidence and --reviewer reviewer or self-review.')
     if status=='doing':
         if any(by_id[d]['status']!='done' for d in task['dependencies']):raise ValueError('Dependencies are not done')
         for other in tasks:

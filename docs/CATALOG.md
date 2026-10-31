@@ -1,6 +1,6 @@
 # Bundled skill catalog
 
-778 actual skill packages: 12 reviewed defaults/choices and 766 screened optional packages.
+779 actual skill packages: 14 reviewed defaults/choices and 765 screened optional packages.
 
 Screened packages need task-specific tool, path and executable review before use. The library is passive; selecting a project does not activate every skill.
 
@@ -169,6 +169,7 @@ Search: `python scripts/search-catalog.py <query> [--category design] [--status 
 | Skill | Status | Origin |
 |---|---|---|
 | [awesome-awesome-database-audit](../library/community/awesome/awesome-awesome-database-audit/SKILL.md) | screened | imported |
+| [database-workflow](../library/skills/backend/database-workflow/SKILL.md) | reviewed | original |
 | [local-ai-generation-persistence-82fb7247](../library/local/local-ai-generation-persistence-82fb7247/SKILL.md) | screened | local-import |
 | [local-awesome-database-audit-7fd471b3](../library/local/local-awesome-database-audit-7fd471b3/SKILL.md) | screened | local-import |
 | [local-bootstrap-188c0d6a](../library/local/local-bootstrap-188c0d6a/SKILL.md) | screened | local-import |
@@ -567,7 +568,7 @@ Search: `python scripts/search-catalog.py <query> [--category design] [--status 
 | [awesome-awesome-test-gap-audit](../library/community/awesome/awesome-awesome-test-gap-audit/SKILL.md) | screened | imported |
 | [awesome-awesome-test-writing](../library/community/awesome/awesome-awesome-test-writing/SKILL.md) | screened | imported |
 | [block-code-review](../library/community/block/block-code-review/SKILL.md) | reviewed | imported |
-| [block-testing-strategy](../library/community/block/block-testing-strategy/SKILL.md) | screened | imported |
+| [block-testing-strategy](../library/community/block/block-testing-strategy/SKILL.md) | reviewed | imported |
 | [local-accessibility-and-inclusive-visualization-fc052419](../library/local/local-accessibility-and-inclusive-visualization-fc052419/SKILL.md) | screened | local-import |
 | [local-agent-browser-fb2f5649](../library/local/local-agent-browser-fb2f5649/SKILL.md) | screened | local-import |
 | [local-android-emulator-qa-df71c109](../library/local/local-android-emulator-qa-df71c109/SKILL.md) | screened | local-import |

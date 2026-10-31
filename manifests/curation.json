@@ -1,0 +1,16 @@
+{
+  "capabilities": {
+    "testing": {"name": "Test strategy and regression checks", "skills": ["block-testing-strategy"]},
+    "database": {"name": "Database design and migration workflow", "skills": ["database-workflow"]}
+  },
+  "skills": {
+    "professional-ui": {"styles": ["business"], "capabilities": ["business design"]},
+    "frontend-implementation": {"stacks": ["nextjs", "react-vite", "mern", "saas", "wordpress-headless", "custom"], "capabilities": ["react frontend"]},
+    "php-development": {"stacks": ["php", "laravel", "wordpress", "wordpress-plugin", "wordpress-theme", "wordpress-headless", "custom"], "capabilities": ["php", "escaping", "validation", "prepared queries", "sessions", "csrf"]},
+    "wordpress-wp-plugin-development": {"stacks": ["wordpress", "wordpress-plugin", "wordpress-headless", "custom"]},
+    "wordpress-wp-block-themes": {"stacks": ["wordpress", "wordpress-theme", "wordpress-headless", "custom"]},
+    "wordpress-wp-project-triage": {"stacks": ["wordpress", "wordpress-plugin", "wordpress-theme", "wordpress-headless", "custom"]},
+    "database-workflow": {"capabilities": ["database", "migrations", "sql", "mongodb"]},
+    "block-testing-strategy": {"capabilities": ["testing", "regression"]}
+  }
+}

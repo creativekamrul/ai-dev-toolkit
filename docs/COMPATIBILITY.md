@@ -9,7 +9,7 @@ PHP, WordPress plugin and Next.js. The checks used the real app-server skills/li
 with an isolated home and no model invocation. See PROGRESS.md for counts and scope.
 Start the coding agent in the generated project. An existing chat may need a skill refresh.
 
-AGENTS.md, `.agents/skills/`, portable role instructions and `.goosehints` are generated.
+AGENTS.md, `.agents/skills/`, portable role instructions, resume/search helpers and `.goosehints` are generated.
 Goose and other hosts may require their skill extension or an explicit instruction to read these
 files. Their runtime behavior has not been verified here. Where native subagents are unavailable,
 the team workflow uses sequential roles and labels its review as self-review.
@@ -26,3 +26,12 @@ Node, database and design-service runtimes must be available where the actual pr
 Git attributes preserve exact package bytes so catalog hashes remain valid across operating
 systems. CI runs validation and behavior tests on Windows and Ubuntu; a passing loader test on
 Windows does not establish universal runtime compatibility or design quality.
+
+The v0.3 root CLI and installed project helpers use the Python standard library only. Role
+execution is supplied by the coding host. Some hosts cannot change an open chat's workspace;
+START-HERE gives a continuation prompt for opening the destination. Preferences are intentionally
+local to the cloned checkout, while selected skills and project state travel with each project.
+
+Optional evaluation dependencies (Node/Playwright/PHP/WordPress) are for toolkit maintainers and
+actual application work, not prerequisites for the conversational initializer. The environment
+checker reports executable presence; framework versions and service connections need their own checks.

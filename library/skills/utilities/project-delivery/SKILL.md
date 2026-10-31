@@ -27,3 +27,9 @@ With one agent, explicitly switch roles and describe that review as a self-revie
 Keep handoffs short: decisions, changed files, tests, unresolved issues, next owner. Ask the user
 only for choices that materially affect the outcome. Preserve existing authorization; no repeated
 approval for routine reversible work. Deployment, publication or messaging follow the user's scope.
+
+Tasks move `todo -> doing -> review -> done`; completion needs evidence and an explicit reviewer
+label. Review the Builder's existing task, then complete it; a separate review task depending on
+that task being done would block its own prerequisite. Record a checkpoint at handoff with
+`python .ai-toolkit/tools.py checkpoint`; resume via `python .ai-toolkit/tools.py resume` and
+verify the current files before trusting saved notes. See `.ai-team/TEAM.md` for command examples.
