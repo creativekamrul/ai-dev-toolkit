@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "swr",
+  "originalEntrypointSha256": "c22a1535fd6950df4f046c43700471f415d60d5fb046cf90b64b9d77d4e4aea4",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source": "https://github.com/anthropics/skills",
+  "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+  "upstreamPath": "skills/claude-api/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "skills/claude-api/LICENSE.txt",
+  "upstreamEntrypointSha256": "8e75de73fc85704940a75e7fab234fb48d201372dcacd501a7f492f89f94601f",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [
+      "shared/evals/report/build-report-lite.mjs",
+      "shared/evals/report/runner-scaffold.mjs",
+      "shared/preserved-thinking-migration/drop_block_probe.py",
+      "shared/preserved-thinking-migration/prefix_diff.py"
+    ],
+    "flags": [
+      "destructive-workflow",
+      "external-service",
+      "agent-framework-assumptions"
+    ]
+  }
+}

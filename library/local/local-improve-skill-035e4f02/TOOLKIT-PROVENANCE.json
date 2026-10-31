@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "improve-skill",
+  "originalEntrypointSha256": "035e4f02636a8be9b4a3a767f3784c5dc33710616d91f238865ee5a62dc6b020",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI Codex",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

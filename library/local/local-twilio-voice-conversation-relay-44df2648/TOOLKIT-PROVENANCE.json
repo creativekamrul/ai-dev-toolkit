@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-voice-conversation-relay",
+  "originalEntrypointSha256": "44df2648bf916da2b899e7d57ba4df661ddc1ec5c50c25b61adc9e39944d4deb",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

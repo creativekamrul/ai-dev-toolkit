@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "hyperframes-cli",
+  "originalEntrypointSha256": "4c56ecec7a01e48b31523b81c7819877daff9034509522c7dae76cbbabbf8982",
+  "source": "https://github.com/heygen-com/hyperframes",
+  "attribution": "HeyGen",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

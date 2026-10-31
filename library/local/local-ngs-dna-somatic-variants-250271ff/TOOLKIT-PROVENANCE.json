@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ngs-dna-somatic-variants",
+  "originalEntrypointSha256": "250271ff76ea318d9c96c0ceb92a119018c400c819f46007359af06a342a1af9",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

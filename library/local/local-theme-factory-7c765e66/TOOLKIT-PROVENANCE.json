@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "theme-factory",
+  "originalEntrypointSha256": "7c765e6626bf61eca30224ceeb0da51ac003c7c2f1c1743ace9b3baa305ea632",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

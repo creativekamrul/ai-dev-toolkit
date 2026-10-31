@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "test-driven-development",
+  "originalEntrypointSha256": "fad42344223013a560fb3f2a9ad40509c5ea569595bab7f064dbf13149e9c53f",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

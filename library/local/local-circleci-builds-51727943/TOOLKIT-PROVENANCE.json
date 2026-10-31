@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "circleci-builds",
+  "originalEntrypointSha256": "51727943726400a0f94898d3a73d5b357979ab696c2352591034fbcb2f5c2e96",
+  "source": "https://github.com/circleci-public/skills",
+  "attribution": "CircleCI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

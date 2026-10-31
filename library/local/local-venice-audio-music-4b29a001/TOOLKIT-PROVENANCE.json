@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "venice-audio-music",
+  "originalEntrypointSha256": "4b29a001e036dcacce2057af6720b26664c63673c6c633afa95f268f90c9b776",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

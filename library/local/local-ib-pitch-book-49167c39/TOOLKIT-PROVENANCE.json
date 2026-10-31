@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ib-pitch-book",
+  "originalEntrypointSha256": "49167c396666f0527a85b441ea1ba9037c8e40e06dd60e590df45f191f8a4979",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

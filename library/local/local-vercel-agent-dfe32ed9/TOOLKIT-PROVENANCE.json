@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "vercel-agent",
+  "originalEntrypointSha256": "dfe32ed9100f0fa46d345972d70604a0e820d0738bd9423b2a4229fff78e72e7",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

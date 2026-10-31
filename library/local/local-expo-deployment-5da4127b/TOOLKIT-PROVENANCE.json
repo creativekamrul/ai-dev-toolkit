@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "expo-deployment",
+  "originalEntrypointSha256": "5da4127bd229d1742d498e22a3532a0003f306deca0005e77cb1d58e85a73853",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

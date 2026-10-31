@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "internal-comms",
+  "originalEntrypointSha256": "c5c061ab25b33fab2358a9be53a5cc0d528ec7c3e8a29285a041ffc95d0d8947",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

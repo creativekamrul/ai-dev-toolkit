@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-customer-memory",
+  "originalEntrypointSha256": "5ad0d85f9b26d1e1bed4e885a03958f75f09ff70e9a03459b8d0a7eb4217ff20",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

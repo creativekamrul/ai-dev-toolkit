@@ -1,0 +1,18 @@
+{
+  "id": "wordpress-theme",
+  "name": "WordPress theme / blocks",
+  "version": "0.2.0",
+  "skills": [
+    "block-code-review",
+    "php-development",
+    "project-delivery",
+    "web-foundations",
+    "wordpress-wp-project-triage",
+    "wordpress-wp-block-themes"
+  ],
+  "instructions": "library/instructions/wordpress-theme.md",
+  "technologies": [
+    "wordpress-theme"
+  ],
+  "status": "tested-resource-preset"
+}

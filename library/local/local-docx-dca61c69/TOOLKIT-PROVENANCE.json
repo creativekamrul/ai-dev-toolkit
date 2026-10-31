@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "docx",
+  "originalEntrypointSha256": "dca61c6993279d5bab04df0353e5e28ba76a5c2d7363bcf94028aa5984ff715b",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

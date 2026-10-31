@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "expo-tailwind-setup",
+  "originalEntrypointSha256": "d8a29999edc9cf9f61c337d2c532807a75b3961b5cdf5bd38ddfb136c87842ce",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

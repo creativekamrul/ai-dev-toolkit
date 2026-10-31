@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "vercel-react-view-transitions",
+  "originalEntrypointSha256": "1520343c8814c972fee001cac6d6185976d6eb3f4edcac33afe95c10f3b3228b",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "minimal",
+  "name": "Minimal / understated",
+  "skills": [
+    "design-foundations"
+  ],
+  "instructions": "library/design/minimal.md"
+}

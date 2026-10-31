@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-sendgrid-email-send",
+  "originalEntrypointSha256": "050fea3da6e4fc3a6a35122877c9b3b2196386e78e61e970c6f778ec9ad12f0f",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

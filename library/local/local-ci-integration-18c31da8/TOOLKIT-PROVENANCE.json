@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ci-integration",
+  "originalEntrypointSha256": "18c31da8ce50a047fbd5c06a1e1493f62d1bc45bb3eaf7e5fee14590a612f24f",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

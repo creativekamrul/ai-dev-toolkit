@@ -1,0 +1,17 @@
+{
+  "id": "wordpress",
+  "name": "WordPress site / customization",
+  "version": "0.2.0",
+  "skills": [
+    "block-code-review",
+    "php-development",
+    "project-delivery",
+    "web-foundations",
+    "wordpress-wp-project-triage"
+  ],
+  "instructions": "library/instructions/wordpress.md",
+  "technologies": [
+    "wordpress"
+  ],
+  "status": "tested-resource-preset"
+}

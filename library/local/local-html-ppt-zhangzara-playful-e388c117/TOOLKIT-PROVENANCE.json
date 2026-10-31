@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "html-ppt-zhangzara-playful",
+  "originalEntrypointSha256": "e388c117419ae132b36c9a4b9aff33c1e11f64af5252020c06db00f41dfc6fed",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

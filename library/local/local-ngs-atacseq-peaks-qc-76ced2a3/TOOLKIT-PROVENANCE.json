@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ngs-atacseq-peaks-qc",
+  "originalEntrypointSha256": "76ced2a3dd52df24d87fda191958718c1dc6a874dcf3953bb8571abd60de64a9",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

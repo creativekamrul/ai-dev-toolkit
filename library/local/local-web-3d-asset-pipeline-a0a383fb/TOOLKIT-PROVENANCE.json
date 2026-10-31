@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "web-3d-asset-pipeline",
+  "originalEntrypointSha256": "a0a383fbdd3dac7f77ff65448fad13b91bd39b01d4a95775946edaef743d6e5f",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

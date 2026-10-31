@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "html-ppt-zhangzara-editorial-tri-tone",
+  "originalEntrypointSha256": "e969fd68fee49fc302acd7ec8e050ca8149f647158c4d55bca981af6a8cc375c",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "assets/deck-stage.js"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

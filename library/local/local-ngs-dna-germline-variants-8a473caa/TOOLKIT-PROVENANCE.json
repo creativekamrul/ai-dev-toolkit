@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ngs-dna-germline-variants",
+  "originalEntrypointSha256": "8a473caaa96bdbed43ffdb38e20e0e87db84063bd3bf699c29ccc608ea792301",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

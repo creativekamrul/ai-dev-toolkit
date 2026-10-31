@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "expo-api-routes",
+  "originalEntrypointSha256": "6fca0647cb0dc9c1e94d6b82deb1455d0c0f705c1494ea37876392b6d729b257",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "vercel-flags",
+  "originalEntrypointSha256": "d062e65eb879c2fe7b99bbd204b007a55db301878de46e3d34a9deb21b1b1d7e",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

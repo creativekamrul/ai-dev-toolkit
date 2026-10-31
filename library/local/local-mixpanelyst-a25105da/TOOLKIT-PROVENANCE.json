@@ -1,0 +1,20 @@
+{
+  "kind": "local-import",
+  "originalName": "mixpanelyst",
+  "originalEntrypointSha256": "a25105da7074be692b8ff32761c881463ef573246ea932dfe6e5b3b09b0d7ca1",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/auth_manager.py",
+      "scripts/help.py"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

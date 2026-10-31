@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "frontend-skill",
+  "originalEntrypointSha256": "36360664d50fb3bb7b9a1c8283cd15fe7e3752a9a7dc47786e0e57292e673eeb",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

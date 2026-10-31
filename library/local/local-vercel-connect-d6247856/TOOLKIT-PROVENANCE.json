@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "vercel-connect",
+  "originalEntrypointSha256": "d6247856f19e602d89f481d5d56e254699d8071e45d852e8ad7bac24e896e4f9",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

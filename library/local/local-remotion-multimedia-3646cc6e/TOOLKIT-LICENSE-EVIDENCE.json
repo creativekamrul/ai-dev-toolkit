@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "079a29b2d8b3df4a76a09eff3ae7346fbff066441e7d585bd4857584a0a329a3",
+  "declaration": {
+    "name": "remotion",
+    "version": "1.0.7",
+    "license": "MIT"
+  },
+  "author": "Remotion"
+}

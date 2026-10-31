@@ -1,0 +1,22 @@
+{
+  "source": "https://github.com/anthropics/skills",
+  "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+  "upstreamPath": "skills/webapp-testing/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "skills/webapp-testing/LICENSE.txt",
+  "upstreamEntrypointSha256": "8bc27790f6e6dfc2bfa6692326d4518baacf6a31dcc646d963c729adad2f7e34",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [
+      "examples/console_logging.py",
+      "examples/element_discovery.py",
+      "examples/static_html_automation.py",
+      "scripts/with_server.py"
+    ],
+    "flags": []
+  }
+}

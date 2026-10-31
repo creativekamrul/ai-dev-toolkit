@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "dcf-valuation",
+  "originalEntrypointSha256": "cc7af021a7036c8fbc5203165746964bb2325097098ad2250c251aada7e3292e",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

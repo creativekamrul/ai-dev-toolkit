@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "brainstorming",
+  "originalEntrypointSha256": "5f21d2cc02a25137fe3cff289f8fc6e7b86502adeb33a6c5c11a7dc734742d7e",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "https://github.com/khasky/awesome-agent-skills",
+  "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+  "upstreamPath": "skills/awesome-content-publisher/SKILL.md",
+  "license": "MIT",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "3522ce15b66be90ec22b77045e82d696b812bf07154d3644f81531ddbd402d62",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [],
+    "flags": [
+      "external-service"
+    ]
+  }
+}

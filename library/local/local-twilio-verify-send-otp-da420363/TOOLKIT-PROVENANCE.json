@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-verify-send-otp",
+  "originalEntrypointSha256": "da420363c63e9f00a899750a780460c766d64b014f6b7e8d1c40cb1ea5904f4e",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ai-readiness",
+  "originalEntrypointSha256": "b9e8eb299d548f5ee1c573302acd76efad3fd3aa26b284abba552d4225b73723",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

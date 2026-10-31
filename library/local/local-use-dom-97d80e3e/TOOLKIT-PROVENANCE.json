@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "use-dom",
+  "originalEntrypointSha256": "97d80e3ed323c837dfbbff07c4a15def65f0ad07e4700bebe603d6735924b148",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

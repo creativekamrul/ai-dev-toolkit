@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "be4bb31100997609d4b661f63f2adfdc5ca12bc76f7e57b6165ccbc00a501076",
+  "declaration": {
+    "name": "build-web-data-visualization",
+    "version": "0.1.21",
+    "license": "MIT"
+  },
+  "author": "OpenAI"
+}

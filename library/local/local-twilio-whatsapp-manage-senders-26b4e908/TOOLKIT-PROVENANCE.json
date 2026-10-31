@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-whatsapp-manage-senders",
+  "originalEntrypointSha256": "26b4e908e148eeab748fbbeff7aae983f0bb3de4d414b51c5c875c884d28b6c7",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "mongodb-natural-language-querying",
+  "originalEntrypointSha256": "50fb9a8531e5ed0d1d70b26fcccfdf82fd095dbef0bb914246a3a6e89a30de28",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

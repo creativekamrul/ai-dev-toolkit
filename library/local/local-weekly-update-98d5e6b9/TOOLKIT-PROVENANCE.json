@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "weekly-update",
+  "originalEntrypointSha256": "98d5e6b980aa0f311be59c0cb4be8a0b01775c46a08b0aec3e7d873f0bdf9a29",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

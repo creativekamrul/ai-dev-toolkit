@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ios-app-intents",
+  "originalEntrypointSha256": "c8723a65479259b641b2ce5b5e6b103db7c6500c9217126d44ba2ed4aa9b4b33",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

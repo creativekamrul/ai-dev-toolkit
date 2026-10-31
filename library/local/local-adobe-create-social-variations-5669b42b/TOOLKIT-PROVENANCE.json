@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "adobe-create-social-variations",
+  "originalEntrypointSha256": "5669b42bd7d6ac1685ee3e45b9024836e08f244fe01bd6c819442648689a032d",
+  "source": null,
+  "attribution": "Adobe Inc",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

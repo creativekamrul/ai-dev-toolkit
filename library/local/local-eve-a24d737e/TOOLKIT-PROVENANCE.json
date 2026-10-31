@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "eve",
+  "originalEntrypointSha256": "a24d737e9a11faf0ab68da1f09772f87932f2d124fce741b9881954b17265d33",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

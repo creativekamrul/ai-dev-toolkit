@@ -1,0 +1,19 @@
+{
+  "source": "https://github.com/anthropics/skills",
+  "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+  "upstreamPath": "skills/algorithmic-art/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "skills/algorithmic-art/LICENSE.txt",
+  "upstreamEntrypointSha256": "6688fc81bb2051d3f234385b50ce160834eb0b0510ed8a5816cc412c1d28c352",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [
+      "templates/generator_template.js"
+    ],
+    "flags": []
+  }
+}

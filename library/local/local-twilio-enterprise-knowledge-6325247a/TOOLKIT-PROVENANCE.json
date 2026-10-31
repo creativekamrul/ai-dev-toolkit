@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-enterprise-knowledge",
+  "originalEntrypointSha256": "6325247a1dd1e9da00da8d4459003d47cfed8cc28883ef08ee771b408fae05f8",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

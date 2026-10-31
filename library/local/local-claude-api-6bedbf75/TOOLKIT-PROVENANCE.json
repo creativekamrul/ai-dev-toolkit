@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "claude-api",
+  "originalEntrypointSha256": "6bedbf75e06354b8d46c416cb8e490aa9bcf22ec6cda7be0a0ff6b64417d66fa",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "Spreadsheets",
+  "originalEntrypointSha256": "e7da45892e18a1c752714080687f526f63fbedc67636b6cc795c5de53950ffb3",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "container_tools/mark_artifact_operation_started.mjs"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

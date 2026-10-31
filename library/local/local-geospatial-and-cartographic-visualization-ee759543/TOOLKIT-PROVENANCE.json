@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "geospatial-and-cartographic-visualization",
+  "originalEntrypointSha256": "ee7595430af215ebc65ae8e9396006ae95255478cbb4c196b6bd93cec5d86153",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

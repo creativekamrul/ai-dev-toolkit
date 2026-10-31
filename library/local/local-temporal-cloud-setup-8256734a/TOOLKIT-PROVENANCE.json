@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "temporal-cloud-setup",
+  "originalEntrypointSha256": "8256734a954f2e6efe9ace984bb7e12ac55027a8691829984f72a4127a39f9d9",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/provision.sh"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

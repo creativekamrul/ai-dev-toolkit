@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "speech",
+  "originalEntrypointSha256": "d363f9c3d31b494cade250002b38336f8c06e077195894d5096ae3291ecf4f8d",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

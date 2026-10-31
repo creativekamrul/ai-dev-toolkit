@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "datasets",
+  "originalEntrypointSha256": "d6ffc118689c5638026eb5c593a9725a172235e458cf1d8ed46d3d20034a66f6",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

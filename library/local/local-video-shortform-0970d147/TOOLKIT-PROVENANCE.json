@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "video-shortform",
+  "originalEntrypointSha256": "0970d1471bb55ebcae0e077f300b4fff444deb396acaddd6e55de5358cb0ef88",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

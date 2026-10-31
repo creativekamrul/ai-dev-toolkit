@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "html-ppt-zhangzara-sakura-chroma",
+  "originalEntrypointSha256": "8977d20a61c2497ddd183569d5e44d3afe1c89a733cf3c54a2277b1a4c27f3fc",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

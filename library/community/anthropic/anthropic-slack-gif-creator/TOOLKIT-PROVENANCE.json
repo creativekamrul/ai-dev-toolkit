@@ -1,0 +1,22 @@
+{
+  "source": "https://github.com/anthropics/skills",
+  "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+  "upstreamPath": "skills/slack-gif-creator/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "skills/slack-gif-creator/LICENSE.txt",
+  "upstreamEntrypointSha256": "561c85ffeab639a1e84bb51cfc49f66e868a2a4c4b8945bf77b7bdaeca145a7d",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [
+      "core/easing.py",
+      "core/frame_composer.py",
+      "core/gif_builder.py",
+      "core/validators.py"
+    ],
+    "flags": []
+  }
+}

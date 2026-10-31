@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "cdn-caching",
+  "originalEntrypointSha256": "59429927e009c58a67b6990d604ff8b3d7ee525f47374bf85389a6aa41301c35",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

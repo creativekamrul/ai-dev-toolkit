@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "setup-zoom-webhooks",
+  "originalEntrypointSha256": "7420747e913675495ed2f8ee0a2d0ec5ba8b687370aa6e05b5c11cc1593f030d",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

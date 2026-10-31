@@ -1,0 +1,9 @@
+{
+  "id": "business",
+  "name": "Business / professional",
+  "skills": [
+    "design-foundations",
+    "professional-ui"
+  ],
+  "instructions": "library/design/business.md"
+}

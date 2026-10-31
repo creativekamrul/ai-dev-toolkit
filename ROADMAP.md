@@ -1,0 +1,22 @@
+# Roadmap
+
+## Delivered foundation
+
+- [x] Accessible-drive audit, deduplication and private source inventory.
+- [x] Actual reusable local and community packages, attribution and license evidence.
+- [x] Searchable central catalog with reviewed/screened distinctions and hashes.
+- [x] 18 technology presets and 9 independent styles.
+- [x] Four portable team roles, ownership, task dependencies and review handoffs.
+- [x] Interactive setup, dry runs, preservation, reproducibility and PowerShell support.
+- [x] Real Codex loader checks for HTML/CSS, PHP, WordPress and Next.js installations.
+- [x] Behavior tests, WordPress detector fixtures and Windows/Ubuntu CI configuration.
+
+## Future improvements
+
+- [ ] Review optional skill scripts and host-specific references as real projects need them.
+- [ ] Add useful resources when redistribution terms become available; never guess a license.
+- [ ] Add upstream comparison and update previews that preserve project customizations.
+- [ ] Test Goose runtime discovery and other host adapters.
+- [ ] Evaluate real model-driven project outcomes for each stack and style.
+
+Keep the team small. Add capabilities through skills rather than creating a department per topic.

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "adobe-batch-edit-photos",
+  "originalEntrypointSha256": "4d04047a2476ab880eb41c0f9e48017f3b10a04a7f30c04a626b9d507ce4ae10",
+  "source": null,
+  "attribution": "Adobe Inc",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

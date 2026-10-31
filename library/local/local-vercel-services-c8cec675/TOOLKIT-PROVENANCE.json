@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "vercel-services",
+  "originalEntrypointSha256": "c8cec6753b8198003a25543f20e53671210f854d6b4c40dac1ffae1cd6f8c0c6",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "references/fastapi-vite/frontend/vite.config.ts"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "codex-expo-run-actions",
+  "originalEntrypointSha256": "c21e2a87b8713d4cba2bdb79f513af2169c863674bfc058e50676cfe91ca17f8",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

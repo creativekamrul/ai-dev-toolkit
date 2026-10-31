@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "postman-mcp-server",
+  "originalEntrypointSha256": "db1b2d33b208782aa4bcc1117d2dc1bfd0401f728c2dfa684539d6751142d059",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "boltz-check-status",
+  "originalEntrypointSha256": "688ad3e2e29e3035fbd0a61a3d52bfa40be9a9b5e745d2c8f2bbc9cb9e89195f",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

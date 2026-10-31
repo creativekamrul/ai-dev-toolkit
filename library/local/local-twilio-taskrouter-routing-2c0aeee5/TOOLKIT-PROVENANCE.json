@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-taskrouter-routing",
+  "originalEntrypointSha256": "2c0aeee53a3d008993d6479588ab1d8c05403adbb8bbdab873e1b0883f1ac1e4",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

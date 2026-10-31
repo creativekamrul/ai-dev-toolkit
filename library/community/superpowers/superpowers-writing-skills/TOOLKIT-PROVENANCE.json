@@ -1,0 +1,22 @@
+{
+  "source": "https://github.com/obra/superpowers",
+  "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+  "upstreamPath": "skills/writing-skills/SKILL.md",
+  "license": "MIT",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "8cb3ac68c6d8c4bb46886b998b09af7989643cab8bd0e46ee86dd62e64546bbe",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [
+      "render-graphs.js"
+    ],
+    "flags": [
+      "external-service",
+      "agent-framework-assumptions"
+    ]
+  }
+}

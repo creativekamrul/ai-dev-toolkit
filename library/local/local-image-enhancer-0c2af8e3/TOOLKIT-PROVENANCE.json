@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "image-enhancer",
+  "originalEntrypointSha256": "0c2af8e3ce8666e310f00e0d130cd4b2923a61711e77d50e2c817ee534cd0051",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

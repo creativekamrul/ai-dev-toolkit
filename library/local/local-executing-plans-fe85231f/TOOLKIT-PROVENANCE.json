@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "executing-plans",
+  "originalEntrypointSha256": "fe85231f6c15b83dfadf1409535d01f304c43b920bc937b1dcc0907ec7824984",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ngs-amplicon-microbiome",
+  "originalEntrypointSha256": "8383e16ec86084bf68e42fbcc3696b11129c342d200734c846c312355bda058e",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

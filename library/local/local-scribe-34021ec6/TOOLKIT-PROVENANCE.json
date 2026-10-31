@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "scribe",
+  "originalEntrypointSha256": "34021ec6571b57ef3b05ff61acef0f1961263e0c23d973d2b46abdf12d24d527",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

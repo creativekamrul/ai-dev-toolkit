@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "vercel-queues",
+  "originalEntrypointSha256": "cb2362dbbd83027fb50c5bf148d888f09503ec9345e54e648a7c1014fc958871",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

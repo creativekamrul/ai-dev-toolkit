@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "add-marketplace",
+  "originalEntrypointSha256": "aaafc1f70661a1966185c2ec7a58b11804bc3e7aa9d1e8286a938d2b60706548",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/check-hooks.sh"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

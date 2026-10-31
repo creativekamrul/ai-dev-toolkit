@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "youtube-clipper",
+  "originalEntrypointSha256": "241c66024cec469988bb8fb7cc8561c5520feffd8045b0f8f7e4a97d0a66c0d9",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

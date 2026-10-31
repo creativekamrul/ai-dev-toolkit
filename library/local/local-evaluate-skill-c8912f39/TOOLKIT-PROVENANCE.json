@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "evaluate-skill",
+  "originalEntrypointSha256": "c8912f39d3b4f5c57a814cba507dabe07d6bb99f836f9a127b45f5f58aff9db4",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI Codex",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

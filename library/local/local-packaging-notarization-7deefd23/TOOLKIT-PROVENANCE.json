@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "packaging-notarization",
+  "originalEntrypointSha256": "7deefd23dfa64328397e25a4d7be03945454a4d6736737415b49b2f565cb2b03",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

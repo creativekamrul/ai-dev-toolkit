@@ -1,0 +1,17 @@
+{
+  "source": "https://github.com/cloudflare/skills",
+  "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+  "upstreamPath": "skills/gateway-workers/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "b8377ecc5b1f301db626054d3dae918a715b85fc46d7040442e24c9ddd8a5252",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [],
+    "flags": []
+  }
+}

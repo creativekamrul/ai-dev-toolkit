@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "subagent-driven-development",
+  "originalEntrypointSha256": "ca15b1b17cabe88289d0b30294b8ba5ae83a4199615584a58778b6620b516fb7",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-email-deliverability-advisor",
+  "originalEntrypointSha256": "4abc55ed95107c0c4860d5d8e0d350cced1ca44f84a7dd29f9056fe424dd5fc7",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

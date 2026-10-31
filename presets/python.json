@@ -1,0 +1,15 @@
+{
+  "id": "python",
+  "name": "Python backend / automation",
+  "version": "0.2.0",
+  "skills": [
+    "backend-implementation",
+    "block-code-review",
+    "project-delivery"
+  ],
+  "instructions": "library/instructions/python.md",
+  "technologies": [
+    "python"
+  ],
+  "status": "tested-resource-preset"
+}

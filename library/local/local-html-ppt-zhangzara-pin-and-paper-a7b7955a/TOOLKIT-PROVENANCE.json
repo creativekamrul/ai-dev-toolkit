@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "html-ppt-zhangzara-pin-and-paper",
+  "originalEntrypointSha256": "a7b7955ae0dc2aa8590faf1857202ef8e359c54fdfe30083fb004f590f5d81d6",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "assets/deck-stage.js"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

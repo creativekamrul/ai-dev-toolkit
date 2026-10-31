@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "mongodb-search-and-ai",
+  "originalEntrypointSha256": "88f10ff1ce197bc051abee3e398e2d35c91a66cd3f1fc6bb5b7704d779cdd5d8",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

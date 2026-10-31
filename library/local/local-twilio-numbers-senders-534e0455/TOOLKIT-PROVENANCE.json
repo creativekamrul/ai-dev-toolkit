@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-numbers-senders",
+  "originalEntrypointSha256": "534e045530fba5ecbfb3e3d4bef069f4bb1700baa7793d39a3629519770eb7e1",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

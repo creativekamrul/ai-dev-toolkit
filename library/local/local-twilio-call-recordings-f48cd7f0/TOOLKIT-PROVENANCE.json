@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-call-recordings",
+  "originalEntrypointSha256": "f48cd7f0ae4640c02e5ce778378d4f70023bfb80887cede054fc4305395f7158",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

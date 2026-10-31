@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "excel-live-control",
+  "originalEntrypointSha256": "55335802aeb641f8819f0020d4fa172b069376aaa00ab7934f3426d8a121509a",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

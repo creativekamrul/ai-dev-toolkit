@@ -1,0 +1,21 @@
+{
+  "kind": "local-import",
+  "originalName": "hyperframes",
+  "originalEntrypointSha256": "51898a73d233818d9a3f1ab7d8115af472ef0e0733027cd5e025f265b0f1dc22",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/animation-map.mjs",
+      "scripts/contrast-report.mjs",
+      "scripts/package-loader.mjs"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

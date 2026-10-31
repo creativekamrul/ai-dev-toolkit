@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "549498f39d1e8a73799db5a35c57ff3310e0a85a4c63b13f68d795fd5639cce1",
+  "declaration": {
+    "name": "cloudflare",
+    "version": "0.1.2",
+    "license": "MIT"
+  },
+  "author": "Cloudflare"
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "wireframe-sketch",
+  "originalEntrypointSha256": "bc2b641edf9da791147633f09ed58b0de58b70293aba095690fe02e48528c34b",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "game-studio",
+  "originalEntrypointSha256": "b76eac4342df15cca37ae26fe5908f11929dabe19596f08636a98a66cf9f2be8",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "local-import",
+  "originalName": "open-design-landing-deck",
+  "originalEntrypointSha256": "1421d0a4a966eb9826bcf9decab4a35676bfbcd46a8d9624e349eddc9b860155",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "schema.ts",
+      "scripts/compose.ts"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

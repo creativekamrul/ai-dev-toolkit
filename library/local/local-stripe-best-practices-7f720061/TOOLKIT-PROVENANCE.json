@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "stripe-best-practices",
+  "originalEntrypointSha256": "7f720061479d380ae9cf6c8ea9f33ef8d84961bc31f100b938f42110b736493c",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

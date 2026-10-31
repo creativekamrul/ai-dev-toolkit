@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "26c5592f3541ddc58639f3fd0d5927452cf5399ea95ab075d5a165a8e3759ab5",
+  "declaration": {
+    "name": "zotero",
+    "version": "0.1.2",
+    "license": "MIT"
+  },
+  "author": "OpenAI"
+}

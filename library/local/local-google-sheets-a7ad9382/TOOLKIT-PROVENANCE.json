@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "google-sheets",
+  "originalEntrypointSha256": "a7ad9382dfe64bd6244523ddf144321eeabe6bb4709fb8b5109f6f873e8714b6",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

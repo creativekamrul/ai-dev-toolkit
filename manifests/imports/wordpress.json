@@ -1,0 +1,242 @@
+{
+  "source": "WordPress/agent-skills",
+  "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+  "resources": [
+    {
+      "id": "wordpress-blueprint",
+      "name": "blueprint",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/blueprint/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wordpress-router",
+      "name": "wordpress-router",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wordpress-router/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 5,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-abilities-api",
+      "name": "wp-abilities-api",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-abilities-api/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 13,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "wordpress-wp-abilities-audit",
+      "name": "wp-abilities-audit",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-abilities-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 7,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-abilities-verify",
+      "name": "wp-abilities-verify",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-abilities-verify/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 10,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-block-development",
+      "name": "wp-block-development",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-block-development/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 15,
+      "executables": 1,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-block-themes",
+      "name": "wp-block-themes",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-block-themes/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 11,
+      "executables": 1,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-env",
+      "name": "wp-env",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-env/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-interactivity-api",
+      "name": "wp-interactivity-api",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-interactivity-api/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 7,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-patterns",
+      "name": "wp-patterns",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-patterns/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 11,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-performance",
+      "name": "wp-performance",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-performance/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 15,
+      "executables": 1,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-phpstan",
+      "name": "wp-phpstan",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-phpstan/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 8,
+      "executables": 1,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-playground",
+      "name": "wp-playground",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-playground/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 10,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "wordpress-wp-plugin-development",
+      "name": "wp-plugin-development",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-plugin-development/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 11,
+      "executables": 1,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-plugin-directory-guidelines",
+      "name": "wp-plugin-directory-guidelines",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-plugin-directory-guidelines/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 8,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-project-triage",
+      "name": "wp-project-triage",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-project-triage/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 6,
+      "executables": 1,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wp-rest-api",
+      "name": "wp-rest-api",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-rest-api/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 10,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "wordpress-wp-wpcli-and-ops",
+      "name": "wp-wpcli-and-ops",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wp-wpcli-and-ops/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 12,
+      "executables": 1,
+      "flags": []
+    },
+    {
+      "id": "wordpress-wpds",
+      "name": "wpds",
+      "source": "https://github.com/WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "upstreamPath": "skills/wpds/SKILL.md",
+      "status": "bundled-screened",
+      "license": "GPL-2.0-or-later",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    }
+  ]
+}

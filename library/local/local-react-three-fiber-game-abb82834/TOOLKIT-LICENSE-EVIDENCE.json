@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "7b6aea066d6ee92a705d9bd876720351af2db75a3b6ed0fa2b6588b2024bf727",
+  "declaration": {
+    "name": "game-studio",
+    "version": "0.1.2",
+    "license": "MIT"
+  },
+  "author": "OpenAI"
+}

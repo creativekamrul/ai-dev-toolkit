@@ -1,0 +1,16 @@
+{
+  "id": "laravel",
+  "name": "Laravel application",
+  "version": "0.2.0",
+  "skills": [
+    "block-code-review",
+    "php-development",
+    "project-delivery",
+    "web-foundations"
+  ],
+  "instructions": "library/instructions/laravel.md",
+  "technologies": [
+    "laravel"
+  ],
+  "status": "tested-resource-preset"
+}

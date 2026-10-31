@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "3372471c3a4abc59678dfa6c0e74767ae691eaa6337d5d84e843e709a53dacec",
+  "declaration": {
+    "name": "test-android-apps",
+    "version": "0.1.2",
+    "license": "MIT"
+  },
+  "author": "OpenAI"
+}

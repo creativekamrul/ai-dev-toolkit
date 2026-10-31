@@ -1,0 +1,19 @@
+{
+  "source": "https://github.com/block/agent-skills",
+  "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+  "upstreamPath": "beads/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "fe2b568a73f60320c639c80c0db1d92265aab5dc2ab98e5603156a333a85ab0b",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [],
+    "flags": [
+      "external-service"
+    ]
+  }
+}

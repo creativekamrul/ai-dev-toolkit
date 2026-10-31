@@ -1,0 +1,8 @@
+{
+  "id": "funky",
+  "name": "Funky / playful",
+  "skills": [
+    "design-foundations"
+  ],
+  "instructions": "library/design/funky.md"
+}

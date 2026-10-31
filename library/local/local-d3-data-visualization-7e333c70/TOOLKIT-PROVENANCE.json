@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "d3-data-visualization",
+  "originalEntrypointSha256": "7e333c70eed27846d5772034afbec21675c6c3e907a634eb560750c62edf3946",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "source": "https://github.com/block/agent-skills",
+  "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+  "upstreamPath": "frontend-design/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "b741c30c3bb5ee0fdedcdb4330a02e1e8537f2e6f8264842ced59436a4b1c21a",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [],
+    "flags": []
+  }
+}

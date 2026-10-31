@@ -1,0 +1,635 @@
+{
+  "source": "khasky/awesome-agent-skills",
+  "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+  "resources": [
+    {
+      "id": "awesome-awesome-accessibility-audit",
+      "name": "awesome-accessibility-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-accessibility-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-agents-md-generator",
+      "name": "awesome-agents-md-generator",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-agents-md-generator/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 6,
+      "executables": 0,
+      "flags": [
+        "external-service",
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "awesome-awesome-api-design",
+      "name": "awesome-api-design",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-api-design/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-architecture-audit",
+      "name": "awesome-architecture-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-architecture-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 5,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-bug-fix",
+      "name": "awesome-bug-fix",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-bug-fix/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 5,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-claims-audit",
+      "name": "awesome-claims-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-claims-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 6,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-code-cleanup",
+      "name": "awesome-code-cleanup",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-code-cleanup/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "awesome-awesome-code-docs",
+      "name": "awesome-code-docs",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-code-docs/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 6,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-code-explainer",
+      "name": "awesome-code-explainer",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-code-explainer/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 6,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-code-review-feedback",
+      "name": "awesome-code-review-feedback",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-code-review-feedback/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-code-review-jury",
+      "name": "awesome-code-review-jury",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-code-review-jury/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 6,
+      "executables": 0,
+      "flags": [
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "awesome-awesome-code-review",
+      "name": "awesome-code-review",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-code-review/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 7,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-code-standards",
+      "name": "awesome-code-standards",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-code-standards/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-content-campaign",
+      "name": "awesome-content-campaign",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-content-campaign/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 10,
+      "executables": 0,
+      "flags": [
+        "external-service",
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "awesome-awesome-content-image-adapter",
+      "name": "awesome-content-image-adapter",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-content-image-adapter/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 5,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-content-publisher",
+      "name": "awesome-content-publisher",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-content-publisher/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 53,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "awesome-awesome-content-repurpose",
+      "name": "awesome-content-repurpose",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-content-repurpose/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 12,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-content-voice",
+      "name": "awesome-content-voice",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-content-voice/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 5,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "awesome-awesome-copywriting",
+      "name": "awesome-copywriting",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-copywriting/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 5,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-database-audit",
+      "name": "awesome-database-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-database-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-dependency-audit",
+      "name": "awesome-dependency-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-dependency-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "awesome-awesome-dependency-upgrade",
+      "name": "awesome-dependency-upgrade",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-dependency-upgrade/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-design-doc",
+      "name": "awesome-design-doc",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-design-doc/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-document-style",
+      "name": "awesome-document-style",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-document-style/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-error-standards",
+      "name": "awesome-error-standards",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-error-standards/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-git-author-rewrite",
+      "name": "awesome-git-author-rewrite",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-git-author-rewrite/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "destructive-workflow",
+        "external-service"
+      ]
+    },
+    {
+      "id": "awesome-awesome-git-commit-plan",
+      "name": "awesome-git-commit-plan",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-git-commit-plan/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 6,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "awesome-awesome-git-history-rebuild",
+      "name": "awesome-git-history-rebuild",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-git-history-rebuild/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 12,
+      "executables": 0,
+      "flags": [
+        "destructive-workflow",
+        "external-service"
+      ]
+    },
+    {
+      "id": "awesome-awesome-git-history-reset",
+      "name": "awesome-git-history-reset",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-git-history-reset/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "destructive-workflow",
+        "external-service"
+      ]
+    },
+    {
+      "id": "awesome-awesome-git-history-salvage",
+      "name": "awesome-git-history-salvage",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-git-history-salvage/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-grammar-check",
+      "name": "awesome-grammar-check",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-grammar-check/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-humanize-en",
+      "name": "awesome-humanize-en",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-humanize-en/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 23,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-landing-audit",
+      "name": "awesome-landing-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-landing-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-leak-audit",
+      "name": "awesome-leak-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-leak-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 9,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "awesome-awesome-logging-standards",
+      "name": "awesome-logging-standards",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-logging-standards/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-pentest",
+      "name": "awesome-pentest",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-pentest/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 6,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "awesome-awesome-performance-audit",
+      "name": "awesome-performance-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-performance-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-plan-simplify",
+      "name": "awesome-plan-simplify",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-plan-simplify/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 5,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-privacy-audit",
+      "name": "awesome-privacy-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-privacy-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 6,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-regression-sweep",
+      "name": "awesome-regression-sweep",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-regression-sweep/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 6,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-root-cause",
+      "name": "awesome-root-cause",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-root-cause/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-security-audit",
+      "name": "awesome-security-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-security-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 9,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "awesome-awesome-seo-audit",
+      "name": "awesome-seo-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-seo-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 13,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-skills-purge",
+      "name": "awesome-skills-purge",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-skills-purge/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "destructive-workflow",
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "awesome-awesome-slop-audit",
+      "name": "awesome-slop-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-slop-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "awesome-awesome-style-mimic",
+      "name": "awesome-style-mimic",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-style-mimic/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 13,
+      "executables": 0,
+      "flags": [
+        "external-service",
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "awesome-awesome-test-gap-audit",
+      "name": "awesome-test-gap-audit",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-test-gap-audit/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-test-writing",
+      "name": "awesome-test-writing",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-test-writing/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 5,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "awesome-awesome-translate-ru-en",
+      "name": "awesome-translate-ru-en",
+      "source": "https://github.com/khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "upstreamPath": "skills/awesome-translate-ru-en/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    }
+  ]
+}

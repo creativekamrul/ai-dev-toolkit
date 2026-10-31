@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ngs-analysis-router",
+  "originalEntrypointSha256": "48e5903036c638c7d914a3f5123ac51775e124ed50e619cbbef202f986efcbbf",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

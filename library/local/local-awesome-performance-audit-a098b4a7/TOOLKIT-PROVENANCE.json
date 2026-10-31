@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "awesome-performance-audit",
+  "originalEntrypointSha256": "a098b4a7db9b3f250717ead48d974f3ca80bf00a7d3f0e8dffc5af6cca54ee27",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-whatsapp-send-message",
+  "originalEntrypointSha256": "2216e612551cc66aafaddd25b72b8a4ed2c58ed7863e8a23dc3dd737b40b9356",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

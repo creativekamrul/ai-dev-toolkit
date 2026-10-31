@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "venice-audio-speech",
+  "originalEntrypointSha256": "a0b0a00cd901ae40bc554a453893e1cc4d6b5890f2fd56a14c6558126cc47618",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

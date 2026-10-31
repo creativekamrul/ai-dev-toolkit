@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "three-webgl-game",
+  "originalEntrypointSha256": "3d718eedf5edc6b8da42e9d64f47e71387e5aa1b744453d1d6262f079202388f",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

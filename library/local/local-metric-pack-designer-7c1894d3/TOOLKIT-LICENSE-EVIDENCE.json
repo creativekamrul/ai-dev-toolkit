@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "85d30f783ae84848c0d592b2a32dc2b1246e97506ccf3dba26987e380ab13576",
+  "declaration": {
+    "name": "plugin-eval",
+    "version": "0.1.2",
+    "license": "MIT"
+  },
+  "author": "OpenAI Codex"
+}

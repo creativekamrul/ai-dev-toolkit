@@ -1,0 +1,19 @@
+{
+  "source": "https://github.com/mongodb/agent-skills",
+  "revision": "155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+  "upstreamPath": "skills/mongodb-schema-design/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "e318412f8694fcac4d4850ab0f27ac816c3fb6cc6af14b8a46a1e74850d10320",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [],
+    "flags": [
+      "external-service"
+    ]
+  }
+}

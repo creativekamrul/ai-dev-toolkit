@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "shadcn",
+  "originalEntrypointSha256": "95ee97b9e79c4d25ad274017bb528ccf7b92c1d442bbfc540a46f3c9197263df",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

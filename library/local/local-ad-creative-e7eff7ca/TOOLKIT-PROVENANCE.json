@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ad-creative",
+  "originalEntrypointSha256": "e7eff7caf077fd9b2f7f84853f1332eccae2797e5f3790645f4cf0c5f71d89ed",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

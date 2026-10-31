@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "orbit-linear",
+  "originalEntrypointSha256": "4f77441b1f8dd7c51b8a3514d4bbf3ed301771b253a1de67837bb67f438731f9",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

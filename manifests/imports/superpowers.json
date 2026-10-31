@@ -1,0 +1,212 @@
+{
+  "source": "obra/superpowers",
+  "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+  "resources": [
+    {
+      "id": "superpowers-brainstorming",
+      "name": "brainstorming",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/brainstorming/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 10,
+      "executables": 4,
+      "flags": [
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "superpowers-diagnosing-superpowers",
+      "name": "diagnosing-superpowers",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/diagnosing-superpowers/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 22,
+      "executables": 0,
+      "flags": [
+        "external-service",
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "superpowers-dispatching-parallel-agents",
+      "name": "dispatching-parallel-agents",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/dispatching-parallel-agents/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 3,
+      "executables": 0,
+      "flags": [
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "superpowers-executing-plans",
+      "name": "executing-plans",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/executing-plans/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 5,
+      "executables": 0,
+      "flags": [
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "superpowers-finishing-a-development-branch",
+      "name": "finishing-a-development-branch",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/finishing-a-development-branch/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 3,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "superpowers-receiving-code-review",
+      "name": "receiving-code-review",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/receiving-code-review/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 3,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "superpowers-requesting-code-review",
+      "name": "requesting-code-review",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/requesting-code-review/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "superpowers-subagent-driven-development",
+      "name": "subagent-driven-development",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/subagent-driven-development/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 16,
+      "executables": 0,
+      "flags": [
+        "destructive-workflow",
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "superpowers-systematic-debugging",
+      "name": "systematic-debugging",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/systematic-debugging/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 13,
+      "executables": 2,
+      "flags": [
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "superpowers-test-driven-development",
+      "name": "test-driven-development",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/test-driven-development/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "superpowers-using-git-worktrees",
+      "name": "using-git-worktrees",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/using-git-worktrees/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 3,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "superpowers-using-superpowers",
+      "name": "using-superpowers",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/using-superpowers/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 10,
+      "executables": 0,
+      "flags": [
+        "external-service",
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "superpowers-verification-before-completion",
+      "name": "verification-before-completion",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/verification-before-completion/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 3,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "superpowers-writing-plans",
+      "name": "writing-plans",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/writing-plans/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 3,
+      "executables": 0,
+      "flags": [
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "superpowers-writing-skills",
+      "name": "writing-skills",
+      "source": "https://github.com/obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "upstreamPath": "skills/writing-skills/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 12,
+      "executables": 1,
+      "flags": [
+        "external-service",
+        "agent-framework-assumptions"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "api-discovery",
+  "originalEntrypointSha256": "06697b330c462d70b33441e97961f3c4bc26beb7605440d621b1176e12969e4b",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

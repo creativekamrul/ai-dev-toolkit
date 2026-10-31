@@ -1,0 +1,28 @@
+{
+  "kind": "local-import",
+  "originalName": "remotion-best-practices",
+  "originalEntrypointSha256": "172058b34246c55828cf4add00ba9976b8301d0d338235cfe11ddbe6567f0bf8",
+  "source": "https://github.com/remotion-dev/remotion",
+  "attribution": "Remotion",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "remotion-maps/techniques/cesium/assets/flight-path.ts",
+      "remotion-maps/techniques/cesium/scripts/prep-cesium-path.mjs",
+      "remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
+      "remotion-maps/techniques/maptiler/assets/tokens.ts",
+      "remotion-maps/techniques/maptiler/scripts/prep-geo.mjs",
+      "remotion-markup/remotion-maps/techniques/cesium/assets/flight-path.ts",
+      "remotion-markup/remotion-maps/techniques/cesium/scripts/prep-cesium-path.mjs",
+      "remotion-markup/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
+      "remotion-markup/remotion-maps/techniques/maptiler/assets/tokens.ts",
+      "remotion-markup/remotion-maps/techniques/maptiler/scripts/prep-geo.mjs"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

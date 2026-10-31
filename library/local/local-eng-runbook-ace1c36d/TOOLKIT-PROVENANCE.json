@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "eng-runbook",
+  "originalEntrypointSha256": "ace1c36dfa92f153c1c7ec89b0f086877094e9b5973d2c4c9e474286c6f95f8b",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

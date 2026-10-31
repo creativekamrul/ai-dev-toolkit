@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "test-triage",
+  "originalEntrypointSha256": "4ebfb570de6cd61abe9fed9440dfdfe8ae003c95cbcf2741e5e515799fbc0b6b",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

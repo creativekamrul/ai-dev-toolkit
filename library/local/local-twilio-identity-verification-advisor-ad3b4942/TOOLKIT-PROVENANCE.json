@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-identity-verification-advisor",
+  "originalEntrypointSha256": "ad3b494288acb1870cec48de01a07114c12bd910e7e65e8f69e9295dcc984f27",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

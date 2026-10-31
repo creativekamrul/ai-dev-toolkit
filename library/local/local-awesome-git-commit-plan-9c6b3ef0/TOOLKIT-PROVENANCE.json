@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "awesome-git-commit-plan",
+  "originalEntrypointSha256": "9c6b3ef0c87ee6f0043cc466081d4258475af21d01c3fd141a49574b931d845f",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

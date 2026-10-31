@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-rcs-messaging",
+  "originalEntrypointSha256": "890eca1f2b87902e864529b0ee58f693cabb84a5de9532a46daaa3fb7a4b4e96",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

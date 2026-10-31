@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "building-native-ui",
+  "originalEntrypointSha256": "d7c3bd3f5709e3c5ee7cc9cda3889f069132469aa0a91d61d3bc5881c5827907",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

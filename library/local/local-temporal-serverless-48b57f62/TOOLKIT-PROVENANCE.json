@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "temporal-serverless",
+  "originalEntrypointSha256": "48b57f629dcf64d157461d050ae9251595b00ff7d63ac1ddbb4e486ca48e8296",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

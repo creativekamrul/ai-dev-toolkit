@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "canvas2d-data-visualization",
+  "originalEntrypointSha256": "3a90bb37ac0ad1392152bc836f937490fa4c14cc16c5fb66dc3500952434b869",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

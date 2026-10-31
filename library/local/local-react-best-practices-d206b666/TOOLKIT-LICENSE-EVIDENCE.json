@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "1bb943064c8cc040166a23816723bc6375c8fbbcb893312432d09034db783c82",
+  "declaration": {
+    "name": "build-web-apps",
+    "version": "0.1.2",
+    "license": "MIT"
+  },
+  "author": "OpenAI"
+}

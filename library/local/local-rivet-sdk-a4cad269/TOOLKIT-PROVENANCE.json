@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "rivet-sdk",
+  "originalEntrypointSha256": "a4cad2699bd565c57b2568e32ff36c9f5373bc5bb7e30edf4ba0560d3a8e669f",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-voice-twiml",
+  "originalEntrypointSha256": "710a26099e776f68eacf8b326d698c86065314445c94417f180af9c1195415d3",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

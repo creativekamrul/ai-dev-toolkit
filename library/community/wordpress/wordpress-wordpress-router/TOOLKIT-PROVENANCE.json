@@ -1,0 +1,18 @@
+{
+  "source": "https://github.com/WordPress/agent-skills",
+  "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+  "upstreamPath": "skills/wordpress-router/SKILL.md",
+  "license": "GPL-2.0-or-later",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "1b360656359b0cc8ca86834cde9c6612b9b6beee4f8cbfe01ec4ab862849a940",
+  "localChanges": [
+    "Namespaced discovery name",
+    "Adapted SKILL.md paths to installed WordPress skill locations"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [],
+    "flags": []
+  }
+}

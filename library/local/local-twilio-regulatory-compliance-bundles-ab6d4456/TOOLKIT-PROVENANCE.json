@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-regulatory-compliance-bundles",
+  "originalEntrypointSha256": "ab6d4456a77efe0e3303575d3924d27c2a9fd2a614111ee24fa72e285206725c",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

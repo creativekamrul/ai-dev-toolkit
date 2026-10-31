@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "9bdd76252ccb0f70f51a9e155fff853ff5d23521697a2fb113f6d9c873c22881",
+  "declaration": {
+    "name": "build-ios-apps",
+    "version": "0.1.2",
+    "license": "MIT"
+  },
+  "author": "OpenAI"
+}

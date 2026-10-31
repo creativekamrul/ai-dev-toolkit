@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "figma-generate-design",
+  "originalEntrypointSha256": "96694b4e5e2534431ef337b237f1cabe7599b84b7214b855d73d22c6c3aecc8c",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

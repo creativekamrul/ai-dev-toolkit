@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "hr-onboarding",
+  "originalEntrypointSha256": "2c7cd7a48ab583d792a8fb182bb2313479332b40d454b9f0311429f3ba86b132",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

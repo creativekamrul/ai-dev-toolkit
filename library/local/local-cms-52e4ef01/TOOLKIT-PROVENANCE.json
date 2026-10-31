@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "cms",
+  "originalEntrypointSha256": "52e4ef01c12b1f142c449218dff8f6bf11d052e83b65e7206906f736d9a78fcf",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

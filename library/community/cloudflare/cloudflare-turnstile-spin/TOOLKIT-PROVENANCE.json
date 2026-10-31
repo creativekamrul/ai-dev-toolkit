@@ -1,0 +1,25 @@
+{
+  "source": "https://github.com/cloudflare/skills",
+  "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+  "upstreamPath": "skills/turnstile-spin/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "c7aae819eef76ac7cc741e6a02a35164e3d6db1475432216d1b3f6994ced9b2a",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [
+      "scripts/auth-probe.sh",
+      "scripts/persist-skill.sh",
+      "scripts/validate.sh",
+      "scripts/widget-create.sh",
+      "tests/test_persist_skill.py"
+    ],
+    "flags": [
+      "external-service"
+    ]
+  }
+}

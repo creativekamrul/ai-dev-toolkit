@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "pixelbin-media",
+  "originalEntrypointSha256": "dd676f0574590c83f0d6d8afbf5911eed2ca8b78925be938b1512c0d22e23e65",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

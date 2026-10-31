@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "finishing-a-development-branch",
+  "originalEntrypointSha256": "2b8cb8f9cabb1951be2ebb1d72da90d3313f7e3705fd25f5b8f2d0432e139bae",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

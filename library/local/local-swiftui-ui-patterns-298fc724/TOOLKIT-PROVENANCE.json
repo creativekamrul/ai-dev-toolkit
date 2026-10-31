@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "swiftui-ui-patterns",
+  "originalEntrypointSha256": "298fc724f6b324c6355442170ea2e355563f904969dca054e4181d4cd3fe04bc",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

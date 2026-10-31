@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "performance-testing",
+  "originalEntrypointSha256": "2691f8c69bca93642061fb82f2e900c3d1e17ef39965ed833c14123df1389e5e",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

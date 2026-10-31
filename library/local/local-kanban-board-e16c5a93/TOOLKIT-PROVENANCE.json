@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "kanban-board",
+  "originalEntrypointSha256": "e16c5a931c651d4ea1371dfba9c88dc13ffe7fb1d746402ba7a890705ff505e5",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

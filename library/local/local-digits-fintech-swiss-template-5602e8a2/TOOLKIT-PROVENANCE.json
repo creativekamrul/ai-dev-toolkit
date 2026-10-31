@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "digits-fintech-swiss-template",
+  "originalEntrypointSha256": "5602e8a2354fc204ff1f09efff294eb75f8b07765ed37a9d25fe7600b2abc6eb",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

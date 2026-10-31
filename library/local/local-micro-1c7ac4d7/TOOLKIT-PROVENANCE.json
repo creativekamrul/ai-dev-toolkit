@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "micro",
+  "originalEntrypointSha256": "1c7ac4d7544f00222ef3894988f6d4d75fb087b5045941f793fd03fb4e141991",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

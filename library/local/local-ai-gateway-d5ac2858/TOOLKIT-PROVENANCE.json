@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ai-gateway",
+  "originalEntrypointSha256": "d5ac2858e3984b92b818f6ee28d7f9dd9e53b545052d0a6fb84e52e37fa1074b",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "figma-create-design-system-rules",
+  "originalEntrypointSha256": "a06b1e20570c2944cf87d134bc69b8b1cb9ea60dbc7cfc91dd2062c5efc27e54",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-conversation-orchestrator",
+  "originalEntrypointSha256": "0a853e4a23554431373875c67856bfa2977c40b2f2f4d3f2d76265d5e4744813",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

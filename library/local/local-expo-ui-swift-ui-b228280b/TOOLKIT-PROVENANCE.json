@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "expo-ui-swift-ui",
+  "originalEntrypointSha256": "b228280b7b201bee5a7a15167b28902f5171eb7ccc06ee85d6b6a7d4375c14e0",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

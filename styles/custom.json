@@ -1,0 +1,8 @@
+{
+  "id": "custom",
+  "name": "Custom direction / references",
+  "skills": [
+    "design-foundations"
+  ],
+  "instructions": "library/design/custom.md"
+}

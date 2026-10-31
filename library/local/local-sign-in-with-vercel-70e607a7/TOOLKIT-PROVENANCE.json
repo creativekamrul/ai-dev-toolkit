@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "sign-in-with-vercel",
+  "originalEntrypointSha256": "70e607a7cdef782d2ad2d2fd747fceedb2f7584da5f25f879421f4cf9592334d",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "local-import",
+  "originalName": "google-slides",
+  "originalEntrypointSha256": "2ca649eaf542c8c87a2f8e791c49435138c341513775460b2cf9c6e8231d9f59",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "host/export-and-render-slides.mjs",
+      "host/export-and-render-slides.test.mjs",
+      "host/read-template-to-file.mjs",
+      "runtime/common.mjs",
+      "runtime/design-system.mjs",
+      "runtime/media-geometry.mjs",
+      "runtime/normalize.mjs",
+      "runtime/output-issues.mjs",
+      "runtime/result.mjs",
+      "scripts/check_output_issues.mjs",
+      "scripts/parse_template_design_system.mjs"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

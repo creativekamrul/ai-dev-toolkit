@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "temporal-ops",
+  "originalEntrypointSha256": "1a05adeaa4305b23d9a4c0a3fa07b981e536624ec0ae402e2b6e7705c9c302cd",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

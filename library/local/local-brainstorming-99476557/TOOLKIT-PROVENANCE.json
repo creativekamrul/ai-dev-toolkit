@@ -1,0 +1,22 @@
+{
+  "kind": "local-import",
+  "originalName": "brainstorming",
+  "originalEntrypointSha256": "99476557e55f9daa60bee5ba350c2c2800fae621c54f5aca3c32ecb85f803a1a",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/helper.js",
+      "scripts/server.cjs",
+      "scripts/start-server.sh",
+      "scripts/stop-server.sh"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

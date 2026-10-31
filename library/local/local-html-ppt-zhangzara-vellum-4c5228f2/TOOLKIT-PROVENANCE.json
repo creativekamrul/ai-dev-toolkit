@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "html-ppt-zhangzara-vellum",
+  "originalEntrypointSha256": "4c5228f2c8efe43fd758d1c53db2e7881e37c1e7b9dfa426612f3ae625bfe6b4",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

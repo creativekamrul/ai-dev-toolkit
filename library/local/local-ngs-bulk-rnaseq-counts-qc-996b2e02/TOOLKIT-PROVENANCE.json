@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ngs-bulk-rnaseq-counts-qc",
+  "originalEntrypointSha256": "996b2e02bedf8802cccadf7efe50f76a21a0455a3343f6f305b1610e2aa9ab1c",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

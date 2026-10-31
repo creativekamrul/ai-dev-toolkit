@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "awesome-code-review",
+  "originalEntrypointSha256": "682d95be53b943d97353b08e25f430456ed979b56ebb33f4c256e0c017dfb6d2",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

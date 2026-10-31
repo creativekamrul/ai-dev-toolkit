@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-conference-calls",
+  "originalEntrypointSha256": "34bdab7b22e8004d7e09da7c24c24aeb0349ac9060a851c0800bf73959bd39d4",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

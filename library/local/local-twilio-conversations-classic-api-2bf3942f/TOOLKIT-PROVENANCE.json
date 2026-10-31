@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-conversations-classic-api",
+  "originalEntrypointSha256": "2bf3942f4444fda164a71bbdd9c0ae072450bdcc3b0b147f1096dbf963c47d4d",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "editorial",
+  "name": "Editorial / typographic",
+  "skills": [
+    "design-foundations"
+  ],
+  "instructions": "library/design/editorial.md"
+}

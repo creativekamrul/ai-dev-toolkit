@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "zoom-contact-center-web",
+  "originalEntrypointSha256": "3a53a5556e89c100b8eba72eb2e80c4ea25edc7947723a06120c1ea74f67c76a",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

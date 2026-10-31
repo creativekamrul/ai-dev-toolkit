@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "remotion-create",
+  "originalEntrypointSha256": "9ebd4ce02acf4705b8f3552a0a0b95168e27d56e155f887027217cc0aca4b2d4",
+  "source": "https://github.com/remotion-dev/remotion",
+  "attribution": "Remotion",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

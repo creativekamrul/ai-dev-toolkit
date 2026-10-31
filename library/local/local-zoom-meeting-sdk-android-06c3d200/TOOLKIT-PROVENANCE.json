@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "zoom-meeting-sdk-android",
+  "originalEntrypointSha256": "06c3d20088eac1187ea6b06e9edfabf4ae92f62083a525b0d6ee3c1ec256c0a3",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

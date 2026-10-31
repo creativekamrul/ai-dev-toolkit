@@ -1,0 +1,15 @@
+{
+  "id": "react-vite",
+  "name": "React + Vite + TypeScript",
+  "version": "0.2.0",
+  "skills": [
+    "block-code-review",
+    "frontend-implementation",
+    "project-delivery"
+  ],
+  "instructions": "library/instructions/react-vite.md",
+  "technologies": [
+    "react-vite"
+  ],
+  "status": "tested-resource-preset"
+}

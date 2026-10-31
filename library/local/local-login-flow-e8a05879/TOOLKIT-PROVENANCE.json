@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "login-flow",
+  "originalEntrypointSha256": "e8a05879a495106374ccae4a686ed7e47dcabc61aa99db3e8f2984cc0ca9e069",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

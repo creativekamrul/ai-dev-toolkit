@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "html-ppt-zhangzara-retro-zine",
+  "originalEntrypointSha256": "2da04eb2cf299ae90889f71ef32a93013e8e9b2607d7aa457a766ecdf98412c0",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

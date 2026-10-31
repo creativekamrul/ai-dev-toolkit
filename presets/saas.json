@@ -1,0 +1,16 @@
+{
+  "id": "saas",
+  "name": "SaaS product",
+  "version": "0.2.0",
+  "skills": [
+    "backend-implementation",
+    "block-code-review",
+    "frontend-implementation",
+    "project-delivery"
+  ],
+  "instructions": "library/instructions/saas.md",
+  "technologies": [
+    "saas"
+  ],
+  "status": "tested-resource-preset"
+}

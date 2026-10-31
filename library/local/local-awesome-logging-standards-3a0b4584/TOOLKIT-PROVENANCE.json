@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "awesome-logging-standards",
+  "originalEntrypointSha256": "3a0b458493dd8d40486387e3bf80807a1165611105a89c8c7713471472f9cdcc",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

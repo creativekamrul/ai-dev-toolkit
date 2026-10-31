@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "html-ppt-taste-editorial",
+  "originalEntrypointSha256": "9df2ab35ae0792fa06bcd94e8d54d69457b1801fc78f96ac5e6b3df91f337ed5",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "api-monitoring",
+  "originalEntrypointSha256": "8387ca06aac9cbba123a723aa4b18dd9690303f2dc30ebaf5d92fc1f624e598a",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

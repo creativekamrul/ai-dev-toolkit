@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "notion-research-documentation",
+  "originalEntrypointSha256": "b725a7981d65d08ea7b25b14b64c459c3370cfd8c7dc43480f4584f06b0cba0a",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

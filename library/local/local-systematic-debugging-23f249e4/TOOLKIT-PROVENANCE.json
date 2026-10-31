@@ -1,0 +1,20 @@
+{
+  "kind": "local-import",
+  "originalName": "systematic-debugging",
+  "originalEntrypointSha256": "23f249e47a3a4b06c3a5030e37aaf3ced12a54f406782766b384ed127d21eca4",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "condition-based-waiting-example.ts",
+      "find-polluter.sh"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

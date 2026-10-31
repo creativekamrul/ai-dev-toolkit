@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "zoom-video-sdk-ios",
+  "originalEntrypointSha256": "e5da2572b00b895a48dc9c43fe83431c96797ea030f36a46e91db03809d38c01",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

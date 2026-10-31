@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "zoom-meeting-sdk-react-native",
+  "originalEntrypointSha256": "eb2e2f7af2e5d2236d7bd74d36d7204de860a7e676a9f4670fdd88d6a21db24a",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

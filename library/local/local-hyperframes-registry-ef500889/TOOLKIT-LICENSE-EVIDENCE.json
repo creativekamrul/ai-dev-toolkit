@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "62bac68749b25388111208e36647c132a8bced89a46c7f9374eae303dd3d3c68",
+  "declaration": {
+    "name": "hyperframes",
+    "version": "0.1.2",
+    "license": "Apache-2.0"
+  },
+  "author": "HeyGen"
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ngs-dna-umi-panel-variants",
+  "originalEntrypointSha256": "c833f832f33fb23c723fac8ab264ad416191c575ba4acba436e50d5b63a09a96",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

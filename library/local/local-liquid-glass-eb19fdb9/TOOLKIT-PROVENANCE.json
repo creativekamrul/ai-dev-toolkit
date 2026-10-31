@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "liquid-glass",
+  "originalEntrypointSha256": "eb19fdb94ce30af1d9a1ca9036c836ed5116d3a1590100fe6b05b55e596abcac",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

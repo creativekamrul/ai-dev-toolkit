@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-compliance-traffic",
+  "originalEntrypointSha256": "909ee6c881908b72d47b80a58f130f822c281dc8fe2b91a5b5bf33065a06959e",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

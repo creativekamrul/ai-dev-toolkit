@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "venice-video",
+  "originalEntrypointSha256": "04bd59d445899d8893350b8ea8dc408a17cf1a1dba7e7dfff55c916a76e94e23",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

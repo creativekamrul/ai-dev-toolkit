@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "zoom-virtual-agent-ios",
+  "originalEntrypointSha256": "5dd5fe1a5fdbad229006e25be256221d5db35f0babedd404626d364de37324e2",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

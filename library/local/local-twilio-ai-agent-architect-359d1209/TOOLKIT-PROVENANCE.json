@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-ai-agent-architect",
+  "originalEntrypointSha256": "359d120970d04435f2892ab5b0dda6624861664065b7977cb386e2fce6a866af",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

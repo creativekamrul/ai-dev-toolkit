@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-messaging-overview",
+  "originalEntrypointSha256": "0ca2a4593cc00c8ad29543d9fea42d68ff00435761b6f302d16951827a37c484",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

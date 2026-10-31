@@ -1,0 +1,59 @@
+{
+  "checkedOn": "2026-10-31",
+  "sources": [
+    {
+      "id": "wordpress",
+      "repo": "WordPress/agent-skills",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "skills": 19
+    },
+    {
+      "id": "vercel",
+      "repo": "vercel-labs/agent-skills",
+      "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "skills": 9
+    },
+    {
+      "id": "cloudflare",
+      "repo": "cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "skills": 19
+    },
+    {
+      "id": "mongodb",
+      "repo": "mongodb/agent-skills",
+      "revision": "155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+      "skills": 24
+    },
+    {
+      "id": "supabase",
+      "repo": "supabase/agent-skills",
+      "revision": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "skills": 2
+    },
+    {
+      "id": "block",
+      "repo": "block/agent-skills",
+      "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+      "skills": 7
+    },
+    {
+      "id": "anthropic",
+      "repo": "anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "skills": 20
+    },
+    {
+      "id": "awesome",
+      "repo": "khasky/awesome-agent-skills",
+      "revision": "58ea4e8915de64907d04cc909a1b8c6e5cf0fcb7",
+      "skills": 49
+    },
+    {
+      "id": "superpowers",
+      "repo": "obra/superpowers",
+      "revision": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "skills": 15
+    }
+  ]
+}

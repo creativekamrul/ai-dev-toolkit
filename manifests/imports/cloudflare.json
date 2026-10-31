@@ -1,0 +1,256 @@
+{
+  "source": "cloudflare/skills",
+  "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+  "resources": [
+    {
+      "id": "cloudflare-agents-sdk",
+      "name": "agents-sdk",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/agents-sdk/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 23,
+      "executables": 0,
+      "flags": [
+        "external-service",
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "cloudflare-basin",
+      "name": "basin",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/basin/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 19,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "cloudflare-cf-cli",
+      "name": "cf-cli",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/cf-cli/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "cloudflare-cloudflare-email-service",
+      "name": "cloudflare-email-service",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/cloudflare-email-service/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 9,
+      "executables": 0,
+      "flags": [
+        "external-service",
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "cloudflare-cloudflare-one-migrations",
+      "name": "cloudflare-one-migrations",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/cloudflare-one-migrations/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "cloudflare-cloudflare-one",
+      "name": "cloudflare-one",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/cloudflare-one/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "cloudflare-cloudflare",
+      "name": "cloudflare",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/cloudflare/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 137,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "cloudflare-durable-objects",
+      "name": "durable-objects",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/durable-objects/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 7,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "cloudflare-gateway-workers",
+      "name": "gateway-workers",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/gateway-workers/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "cloudflare-k2",
+      "name": "k2",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/k2/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "cloudflare-nextjs-on-cloudflare",
+      "name": "nextjs-on-cloudflare",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/nextjs-on-cloudflare/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "cloudflare-sandbox-migrate-to-next",
+      "name": "sandbox-migrate-to-next",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/sandbox-migrate-to-next/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "cloudflare-sandbox-next",
+      "name": "sandbox-next",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/sandbox-next/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 6,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "cloudflare-sandbox-stable",
+      "name": "sandbox-stable",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/sandbox-stable/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "cloudflare-turnstile-spin",
+      "name": "turnstile-spin",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/turnstile-spin/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 17,
+      "executables": 5,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "cloudflare-web-perf",
+      "name": "web-perf",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/web-perf/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "cloudflare-workers-best-practices",
+      "name": "workers-best-practices",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/workers-best-practices/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 7,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "cloudflare-workers-profiling",
+      "name": "workers-profiling",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/workers-profiling/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "cloudflare-wrangler",
+      "name": "wrangler",
+      "source": "https://github.com/cloudflare/skills",
+      "revision": "1a33048817d06df12882cb881dfc754e7039954a",
+      "upstreamPath": "skills/wrangler/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    }
+  ]
+}

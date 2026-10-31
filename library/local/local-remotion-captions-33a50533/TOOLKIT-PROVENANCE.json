@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "remotion-captions",
+  "originalEntrypointSha256": "33a50533689e0a3bf909398f3b1358d7d69c96ec6d80cf47c11cc332e21bfbd2",
+  "source": "https://github.com/remotion-dev/remotion",
+  "attribution": "Remotion",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

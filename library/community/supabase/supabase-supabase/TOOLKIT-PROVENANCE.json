@@ -1,0 +1,19 @@
+{
+  "source": "https://github.com/supabase/agent-skills",
+  "revision": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+  "upstreamPath": "skills/supabase/SKILL.md",
+  "license": "MIT",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "44f4cfefb57751abf9288fb2920de621c748964de1301db627dea725e187bccf",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [],
+    "flags": [
+      "external-service"
+    ]
+  }
+}

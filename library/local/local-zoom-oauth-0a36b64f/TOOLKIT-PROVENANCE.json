@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "zoom-oauth",
+  "originalEntrypointSha256": "0a36b64fe5b58243ddd588c6e4e7b52d2e826ff3ec86b451d866575c1cc18eb3",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

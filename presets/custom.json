@@ -1,0 +1,14 @@
+{
+  "id": "custom",
+  "name": "Other / existing stack",
+  "version": "0.2.0",
+  "skills": [
+    "block-code-review",
+    "project-delivery"
+  ],
+  "instructions": "library/instructions/custom.md",
+  "technologies": [
+    "custom"
+  ],
+  "status": "tested-resource-preset"
+}

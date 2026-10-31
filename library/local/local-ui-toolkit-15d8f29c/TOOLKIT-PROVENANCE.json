@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ui-toolkit",
+  "originalEntrypointSha256": "15d8f29c330741d1946e6c8343d077cae230480f0a5e1f96cc973784f8838af9",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

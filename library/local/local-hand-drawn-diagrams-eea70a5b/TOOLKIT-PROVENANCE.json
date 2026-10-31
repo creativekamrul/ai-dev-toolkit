@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "hand-drawn-diagrams",
+  "originalEntrypointSha256": "eea70a5bb54a3b8b2e5cc2bf88030d5f433cf6597bd6a77c62c4851a3b2f6605",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

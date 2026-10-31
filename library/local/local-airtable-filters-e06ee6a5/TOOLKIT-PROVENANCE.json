@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "airtable-filters",
+  "originalEntrypointSha256": "e06ee6a50ca2586582c5666b1a5095845bc857549e1b2c86c8a52587d8d61845",
+  "source": null,
+  "attribution": "Airtable",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "automation-n8n",
+  "name": "n8n automation",
+  "version": "0.2.0",
+  "skills": [
+    "backend-implementation",
+    "block-code-review",
+    "project-delivery"
+  ],
+  "instructions": "library/instructions/automation-n8n.md",
+  "technologies": [
+    "automation-n8n"
+  ],
+  "status": "tested-resource-preset"
+}

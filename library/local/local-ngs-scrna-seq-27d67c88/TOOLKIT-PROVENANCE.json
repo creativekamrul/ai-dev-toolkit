@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ngs-scrna-seq",
+  "originalEntrypointSha256": "27d67c888d0e87d330c5e79b24646bcdfbe496c9e1d193650ae8ae0d067e0562",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

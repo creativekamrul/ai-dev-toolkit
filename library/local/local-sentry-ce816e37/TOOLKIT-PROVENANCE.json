@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "sentry",
+  "originalEntrypointSha256": "ce816e37e0790d01ec9aae9640889033b3fd8b144e9387c52ad621746650d601",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/sentry_api.py"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

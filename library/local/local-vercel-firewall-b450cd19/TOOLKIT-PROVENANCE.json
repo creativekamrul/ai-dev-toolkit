@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "vercel-firewall",
+  "originalEntrypointSha256": "b450cd19d3c451f1eb98a96ac625ac28bd497deb343c87c8ce854aa220509332",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

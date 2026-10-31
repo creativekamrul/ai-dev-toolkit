@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "cloudflare",
+  "originalEntrypointSha256": "016391794a80d83788053b0aae03fad653d93ae04a4a9a24c6ab346148a245d3",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

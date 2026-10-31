@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "threejs-data-visualization",
+  "originalEntrypointSha256": "406048727d478742f7073eba7e2a923a65ecdf88e5e346799560066cfd78eb45",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

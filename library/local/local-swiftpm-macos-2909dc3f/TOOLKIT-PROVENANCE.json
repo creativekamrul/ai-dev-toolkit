@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "swiftpm-macos",
+  "originalEntrypointSha256": "2909dc3fb6087e1c122a95e6d930ed1683719bb6a9f9f07466d16ece06ba0430",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

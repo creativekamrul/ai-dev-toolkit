@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "api-engineer",
+  "originalEntrypointSha256": "7f80754a2a04c85d040943e0112f5aa86102dcd10e3c68f64945a00af55bd78b",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

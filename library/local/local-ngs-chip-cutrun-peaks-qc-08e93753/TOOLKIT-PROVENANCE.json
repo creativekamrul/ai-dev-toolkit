@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ngs-chip-cutrun-peaks-qc",
+  "originalEntrypointSha256": "08e9375382093eb8d52f3d24436bc853e0d5e70184a5f8757e1933216db9d253",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

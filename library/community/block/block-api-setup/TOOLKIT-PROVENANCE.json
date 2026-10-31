@@ -1,0 +1,21 @@
+{
+  "source": "https://github.com/block/agent-skills",
+  "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+  "upstreamPath": "api-setup/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "ed006796002530a61b43381bc2594806b626b98b1711098ea4f8eb6619444cac",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [
+      "setup.sh"
+    ],
+    "flags": [
+      "external-service"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "debug-zoom-integration",
+  "originalEntrypointSha256": "8b813c5a5d4ec4875096a1b763846c4434319c6f13e9e198327019f69af3834b",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

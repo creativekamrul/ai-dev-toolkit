@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "notion-meeting-intelligence",
+  "originalEntrypointSha256": "b31e0a4e5c3fd223d2e945f0a6c645d5292e0127e01d057e95aa43a5a461cba2",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

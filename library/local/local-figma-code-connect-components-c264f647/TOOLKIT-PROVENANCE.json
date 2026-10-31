@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "figma-code-connect-components",
+  "originalEntrypointSha256": "c264f647713a72a3001407b975c825b2a278c4c0d5e18db097697b0cc54e774d",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

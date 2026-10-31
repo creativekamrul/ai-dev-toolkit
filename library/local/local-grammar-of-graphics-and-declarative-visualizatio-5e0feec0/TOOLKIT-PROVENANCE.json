@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "grammar-of-graphics-and-declarative-visualization",
+  "originalEntrypointSha256": "5e0feec02c4ae815013c983481c10611af02aa55a59786e86ee53e4c8ffeb1ff",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

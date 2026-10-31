@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "scrna-seq-qc",
+  "originalEntrypointSha256": "af2a2316e13480bbc8e0ba353001a130225d8bbc2f5b64d69ae2a849fa8b550a",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-voice-outbound-calls",
+  "originalEntrypointSha256": "cf1decfec757a31669fb9dcafae4c28d86f7d6127521cd239c891b9553687cd7",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

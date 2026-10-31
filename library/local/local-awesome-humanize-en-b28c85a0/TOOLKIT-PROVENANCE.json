@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "awesome-humanize-en",
+  "originalEntrypointSha256": "b28c85a05ebe45c88150b5994feb866fd5c723042431efa0a1ecdd77ee13d9c8",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

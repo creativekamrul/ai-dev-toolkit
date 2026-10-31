@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ngs-epigenomics-peaks",
+  "originalEntrypointSha256": "28003ac99d143538a37e5ace724eada6258121da7c30e412cba9c4b5e1c82b3e",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

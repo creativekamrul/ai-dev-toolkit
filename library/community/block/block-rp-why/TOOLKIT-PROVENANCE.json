@@ -1,0 +1,22 @@
+{
+  "source": "https://github.com/block/agent-skills",
+  "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+  "upstreamPath": "rp-why/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "7654fee7d9db7d35dda962caacd48129be6d8a3c00ecc3929d929763c821a3ea",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [
+      "scripts/goose_skill.py",
+      "scripts/growth_nudge.py",
+      "scripts/rp_why_baseline.py",
+      "scripts/rp_why_core.py"
+    ],
+    "flags": []
+  }
+}

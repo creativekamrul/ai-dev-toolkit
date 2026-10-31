@@ -1,0 +1,15 @@
+{
+  "id": "node-express",
+  "name": "Node.js + Express API",
+  "version": "0.2.0",
+  "skills": [
+    "backend-implementation",
+    "block-code-review",
+    "project-delivery"
+  ],
+  "instructions": "library/instructions/node-express.md",
+  "technologies": [
+    "node-express"
+  ],
+  "status": "tested-resource-preset"
+}

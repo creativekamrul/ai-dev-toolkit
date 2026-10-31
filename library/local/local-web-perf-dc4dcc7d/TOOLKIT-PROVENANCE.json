@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "web-perf",
+  "originalEntrypointSha256": "dc4dcc7dc370014f94056e62608f8fb2068821e4970b75ecf63a221692e3d763",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "Cloudflare",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

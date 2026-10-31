@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "gsap-scrolltrigger",
+  "originalEntrypointSha256": "f9ecb05778abbd458f04ba5069529db8ccbc4df6e2b961e228185e10fe98d34f",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

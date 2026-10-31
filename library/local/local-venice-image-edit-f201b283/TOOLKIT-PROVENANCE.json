@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "venice-image-edit",
+  "originalEntrypointSha256": "f201b28391e3583d833d3c8fd4159278e640e046b3086819eab81a0583de130e",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

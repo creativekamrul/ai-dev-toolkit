@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "routing-middleware",
+  "originalEntrypointSha256": "3560dea241982f6c15bc9bcc66a2ad12b6e902dc94ec7aa4c8a47de1953c604d",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

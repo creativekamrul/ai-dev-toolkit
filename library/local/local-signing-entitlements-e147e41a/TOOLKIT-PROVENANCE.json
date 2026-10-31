@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "signing-entitlements",
+  "originalEntrypointSha256": "e147e41ad12c6b1f199e5d299d2151fe69a3602f49c234e7ae79331b9dc60336",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

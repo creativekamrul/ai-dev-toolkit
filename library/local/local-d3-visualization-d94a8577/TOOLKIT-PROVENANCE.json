@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "d3-visualization",
+  "originalEntrypointSha256": "d94a8577ebb6f396d9dc09c60a09177524e35ec2db4ac614fcdb887f726ff509",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

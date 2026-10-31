@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "trading-analysis-dashboard-template",
+  "originalEntrypointSha256": "c8aa0da35bd6d860226d74d7dd8c43fd2d46c62427fc7018de3992e9ad19d4d2",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

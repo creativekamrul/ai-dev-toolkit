@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "scrollytelling-and-parallax-data-visualization",
+  "originalEntrypointSha256": "2b0d62b04f1555e1a28ea1ae87b25793e47220e8a6c1fb6d044531a567745d0e",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

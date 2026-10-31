@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "mongodb-mcp-setup",
+  "originalEntrypointSha256": "8b8c003869e5e67c18048688d46b42dae2b4becdeaf7376e3c1b830658dddce3",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

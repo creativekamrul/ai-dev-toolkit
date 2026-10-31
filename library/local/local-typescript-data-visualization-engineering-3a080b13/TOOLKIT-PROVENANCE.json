@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "typescript-data-visualization-engineering",
+  "originalEntrypointSha256": "3a080b13543b99749926504659f8095c3f6f644e88b2a55ca902ae21d1845fa1",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

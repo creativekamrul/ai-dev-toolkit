@@ -1,0 +1,32 @@
+{
+  "source": "supabase/agent-skills",
+  "revision": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+  "resources": [
+    {
+      "id": "supabase-supabase-postgres-best-practices",
+      "name": "supabase-postgres-best-practices",
+      "source": "https://github.com/supabase/agent-skills",
+      "revision": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "upstreamPath": "skills/supabase-postgres-best-practices/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 38,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "supabase-supabase",
+      "name": "supabase",
+      "source": "https://github.com/supabase/agent-skills",
+      "revision": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "upstreamPath": "skills/supabase/SKILL.md",
+      "status": "bundled-screened",
+      "license": "MIT",
+      "files": 6,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source": "https://github.com/WordPress/agent-skills",
+  "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+  "upstreamPath": "skills/wp-block-themes/SKILL.md",
+  "license": "GPL-2.0-or-later",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "1fdcec821283d2450d10791573c8f734bf22464bad3db6b9465f29365d35d49b",
+  "localChanges": [
+    "Namespaced discovery name",
+    "Adapted SKILL.md paths to installed WordPress skill locations",
+    "Exclude .agents, .ai-team and .ai-toolkit from detectors"
+  ],
+  "review": {
+    "status": "reviewed",
+    "scope": "Entrypoint/supporting instructions reviewed; WordPress scripts are local read-only detectors; installed-path and fixture tests recorded separately.",
+    "executableFiles": [
+      "scripts/detect_block_themes.mjs"
+    ],
+    "flags": []
+  }
+}

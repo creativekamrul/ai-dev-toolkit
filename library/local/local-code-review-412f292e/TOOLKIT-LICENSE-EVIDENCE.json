@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "dca682ef743adc3db3bd67252118a3dc26c8b04a55175304b59dd9fefeae65aa",
+  "declaration": {
+    "name": "coderabbit",
+    "version": "1.1.4",
+    "license": "MIT"
+  },
+  "author": "CodeRabbit AI"
+}

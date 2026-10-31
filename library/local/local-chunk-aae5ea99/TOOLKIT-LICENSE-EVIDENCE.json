@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "92d032c70941d2d6b8fff1216b93fff4d3f742e83a26e0dbd423d84ed86b27dc",
+  "declaration": {
+    "name": "circleci",
+    "version": "1.0.4",
+    "license": "MIT"
+  },
+  "author": "CircleCI"
+}

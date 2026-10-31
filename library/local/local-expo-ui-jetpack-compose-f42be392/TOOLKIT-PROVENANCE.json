@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "expo-ui-jetpack-compose",
+  "originalEntrypointSha256": "f42be3925715a265deb1fe4c3b7cbe0c155e4f9b23ea3b218f69c6f4850c7387",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

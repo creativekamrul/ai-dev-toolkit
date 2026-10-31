@@ -1,0 +1,20 @@
+{
+  "kind": "local-import",
+  "originalName": "ios-ettrace-performance",
+  "originalEntrypointSha256": "4168abbda20d812f886e2b01bda8db099d7418c0f63bccf8ba1278e550f5ed04",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/analyze_flamegraph_json.py",
+      "scripts/collect_ios_dsyms.sh"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

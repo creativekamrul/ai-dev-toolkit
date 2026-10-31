@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "phaser-2d-game",
+  "originalEntrypointSha256": "a1268f00d6ac270fed74bc246358758e9f0ca6cf5764e628be0d5528cae5cff4",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

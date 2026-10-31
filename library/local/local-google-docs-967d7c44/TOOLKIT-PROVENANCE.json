@@ -1,0 +1,33 @@
+{
+  "kind": "local-import",
+  "originalName": "google-docs",
+  "originalEntrypointSha256": "967d7c44cc08056097e7125a86907061cdfd258cf124562ece2f880dfa2ac542",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "host/docs-dropdown-executor.mjs",
+      "host/docs-dropdown-file-bridge.mjs",
+      "host/docs-trusted-read-file-bridge.mjs",
+      "host/docs-trusted-read-wrapper.mjs",
+      "runtime/docs-read-normalizer.mjs",
+      "runtime/dropdown-common.mjs",
+      "runtime/dropdown-contract.mjs",
+      "runtime/dropdown-inventory.mjs",
+      "runtime/dropdown-plan.mjs",
+      "runtime/dropdown-routing.mjs",
+      "scripts/build_docs_dropdown_inventory.mjs",
+      "scripts/canonicalize_google_workspace_url.mjs",
+      "scripts/create_docs_dropdown_execution_context.mjs",
+      "scripts/freeze_docs_dropdown_contract.mjs",
+      "scripts/validate_docs_dropdown_plan.mjs"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

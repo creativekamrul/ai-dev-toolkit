@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "awesome-architecture-audit",
+  "originalEntrypointSha256": "2ab815b607cd3515b04270d72797dbd269cdf3070ff5c9fa56b401b44657bd69",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

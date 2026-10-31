@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "plugin-eval",
+  "originalEntrypointSha256": "85338f56d2d8a6051d03ccfba52b00c5b9224c6b78f241315216432af1063f7d",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI Codex",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "api-simulation",
+  "originalEntrypointSha256": "394a99687a488b7f56692aae75d5aad31e42fd9ec45dd9b16876c4291983239f",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "live-dashboard",
+  "originalEntrypointSha256": "ad89babaca02b7c6c150fe152b60b08f99858314c48cc168dab47560c4908bfd",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

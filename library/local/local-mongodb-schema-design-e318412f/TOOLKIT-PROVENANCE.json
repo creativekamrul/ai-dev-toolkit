@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "mongodb-schema-design",
+  "originalEntrypointSha256": "e318412f8694fcac4d4850ab0f27ac816c3fb6cc6af14b8a46a1e74850d10320",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

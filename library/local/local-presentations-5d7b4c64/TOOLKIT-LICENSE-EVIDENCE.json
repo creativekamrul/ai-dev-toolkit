@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "d40401d70f2c232cda6d554525dbb55844167e911285c73def1b1796bb559715",
+  "declaration": {
+    "name": "presentations",
+    "version": "26.1026.10807",
+    "license": "MIT"
+  },
+  "author": "OpenAI"
+}

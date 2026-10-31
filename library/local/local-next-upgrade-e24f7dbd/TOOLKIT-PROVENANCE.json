@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "next-upgrade",
+  "originalEntrypointSha256": "e24f7dbd44377a6c3049c06695e6646a728e600fd901904abe18a15a48dc2858",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

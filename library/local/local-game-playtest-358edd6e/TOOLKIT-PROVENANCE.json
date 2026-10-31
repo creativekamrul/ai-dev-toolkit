@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "game-playtest",
+  "originalEntrypointSha256": "358edd6e387a8e5bfb1c025fc9d98e9d6962864dc5fbad3b737513a7d402bbd8",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

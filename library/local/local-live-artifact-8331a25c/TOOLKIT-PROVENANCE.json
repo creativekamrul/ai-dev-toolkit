@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "live-artifact",
+  "originalEntrypointSha256": "8331a25cbd221d3fd0129f2f737354c65ba34cb501aa64e4c4fa5a632c3a9ffe",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

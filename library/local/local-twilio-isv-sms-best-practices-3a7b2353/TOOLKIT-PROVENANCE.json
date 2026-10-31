@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-isv-sms-best-practices",
+  "originalEntrypointSha256": "3a7b23538ba7f8f13430c639a165bf2e1419e5db6be74783a11219b35abb5a94",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "Zotero",
+  "originalEntrypointSha256": "4916e6ddf6daa27028f87b63216710da883cc1dc215c5e991d518c36f53290a6",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/zotero.py"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

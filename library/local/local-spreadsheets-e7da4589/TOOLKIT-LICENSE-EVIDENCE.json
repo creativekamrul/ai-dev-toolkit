@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "48448c101b12fe7c2d1ea53aea61517cd73ca9841e5aa54e66e0793bbd4f535a",
+  "declaration": {
+    "name": "spreadsheets",
+    "version": "26.1026.10807",
+    "license": "MIT"
+  },
+  "author": "OpenAI"
+}

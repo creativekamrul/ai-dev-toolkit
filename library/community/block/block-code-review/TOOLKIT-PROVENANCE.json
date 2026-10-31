@@ -1,0 +1,17 @@
+{
+  "source": "https://github.com/block/agent-skills",
+  "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+  "upstreamPath": "code-review/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "c80210170e14ae35a7691f593503c24324b0c01a8233e8c22557dc3f9469a9f4",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "reviewed",
+    "scope": "Entrypoint/supporting instructions reviewed; WordPress scripts are local read-only detectors; installed-path and fixture tests recorded separately.",
+    "executableFiles": [],
+    "flags": []
+  }
+}

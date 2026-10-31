@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "pptx",
+  "originalEntrypointSha256": "30d16fac7caa5942513e72453ab121c8305adcc7dcde3a032acdb0437796a24b",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

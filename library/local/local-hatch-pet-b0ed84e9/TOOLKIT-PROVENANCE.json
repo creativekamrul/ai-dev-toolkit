@@ -1,0 +1,33 @@
+{
+  "kind": "local-import",
+  "originalName": "hatch-pet",
+  "originalEntrypointSha256": "b0ed84e98392b8d1eb998f4a9ae4a560dd602f3d47927f5c6b64bb2913718169",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/compose_atlas.py",
+      "scripts/derive_running_left_from_running_right.py",
+      "scripts/extract_strip_frames.py",
+      "scripts/finalize_pet_run.py",
+      "scripts/generate_pet_images.py",
+      "scripts/inspect_frames.py",
+      "scripts/make_contact_sheet.py",
+      "scripts/package_custom_pet.py",
+      "scripts/pet_job_status.py",
+      "scripts/prepare_pet_run.py",
+      "scripts/queue_pet_repairs.py",
+      "scripts/record_imagegen_result.py",
+      "scripts/render_animation_videos.py",
+      "scripts/render_animation_videos.sh",
+      "scripts/validate_atlas.py"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

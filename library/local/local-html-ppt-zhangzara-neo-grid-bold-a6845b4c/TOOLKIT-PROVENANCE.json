@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "html-ppt-zhangzara-neo-grid-bold",
+  "originalEntrypointSha256": "a6845b4c0572d8352b806dfce82bcbd5a229e3d893a8235f7ba4350a2c265150",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "assets/deck-stage.js"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

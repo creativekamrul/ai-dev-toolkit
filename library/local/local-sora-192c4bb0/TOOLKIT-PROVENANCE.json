@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "sora",
+  "originalEntrypointSha256": "192c4bb0c1a9d559b76e1c349185db7b0e50351574e1e33760800370b69ab448",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

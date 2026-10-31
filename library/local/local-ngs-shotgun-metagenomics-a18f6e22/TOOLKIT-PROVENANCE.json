@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ngs-shotgun-metagenomics",
+  "originalEntrypointSha256": "a18f6e22e6ae9d02b60d85b6bb23873eda0a6e1def5850d91bbca4294699eb57",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

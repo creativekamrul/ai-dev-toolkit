@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "next-forge",
+  "originalEntrypointSha256": "7082cbf95d275f5131a78c82d6ec894f90f2f9cd84c43bba3344228775124ac9",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

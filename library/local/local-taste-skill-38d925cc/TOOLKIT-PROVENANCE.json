@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "taste-skill",
+  "originalEntrypointSha256": "38d925cc85cd4aec17c68dc6e13395c84dbcb4a00d6a05d5580d0892401bd2b9",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

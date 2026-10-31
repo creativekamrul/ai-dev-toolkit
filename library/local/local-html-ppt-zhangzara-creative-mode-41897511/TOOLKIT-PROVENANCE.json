@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "html-ppt-zhangzara-creative-mode",
+  "originalEntrypointSha256": "418975117ae8253ee9ea856a1e924c75138c7da09cc55d34a0c46335e443edfe",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "assets/deck-stage.js"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "adobe-create-mockups",
+  "originalEntrypointSha256": "c1af94c35997674b616a7f99a24dd8f75afd25d755bd3e086deced96775bb9fd",
+  "source": null,
+  "attribution": "Adobe Inc",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

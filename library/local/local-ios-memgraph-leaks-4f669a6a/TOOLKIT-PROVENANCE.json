@@ -1,0 +1,20 @@
+{
+  "kind": "local-import",
+  "originalName": "ios-memgraph-leaks",
+  "originalEntrypointSha256": "4f669a6adf5a146a814e7f47b8b352b3fc5a0dea1a7c36108c73698478e2eb40",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/capture_sim_memgraph.sh",
+      "scripts/summarize_memgraph_leaks.py"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

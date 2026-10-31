@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "tweaks",
+  "originalEntrypointSha256": "1ed8d0c3a7ff61e897ef4653f9b1ec61b82188421d56ad3d544506921e55cad2",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

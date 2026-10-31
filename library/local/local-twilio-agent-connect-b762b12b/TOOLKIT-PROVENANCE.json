@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-agent-connect",
+  "originalEntrypointSha256": "b762b12b7ad33955e10c9233e0b64728300dff8aa9fe57765ba3dd85279a71c0",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "social-carousel",
+  "originalEntrypointSha256": "cb0c3ac321cbd850a53da00a6ad1b901d40dc89e447c61ed697b456628776f28",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

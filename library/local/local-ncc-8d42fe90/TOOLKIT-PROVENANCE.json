@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ncc",
+  "originalEntrypointSha256": "8d42fe90c5af043ce384d7f57c1ef68843c3935d4d1603ab557984f8bc849764",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

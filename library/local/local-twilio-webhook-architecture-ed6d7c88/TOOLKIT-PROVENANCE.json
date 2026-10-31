@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-webhook-architecture",
+  "originalEntrypointSha256": "ed6d7c88f1ae60212cb79eed7d54fa7c2807c87a9d03ff41e2971b302c8bbd44",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "cb6234036158a5bd90f376fde7ef3fc7e6f0de772df4b570dfe491653eda830f",
+  "declaration": {
+    "name": "pdf",
+    "version": "26.1026.10807",
+    "license": "MIT"
+  },
+  "author": "OpenAI"
+}

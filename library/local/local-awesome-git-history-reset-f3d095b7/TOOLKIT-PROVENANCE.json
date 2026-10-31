@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "awesome-git-history-reset",
+  "originalEntrypointSha256": "f3d095b7d0ff5674d74910ec0ed45e419288982b886b2e1687df8610edfa6a04",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "source": "vercel-labs/agent-skills",
+  "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+  "resources": [
+    {
+      "id": "vercel-vercel-composition-patterns",
+      "name": "vercel-composition-patterns",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "upstreamPath": "skills/composition-patterns/SKILL.md",
+      "status": "reference-only",
+      "reason": "license-text-not-found"
+    },
+    {
+      "id": "vercel-deploy-to-vercel",
+      "name": "deploy-to-vercel",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "upstreamPath": "skills/deploy-to-vercel/SKILL.md",
+      "status": "reference-only",
+      "reason": "license-text-not-found"
+    },
+    {
+      "id": "vercel-vercel-react-best-practices",
+      "name": "vercel-react-best-practices",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "upstreamPath": "skills/react-best-practices/SKILL.md",
+      "status": "reference-only",
+      "reason": "license-text-not-found"
+    },
+    {
+      "id": "vercel-vercel-react-native-skills",
+      "name": "vercel-react-native-skills",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "upstreamPath": "skills/react-native-skills/SKILL.md",
+      "status": "reference-only",
+      "reason": "license-text-not-found"
+    },
+    {
+      "id": "vercel-vercel-react-view-transitions",
+      "name": "vercel-react-view-transitions",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "upstreamPath": "skills/react-view-transitions/SKILL.md",
+      "status": "reference-only",
+      "reason": "license-text-not-found"
+    },
+    {
+      "id": "vercel-vercel-cli-with-tokens",
+      "name": "vercel-cli-with-tokens",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "upstreamPath": "skills/vercel-cli-with-tokens/SKILL.md",
+      "status": "reference-only",
+      "reason": "license-text-not-found"
+    },
+    {
+      "id": "vercel-vercel-optimize",
+      "name": "vercel-optimize",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "upstreamPath": "skills/vercel-optimize/SKILL.md",
+      "status": "reference-only",
+      "reason": "license-text-not-found"
+    },
+    {
+      "id": "vercel-web-design-guidelines",
+      "name": "web-design-guidelines",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "upstreamPath": "skills/web-design-guidelines/SKILL.md",
+      "status": "reference-only",
+      "reason": "license-text-not-found"
+    },
+    {
+      "id": "vercel-writing-guidelines",
+      "name": "writing-guidelines",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "upstreamPath": "skills/writing-guidelines/SKILL.md",
+      "status": "reference-only",
+      "reason": "license-text-not-found"
+    }
+  ]
+}

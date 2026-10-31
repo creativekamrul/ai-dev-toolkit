@@ -1,0 +1,20 @@
+{
+  "kind": "local-import",
+  "originalName": "web-artifacts-builder",
+  "originalEntrypointSha256": "fed403699c30a8dfc91b43bc82e76c06a0e935e86395cab943644767878a48d4",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/bundle-artifact.sh",
+      "scripts/init-artifact.sh"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

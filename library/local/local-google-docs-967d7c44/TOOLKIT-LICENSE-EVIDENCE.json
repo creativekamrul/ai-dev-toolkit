@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "df9a3e97465c6a87f53589d8832090c887191e794ea155a1bd57a264221a8c68",
+  "declaration": {
+    "name": "google-drive",
+    "version": "0.1.15",
+    "license": "MIT"
+  },
+  "author": "OpenAI"
+}

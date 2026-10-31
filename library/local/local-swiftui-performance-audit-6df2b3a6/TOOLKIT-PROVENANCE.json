@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "swiftui-performance-audit",
+  "originalEntrypointSha256": "6df2b3a6da89129507248384e084bc83985626ddd4f70be0e39c6e9c707f366c",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

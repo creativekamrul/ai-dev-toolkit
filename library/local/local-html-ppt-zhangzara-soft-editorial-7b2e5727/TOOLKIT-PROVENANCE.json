@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "html-ppt-zhangzara-soft-editorial",
+  "originalEntrypointSha256": "7b2e57273daa180cbbd61551fa7c4d2740b9e0177befcdae0e36ae64099e8d16",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "assets/deck-stage.js"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

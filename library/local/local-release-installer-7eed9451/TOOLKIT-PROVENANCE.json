@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "release-installer",
+  "originalEntrypointSha256": "7eed9451f4345e9d40028afb4a60a2024ffd208f01685ef7217a12ea1c81d073",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/release.mjs"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

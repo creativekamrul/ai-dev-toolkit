@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "shadcn",
+  "originalEntrypointSha256": "3acfc1f7f1f0cc19380d641a894db8b54552f0bd47c97a786e85ae74f748e6e0",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

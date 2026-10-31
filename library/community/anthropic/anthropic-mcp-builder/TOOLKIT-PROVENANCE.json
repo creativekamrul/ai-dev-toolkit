@@ -1,0 +1,24 @@
+{
+  "source": "https://github.com/anthropics/skills",
+  "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+  "upstreamPath": "skills/mcp-builder/SKILL.md",
+  "license": "Apache-2.0",
+  "licenseEvidence": "skills/mcp-builder/LICENSE.txt",
+  "upstreamEntrypointSha256": "323a42dcf2bd27b8dcd8e903f060414643c65987d77fce5af13f9357a4fba49d",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [
+      "scripts/connections.py",
+      "scripts/evaluation.py"
+    ],
+    "flags": [
+      "destructive-workflow",
+      "external-service",
+      "agent-framework-assumptions"
+    ]
+  }
+}

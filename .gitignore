@@ -1,0 +1,18 @@
+# Local discovery contains private filesystem paths and project metadata.
+/docs/LOCAL-INVENTORY.md
+/.local/
+/staging/*
+!/staging/README.md
+/examples/generated/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+auth.json
+auth.json.*
+credentials*
+*.pem
+*.key
+node_modules/
+

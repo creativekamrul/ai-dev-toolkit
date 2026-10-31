@@ -1,0 +1,8 @@
+{
+  "id": "inherit",
+  "name": "Match existing design",
+  "skills": [
+    "design-foundations"
+  ],
+  "instructions": "library/design/inherit.md"
+}

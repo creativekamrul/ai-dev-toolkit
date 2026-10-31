@@ -1,0 +1,15 @@
+{
+  "id": "nestjs",
+  "name": "NestJS + PostgreSQL",
+  "version": "0.2.0",
+  "skills": [
+    "backend-implementation",
+    "block-code-review",
+    "project-delivery"
+  ],
+  "instructions": "library/instructions/nestjs.md",
+  "technologies": [
+    "nestjs"
+  ],
+  "status": "tested-resource-preset"
+}

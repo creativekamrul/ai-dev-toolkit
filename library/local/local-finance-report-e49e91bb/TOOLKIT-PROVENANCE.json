@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "finance-report",
+  "originalEntrypointSha256": "e49e91bbf77406e7e891547f55f5c20c418e866c562845f5c4e5ec3ff40dccb8",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

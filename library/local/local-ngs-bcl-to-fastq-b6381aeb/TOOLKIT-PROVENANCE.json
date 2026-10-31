@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ngs-bcl-to-fastq",
+  "originalEntrypointSha256": "b6381aeb9f28014205a893189a1ca4f7e0408bfeecd37425b245c4379cfe0f8b",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

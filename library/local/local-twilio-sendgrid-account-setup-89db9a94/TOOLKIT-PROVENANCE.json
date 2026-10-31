@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-sendgrid-account-setup",
+  "originalEntrypointSha256": "89db9a94ac1c31f8777258108265e9c5b588da759c77f0195cbbcfead588196c",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

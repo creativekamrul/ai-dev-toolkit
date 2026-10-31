@@ -1,0 +1,114 @@
+{
+  "source": "mongodb/agent-skills",
+  "revision": "155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+  "resources": [
+    {
+      "id": "mongodb-mongodb-atlas-stream-processing",
+      "name": "mongodb-atlas-stream-processing",
+      "source": "https://github.com/mongodb/agent-skills",
+      "revision": "155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+      "upstreamPath": "skills/mongodb-atlas-stream-processing/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 9,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "mongodb-mongodb-connection",
+      "name": "mongodb-connection",
+      "source": "https://github.com/mongodb/agent-skills",
+      "revision": "155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+      "upstreamPath": "skills/mongodb-connection/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "mongodb-mongodb-mcp-setup",
+      "name": "mongodb-mcp-setup",
+      "source": "https://github.com/mongodb/agent-skills",
+      "revision": "155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+      "upstreamPath": "skills/mongodb-mcp-setup/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 3,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "mongodb-mongodb-natural-language-querying",
+      "name": "mongodb-natural-language-querying",
+      "source": "https://github.com/mongodb/agent-skills",
+      "revision": "155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+      "upstreamPath": "skills/mongodb-natural-language-querying/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 3,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "mongodb-mongodb-qe-size-estimation",
+      "name": "mongodb-qe-size-estimation",
+      "source": "https://github.com/mongodb/agent-skills",
+      "revision": "155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+      "upstreamPath": "skills/mongodb-qe-size-estimation/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 3,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "mongodb-mongodb-query-optimizer",
+      "name": "mongodb-query-optimizer",
+      "source": "https://github.com/mongodb/agent-skills",
+      "revision": "155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+      "upstreamPath": "skills/mongodb-query-optimizer/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 7,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "mongodb-mongodb-schema-design",
+      "name": "mongodb-schema-design",
+      "source": "https://github.com/mongodb/agent-skills",
+      "revision": "155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+      "upstreamPath": "skills/mongodb-schema-design/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 23,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "mongodb-mongodb-search-and-ai",
+      "name": "mongodb-search-and-ai",
+      "source": "https://github.com/mongodb/agent-skills",
+      "revision": "155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+      "upstreamPath": "skills/mongodb-search-and-ai/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 10,
+      "executables": 1,
+      "flags": [
+        "external-service"
+      ]
+    }
+  ]
+}

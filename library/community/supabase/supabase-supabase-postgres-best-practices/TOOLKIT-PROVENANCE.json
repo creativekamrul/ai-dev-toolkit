@@ -1,0 +1,17 @@
+{
+  "source": "https://github.com/supabase/agent-skills",
+  "revision": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+  "upstreamPath": "skills/supabase-postgres-best-practices/SKILL.md",
+  "license": "MIT",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "4d7d1bd60f2ad7fd0d510269279519059dcc630d832f4c241d90735244c70525",
+  "localChanges": [
+    "Namespaced discovery name"
+  ],
+  "review": {
+    "status": "screened",
+    "scope": "license evidence, YAML, file inventory, size, executable presence and common secret patterns; no behavioral approval",
+    "executableFiles": [],
+    "flags": []
+  }
+}

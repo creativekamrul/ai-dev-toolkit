@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ui-ux-pro-max",
+  "originalEntrypointSha256": "94e5aa404083637b7ffb64c2f1114306f9a0108872010098ab5924d1be9adc5b",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

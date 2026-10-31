@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "d61f62701317934848caa4701953ddfa5c21d315d54112d6f76dbfb90fa94518",
+  "declaration": {
+    "name": "twilio-developer-kit",
+    "version": "0.2.2",
+    "license": "MIT"
+  },
+  "author": "Twilio"
+}

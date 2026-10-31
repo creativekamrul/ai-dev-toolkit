@@ -1,0 +1,20 @@
+{
+  "kind": "local-import",
+  "originalName": "hyperframes",
+  "originalEntrypointSha256": "b9125909126432cadf6ebe2bf57be78f26439aa5dac5b14e0dfaf7c3d8015da2",
+  "source": "https://github.com/heygen-com/hyperframes",
+  "attribution": "HeyGen",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/animation-map.mjs",
+      "scripts/contrast-report.mjs"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

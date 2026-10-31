@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "using-superpowers",
+  "originalEntrypointSha256": "3ff749d00d9baa18813a2ec2a114d09b6c0bf6e9938b030aac617c0ea12added",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

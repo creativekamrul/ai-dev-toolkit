@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "boltz-structure-and-binding",
+  "originalEntrypointSha256": "0528dc26a12ede4401ca48b193119327dfde815873dc1fe5d35bc0df8aaca65d",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "motion-frames",
+  "originalEntrypointSha256": "e500c2459ab87d89aecd43420db48d549fdf819faac7655e9b7a084a91721e81",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

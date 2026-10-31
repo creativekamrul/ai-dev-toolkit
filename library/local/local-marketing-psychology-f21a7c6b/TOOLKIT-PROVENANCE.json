@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "marketing-psychology",
+  "originalEntrypointSha256": "f21a7c6b4965ff2917540de775e56fffc4f09d58964cfd758dbaf3bbeea160d1",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

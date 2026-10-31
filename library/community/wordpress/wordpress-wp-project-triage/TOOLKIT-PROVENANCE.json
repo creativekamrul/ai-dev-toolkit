@@ -1,0 +1,22 @@
+{
+  "source": "https://github.com/WordPress/agent-skills",
+  "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+  "upstreamPath": "skills/wp-project-triage/SKILL.md",
+  "license": "GPL-2.0-or-later",
+  "licenseEvidence": "LICENSE",
+  "upstreamEntrypointSha256": "d29a1d8220779227f77d616478cff07b45df096714fad643e17c14fa0ac820c1",
+  "localChanges": [
+    "Namespaced discovery name",
+    "Adapted SKILL.md paths to installed WordPress skill locations",
+    "Exclude .agents, .ai-team and .ai-toolkit from detectors",
+    "Allow null optional paths in schema to match detector output"
+  ],
+  "review": {
+    "status": "reviewed",
+    "scope": "Entrypoint/supporting instructions reviewed; WordPress scripts are local read-only detectors; installed-path and fixture tests recorded separately.",
+    "executableFiles": [
+      "scripts/detect_wp_project.mjs"
+    ],
+    "flags": []
+  }
+}

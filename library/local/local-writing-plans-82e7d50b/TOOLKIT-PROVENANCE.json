@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "writing-plans",
+  "originalEntrypointSha256": "82e7d50b27b5f460a1f30858408483cbbdda55b1b3da78e3fd86fa7b60573081",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

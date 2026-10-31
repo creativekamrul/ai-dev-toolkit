@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "api-mocking",
+  "originalEntrypointSha256": "f480ee9b73b91fdd7e55aea9583f3d59bd6ae4ed8ab62bfec0e2f4f7e4666db3",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

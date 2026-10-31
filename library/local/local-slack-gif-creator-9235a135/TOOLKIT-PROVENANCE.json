@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "slack-gif-creator",
+  "originalEntrypointSha256": "9235a13514c673caf1aa7a5b4dfaede9cdac90df0492fc2008d490dde5482a56",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "wordpress-headless",
+  "name": "Headless WordPress + Next.js",
+  "version": "0.2.0",
+  "skills": [
+    "backend-implementation",
+    "block-code-review",
+    "frontend-implementation",
+    "php-development",
+    "project-delivery",
+    "wordpress-wp-project-triage"
+  ],
+  "instructions": "library/instructions/wordpress-headless.md",
+  "technologies": [
+    "wordpress-headless"
+  ],
+  "status": "tested-resource-preset"
+}

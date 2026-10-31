@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "google-drive",
+  "originalEntrypointSha256": "b10e70c54dda846125140a4037f44f059a03203c089ee321691aed42ebbab1f2",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

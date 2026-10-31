@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "copywriting",
+  "originalEntrypointSha256": "5ab59d808a3ea2edd470319c1e0516ebf39bd0e7d90469e3300f37dec1430478",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

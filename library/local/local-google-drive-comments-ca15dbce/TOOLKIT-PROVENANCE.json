@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "google-drive-comments",
+  "originalEntrypointSha256": "ca15dbcec6d56cb6ad73b32126ad8469af657960a599e36a435835bb383bbdaf",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

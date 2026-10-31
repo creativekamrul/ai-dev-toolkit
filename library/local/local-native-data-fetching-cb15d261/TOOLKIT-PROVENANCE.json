@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "native-data-fetching",
+  "originalEntrypointSha256": "cb15d261969ff8b294e2c69c3c99e808f76362a83fc0ac6c389f6f8f6b973a4c",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

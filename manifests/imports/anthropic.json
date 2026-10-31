@@ -1,0 +1,232 @@
+{
+  "source": "anthropics/skills",
+  "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+  "resources": [
+    {
+      "id": "anthropic-academy-guide",
+      "name": "academy-guide",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/academy-guide/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": [
+        "external-service",
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "anthropic-algorithmic-art",
+      "name": "algorithmic-art",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/algorithmic-art/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 6,
+      "executables": 1,
+      "flags": []
+    },
+    {
+      "id": "anthropic-brand-guidelines",
+      "name": "brand-guidelines",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/brand-guidelines/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "anthropic-canvas-design",
+      "name": "canvas-design",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/canvas-design/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 85,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "anthropic-claude-api",
+      "name": "claude-api",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/claude-api/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 98,
+      "executables": 4,
+      "flags": [
+        "destructive-workflow",
+        "external-service",
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "anthropic-discernment-nudge",
+      "name": "discernment-nudge",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/discernment-nudge/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "anthropic-doc-coauthoring",
+      "name": "doc-coauthoring",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/doc-coauthoring/SKILL.md",
+      "status": "reference-only",
+      "reason": "license-text-not-found"
+    },
+    {
+      "id": "anthropic-docx",
+      "name": "docx",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/docx/SKILL.md",
+      "status": "reference-only",
+      "reason": "restricted-or-unrecognized-license"
+    },
+    {
+      "id": "anthropic-frontend-design",
+      "name": "frontend-design",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/frontend-design/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 4,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "anthropic-internal-comms",
+      "name": "internal-comms",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/internal-comms/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 8,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "anthropic-mcp-builder",
+      "name": "mcp-builder",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/mcp-builder/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 13,
+      "executables": 2,
+      "flags": [
+        "destructive-workflow",
+        "external-service",
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "anthropic-pdf",
+      "name": "pdf",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/pdf/SKILL.md",
+      "status": "reference-only",
+      "reason": "restricted-or-unrecognized-license"
+    },
+    {
+      "id": "anthropic-pptx",
+      "name": "pptx",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/pptx/SKILL.md",
+      "status": "reference-only",
+      "reason": "restricted-or-unrecognized-license"
+    },
+    {
+      "id": "anthropic-skill-creator",
+      "name": "skill-creator",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/skill-creator/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 20,
+      "executables": 10,
+      "flags": [
+        "agent-framework-assumptions"
+      ]
+    },
+    {
+      "id": "anthropic-slack-gif-creator",
+      "name": "slack-gif-creator",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/slack-gif-creator/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 9,
+      "executables": 4,
+      "flags": []
+    },
+    {
+      "id": "anthropic-theme-factory",
+      "name": "theme-factory",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/theme-factory/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 15,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "anthropic-web-artifacts-builder",
+      "name": "web-artifacts-builder",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/web-artifacts-builder/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 7,
+      "executables": 2,
+      "flags": []
+    },
+    {
+      "id": "anthropic-webapp-testing",
+      "name": "webapp-testing",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/webapp-testing/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 8,
+      "executables": 4,
+      "flags": []
+    },
+    {
+      "id": "anthropic-xlsx",
+      "name": "xlsx",
+      "source": "https://github.com/anthropics/skills",
+      "revision": "ca45fc496a3436251f191354091d557da31c15b5",
+      "upstreamPath": "skills/xlsx/SKILL.md",
+      "status": "reference-only",
+      "reason": "restricted-or-unrecognized-license"
+    }
+  ]
+}

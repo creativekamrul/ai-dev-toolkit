@@ -1,0 +1,36 @@
+{
+  "databases": {
+    "none": {
+      "name": "None / decide later",
+      "skills": []
+    },
+    "mysql": {
+      "name": "MySQL / MariaDB",
+      "skills": []
+    },
+    "postgresql": {
+      "name": "PostgreSQL",
+      "skills": []
+    },
+    "mongodb": {
+      "name": "MongoDB",
+      "skills": []
+    },
+    "sqlite": {
+      "name": "SQLite",
+      "skills": []
+    },
+    "supabase": {
+      "name": "Supabase",
+      "skills": []
+    }
+  },
+  "integrations": {
+    "penpot": {
+      "name": "Penpot MCP",
+      "skills": [
+        "penpot-workflow"
+      ]
+    }
+  }
+}

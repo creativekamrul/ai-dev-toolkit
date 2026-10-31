@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ai-elements",
+  "originalEntrypointSha256": "f31a5ceb606fbdf1ca0e81527cb55978dd957981f7e70db3ca678aaa4862e564",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

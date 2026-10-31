@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "uml-and-software-architecture-visualization",
+  "originalEntrypointSha256": "3c5f2101ab938525fd8c44729f3165cdb8bf6dbb6f9e73f84735b52c5aad5d26",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

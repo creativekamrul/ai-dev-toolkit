@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "mongodb-connection",
+  "originalEntrypointSha256": "cdcb6ef5a9eed3887acc5a4e9070e82aee50472a95580cc28984c8271cf80feb",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

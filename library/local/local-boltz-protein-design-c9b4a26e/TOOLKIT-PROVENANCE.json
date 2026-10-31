@@ -1,0 +1,24 @@
+{
+  "kind": "local-import",
+  "originalName": "boltz-protein-design",
+  "originalEntrypointSha256": "c9b4a26eb2ded6a823ed6e634ba0b187e47fd925edc296b6d81bcf6f4e39c93a",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/_common.py",
+      "scripts/analyze_results.py",
+      "scripts/crop_radius.py",
+      "scripts/detect_disorder.py",
+      "scripts/scan_sites.py",
+      "scripts/terminus.py"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

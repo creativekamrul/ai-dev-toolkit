@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "zoom-meeting-sdk-electron",
+  "originalEntrypointSha256": "131a0726d28cb40a6876a82476f23d7e9a051d55e46877251ba773025b384c70",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

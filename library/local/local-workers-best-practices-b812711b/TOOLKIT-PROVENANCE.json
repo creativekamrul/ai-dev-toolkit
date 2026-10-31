@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "workers-best-practices",
+  "originalEntrypointSha256": "b812711b9ea2e0def66553c46361998473845f319e3189c2c4f52ed3e15d8e85",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "Cloudflare",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

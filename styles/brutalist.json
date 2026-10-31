@@ -1,0 +1,8 @@
+{
+  "id": "brutalist",
+  "name": "Brutalist / bold",
+  "skills": [
+    "design-foundations"
+  ],
+  "instructions": "library/design/brutalist.md"
+}

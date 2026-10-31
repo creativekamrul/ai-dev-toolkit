@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "build-run-debug",
+  "originalEntrypointSha256": "075dc88d5c9722c00a857d341138ca1fbb22e70923e683c825df4a13cbf4f41a",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

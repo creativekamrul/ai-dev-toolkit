@@ -1,0 +1,20 @@
+{
+  "kind": "local-import",
+  "originalName": "pptx-html-fidelity-audit",
+  "originalEntrypointSha256": "4d1fe39410f0169830aa1f1ad5342e14541f89060d8bb9f695484f21d57e23a1",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/extract_pptx.py",
+      "scripts/verify_layout.py"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

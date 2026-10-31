@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "boltz-small-molecule-screen",
+  "originalEntrypointSha256": "e1e6b3af99e5f3806612209e8949a3a901bc636b902d78994b98eaea93eb3b54",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

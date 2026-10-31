@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "build-zoom-meeting-app",
+  "originalEntrypointSha256": "7aff7f82fdc6365db51afded00f093643378eb7be60a70e213d4c038f720bd66",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

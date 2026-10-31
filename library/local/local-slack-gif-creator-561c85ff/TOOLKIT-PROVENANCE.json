@@ -1,0 +1,22 @@
+{
+  "kind": "local-import",
+  "originalName": "slack-gif-creator",
+  "originalEntrypointSha256": "561c85ffeab639a1e84bb51cfc49f66e868a2a4c4b8945bf77b7bdaeca145a7d",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "core/easing.py",
+      "core/frame_composer.py",
+      "core/gif_builder.py",
+      "core/validators.py"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

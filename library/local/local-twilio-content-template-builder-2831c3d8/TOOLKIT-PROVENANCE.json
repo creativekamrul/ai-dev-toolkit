@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-content-template-builder",
+  "originalEntrypointSha256": "2831c3d84bae13f9aec9cdc35297c44e6f809218979a44efb61fb226385b648d",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

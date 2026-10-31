@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "build-chatgpt-app",
+  "originalEntrypointSha256": "e3e461185cd472000975e8310e513cb9bc3e334c545475a824b51bc19392bce2",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/scaffold_node_ext_apps.mjs"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "supabase",
+  "originalEntrypointSha256": "54a98503afb910f8f01ef4d55691dea939a7d7141e66f972ac5c86ddbad18bc6",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "react-three-fiber-game",
+  "originalEntrypointSha256": "abb828343f265fc82c6fc292a271da61d33d43ff83ea85d912c33c5d4836c773",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

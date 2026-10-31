@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-security-hardening",
+  "originalEntrypointSha256": "965d0aa1c8e0ec0e129aba9044922cc94e7e9fe403b3c78edf269a1d055980b8",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

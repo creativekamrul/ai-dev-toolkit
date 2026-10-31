@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "awesome-landing-audit",
+  "originalEntrypointSha256": "91cd269f96c58b82b822627357b8b2d9bd1eaf58eb353891304a47017af09c47",
+  "source": null,
+  "attribution": "Original skill authors",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "telemetry",
+  "originalEntrypointSha256": "c457cd7ca3bf82edda4d13b82638f6c6527ee033328b471fa9fc7fb20f9963df",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

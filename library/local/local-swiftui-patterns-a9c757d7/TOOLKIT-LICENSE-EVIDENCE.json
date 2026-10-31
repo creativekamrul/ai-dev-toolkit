@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "7c87e21446ef57840e4ecf4452432f946385b40642539ceff4ed650ec92dc32f",
+  "declaration": {
+    "name": "build-macos-apps",
+    "version": "0.1.4",
+    "license": "MIT"
+  },
+  "author": "OpenAI"
+}

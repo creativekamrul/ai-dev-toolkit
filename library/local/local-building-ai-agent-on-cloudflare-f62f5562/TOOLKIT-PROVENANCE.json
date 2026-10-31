@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "building-ai-agent-on-cloudflare",
+  "originalEntrypointSha256": "f62f556211ff0255f3687233ce280875d73d3215952759fa4f0c5114b73b3b9d",
+  "source": "https://github.com/openai/plugins",
+  "attribution": "Cloudflare",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

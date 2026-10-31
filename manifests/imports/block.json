@@ -1,0 +1,97 @@
+{
+  "source": "block/agent-skills",
+  "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+  "resources": [
+    {
+      "id": "block-api-setup",
+      "name": "api-setup",
+      "source": "https://github.com/block/agent-skills",
+      "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+      "upstreamPath": "api-setup/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 5,
+      "executables": 1,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "block-beads",
+      "name": "beads",
+      "source": "https://github.com/block/agent-skills",
+      "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+      "upstreamPath": "beads/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 3,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ]
+    },
+    {
+      "id": "block-code-review",
+      "name": "code-review",
+      "source": "https://github.com/block/agent-skills",
+      "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+      "upstreamPath": "code-review/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 3,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "block-frontend-design",
+      "name": "frontend-design",
+      "source": "https://github.com/block/agent-skills",
+      "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+      "upstreamPath": "frontend-design/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 3,
+      "executables": 0,
+      "flags": []
+    },
+    {
+      "id": "block-goose-blog-post",
+      "name": "goose-blog-post",
+      "source": "https://github.com/block/agent-skills",
+      "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+      "upstreamPath": "goose-blog-post/SKILL.md",
+      "status": "reference-only",
+      "license": "Apache-2.0",
+      "files": 5,
+      "executables": 0,
+      "flags": [
+        "external-service"
+      ],
+      "reason": "project-specific upstream blog workflow"
+    },
+    {
+      "id": "block-rp-why",
+      "name": "rp-why",
+      "source": "https://github.com/block/agent-skills",
+      "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+      "upstreamPath": "rp-why/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 16,
+      "executables": 4,
+      "flags": []
+    },
+    {
+      "id": "block-testing-strategy",
+      "name": "testing-strategy",
+      "source": "https://github.com/block/agent-skills",
+      "revision": "329a55d1500748a0a48d64629757cbe2622e34bf",
+      "upstreamPath": "testing-strategy/SKILL.md",
+      "status": "bundled-screened",
+      "license": "Apache-2.0",
+      "files": 3,
+      "executables": 0,
+      "flags": []
+    }
+  ]
+}

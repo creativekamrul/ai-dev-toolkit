@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "dashboard-expert",
+  "originalEntrypointSha256": "14fd87eebbbc01e6b1a280e9934fa9ae285b1e1a077987c06122e089977de9cf",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

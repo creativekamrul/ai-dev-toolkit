@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "competitive-ads-extractor",
+  "originalEntrypointSha256": "8fa4527f6ac2dcacc2e2f02cc050983a6d68aba4ec5bf61a9aa382438be0a1b1",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

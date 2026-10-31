@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "figma-create-new-file",
+  "originalEntrypointSha256": "957f779c1ef0c5c8416b64cd00573b4b90dfbe24a694c5f6febe33c479812960",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

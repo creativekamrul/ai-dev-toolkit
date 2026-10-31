@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "7383c0ef6c34af0e453979319f95da6ac8cbec96a973d81124dc5cb72cc8a3c0",
+  "declaration": {
+    "name": "vercel",
+    "version": "0.21.4",
+    "license": "Apache-2.0"
+  },
+  "author": "Vercel Labs"
+}

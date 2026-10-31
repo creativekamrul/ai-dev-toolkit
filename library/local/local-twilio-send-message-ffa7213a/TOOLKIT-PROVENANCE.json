@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-send-message",
+  "originalEntrypointSha256": "ffa7213adcbec9c3a3d9a96e6ed68508f5c93d26fdf4a5969cb62db552fe0616",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

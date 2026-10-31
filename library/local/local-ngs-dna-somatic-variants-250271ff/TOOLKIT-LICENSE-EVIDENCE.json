@@ -1,0 +1,10 @@
+{
+  "kind": "plugin-license-declaration",
+  "manifestSha256": "d43ecec27fc2209b159d738e6a960030b1a216726fc9cdc9b806cd4059403dd8",
+  "declaration": {
+    "name": "ngs-analysis",
+    "version": "1.0.3",
+    "license": "MIT"
+  },
+  "author": "OpenAI"
+}

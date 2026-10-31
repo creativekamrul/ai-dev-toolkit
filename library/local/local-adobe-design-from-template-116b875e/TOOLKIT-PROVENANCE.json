@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "adobe-design-from-template",
+  "originalEntrypointSha256": "116b875eaeba8215dda9a5ea0c79094aefc8b26e77f9a93370ce9d63299ad963",
+  "source": null,
+  "attribution": "Adobe Inc",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

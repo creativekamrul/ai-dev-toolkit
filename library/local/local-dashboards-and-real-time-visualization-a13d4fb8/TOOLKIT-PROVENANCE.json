@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "dashboards-and-real-time-visualization",
+  "originalEntrypointSha256": "a13d4fb8b466f05746e8c7f63baa041a8ad3246a9b0ffc258bb663b3048c3a37",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

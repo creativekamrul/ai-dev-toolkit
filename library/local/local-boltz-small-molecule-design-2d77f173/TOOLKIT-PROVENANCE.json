@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "boltz-small-molecule-design",
+  "originalEntrypointSha256": "2d77f173ff628c775147fe3110616a6f5d76efe4c2da782d684ed77f90b709da",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "writing-skills",
+  "originalEntrypointSha256": "09de7d4b8e865ab333438520ce772a006b04da6a3a7beb81b4e3b4bbe94d268b",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "render-graphs.js"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

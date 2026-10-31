@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "code-review",
+  "originalEntrypointSha256": "412f292e682ca67d6453e3f1bdb9c2c59d5ac2bf8ac20bd8f6f0eb2a37edb987",
+  "source": "https://github.com/coderabbitai/codex-plugin",
+  "attribution": "CodeRabbit AI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

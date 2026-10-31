@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "magazine-poster",
+  "originalEntrypointSha256": "ce20f2731d9c10f7616ccb96e7f1e3b677ca21740915acdf3d87de3861a7a94f",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

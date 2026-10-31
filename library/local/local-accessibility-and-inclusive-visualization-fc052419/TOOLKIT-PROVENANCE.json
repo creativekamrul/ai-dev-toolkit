@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "accessibility-and-inclusive-visualization",
+  "originalEntrypointSha256": "fc052419e290f113b044b7abd7a5e809b6000b4dec03441e63796b02f474a2c8",
+  "source": null,
+  "attribution": "OpenAI",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

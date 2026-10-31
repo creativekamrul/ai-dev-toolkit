@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "twilio-organizations-setup",
+  "originalEntrypointSha256": "0d7b1cc7d75a403838247032ce079d3f625580e9d25576c5f5098ab8f6852a6b",
+  "source": "https://github.com/twilio/ai",
+  "attribution": "Twilio",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

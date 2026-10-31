@@ -1,0 +1,20 @@
+{
+  "kind": "local-import",
+  "originalName": "expo-cicd-workflows",
+  "originalEntrypointSha256": "6a248c54ba28b627a00a14e361438e9bdba5d1055c442e63256dd7c8a664b675",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/fetch.js",
+      "scripts/validate.js"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

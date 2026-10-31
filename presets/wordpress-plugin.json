@@ -1,0 +1,17 @@
+{
+  "id": "wordpress-plugin",
+  "name": "WordPress plugin",
+  "version": "0.2.0",
+  "skills": [
+    "block-code-review",
+    "php-development",
+    "project-delivery",
+    "wordpress-wp-project-triage",
+    "wordpress-wp-plugin-development"
+  ],
+  "instructions": "library/instructions/wordpress-plugin.md",
+  "technologies": [
+    "wordpress-plugin"
+  ],
+  "status": "tested-resource-preset"
+}

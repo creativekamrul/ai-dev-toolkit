@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "vercel-sandbox",
+  "originalEntrypointSha256": "fec037aa4e9a5c7080ff2180c3fbbf609748494dd0e8707b8387f14eeb793f92",
+  "source": "https://github.com/vercel/vercel-plugin",
+  "attribution": "Vercel Labs",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

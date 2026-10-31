@@ -1,0 +1,19 @@
+{
+  "kind": "local-import",
+  "originalName": "gsap",
+  "originalEntrypointSha256": "0ace76d56e2d2b021a7ee3f2ef7e69895cdef3b8787b58f4586e3959043ace17",
+  "source": "https://github.com/heygen-com/hyperframes",
+  "attribution": "HeyGen",
+  "license": "Apache-2.0",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [
+      "scripts/extract-audio-data.py"
+    ],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "setup-zoom-websockets",
+  "originalEntrypointSha256": "c623321a5395e128b8cea1ee7b31a7acc57d0e31384ebab92d5a06c8b195dd15",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}

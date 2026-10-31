@@ -1,0 +1,17 @@
+{
+  "kind": "local-import",
+  "originalName": "ai-music-album",
+  "originalEntrypointSha256": "60376395cd81ad775de7590cc0f48dd8d770ce50d68e00871695fe3a83914837",
+  "source": null,
+  "attribution": "Original authors; see preserved license and notices",
+  "license": "MIT",
+  "licenseEvidence": "Preserved skill/collection license or explicit skill/plugin SPDX declaration",
+  "localChanges": [
+    "Namespaced discovery name; retained supporting files and notices"
+  ],
+  "review": {
+    "status": "screened",
+    "executableFiles": [],
+    "scope": "Local snapshot; licensing and static privacy screening. Host-tool and cross-skill references require review before activation."
+  }
+}
